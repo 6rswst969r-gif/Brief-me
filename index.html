@@ -21,7 +21,6 @@
 
   .main { max-width: 1200px; margin: 0 auto; padding: 20px 20px 60px; }
 
-  /* Two column layout for news + reddit */
   .news-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   @media (max-width: 700px) { .news-row { grid-template-columns: 1fr; } }
 
@@ -49,20 +48,22 @@
   .tab-content { display: none; padding: 0 20px; }
   .tab-content.active { display: block; }
 
-  /* News headlines */
   .headline { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: block; color: inherit; transition: background 0.15s; }
   .headline:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
   .headline:last-child { border-bottom: none; }
   .headline h3 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 700; line-height: 1.35; margin-bottom: 3px; }
   .headline p { font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #777; line-height: 1.5; }
 
-  /* Reddit posts */
   .reddit-post { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: flex; gap: 12px; align-items: flex-start; color: inherit; transition: background 0.15s; }
   .reddit-post:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
   .reddit-post:last-child { border-bottom: none; }
-  .reddit-thumb { width: 64px; height: 64px; object-fit: cover; flex-shrink: 0; background: #f0ede8; }
+  .reddit-thumb { width: 64px; height: 64px; object-fit: cover; flex-shrink: 0; }
   .reddit-post h3 { font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 700; line-height: 1.35; }
   .reddit-posts { padding: 0 20px; }
+
+  /* Ship map */
+  .ship-map-wrapper { width: 100%; height: 340px; position: relative; overflow: hidden; }
+  .ship-map-wrapper iframe { width: 100%; height: 100%; border: none; display: block; }
 
   #news-updated { padding: 6px 20px; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; border-bottom: 1px solid #e8e4df; }
 
@@ -93,10 +94,8 @@
     <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
   </div>
 
-  <!-- News + Reddit nebeneinander -->
+  <!-- News + Reddit -->
   <div class="news-row">
-
-    <!-- Nachrichten -->
     <div class="card">
       <div class="tabs">
         <button class="tab-btn active" onclick="switchTab('tagesschau')">Tagesschau</button>
@@ -111,17 +110,31 @@
       </div>
     </div>
 
-    <!-- Reddit -->
     <div class="card">
       <div class="card-header"><span class="card-label">Reddit · Bike</span></div>
       <div class="reddit-posts" id="reddit-posts">
         <div class="loading"><span class="spinner"></span>Lade Posts…</div>
       </div>
     </div>
-
   </div>
 
-  <footer>Quellen: Tagesschau · taz · Reddit · Open-Meteo · GitHub Actions</footer>
+  <!-- Schifftracking -->
+  <div class="card-full">
+    <div class="card-header"><span class="card-label">Schiffverkehr · Mittellandkanal bei Otto Müller</span></div>
+    <div class="ship-map-wrapper">
+      <script type="text/javascript">
+        var width    = "100%";
+        var height   = "340";
+        var latitude = "52.4163";
+        var longitude= "9.7169";
+        var zoom     = "15";
+        var names    = true;
+      </script>
+      <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+    </div>
+  </div>
+
+  <footer>Quellen: Tagesschau · taz · Reddit · Open-Meteo · VesselFinder · GitHub Actions</footer>
 </div>
 
 <script>
