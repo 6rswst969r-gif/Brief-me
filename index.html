@@ -18,10 +18,18 @@
   .header-right { text-align: right; }
   .header-right h1 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
   .header-right p { font-family: 'Source Sans 3', sans-serif; font-size: 12px; color: #888; margin-top: 2px; }
-  .main { max-width: 860px; margin: 0 auto; padding: 20px 20px 60px; }
-  .card { background: #fff; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+
+  .main { max-width: 1200px; margin: 0 auto; padding: 20px 20px 60px; }
+
+  /* Two column layout for news + reddit */
+  .news-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  @media (max-width: 700px) { .news-row { grid-template-columns: 1fr; } }
+
+  .card { background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .card-full { background: #fff; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
   .card-header { padding: 14px 20px; border-bottom: 1px solid #e8e4df; }
   .card-label { font-family: 'Source Sans 3', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; }
+
   .weather-temp { font-family: 'Playfair Display', serif; font-size: 48px; font-weight: 700; line-height: 1; }
   .weather-desc { font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #666; margin-top: 4px; }
   .weather-meta { margin-left: auto; text-align: right; font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #888; line-height: 1.8; }
@@ -34,21 +42,34 @@
   .forecast-temps { font-family: 'Source Sans 3', sans-serif; font-size: 13px; margin-top: 6px; }
   .forecast-rain { font-size: 11px; color: #aac4e0; margin-top: 3px; font-family: 'Source Sans 3', sans-serif; }
   .forecast-day.today .forecast-rain { color: #88aacc; }
+
   .tabs { display: flex; border-bottom: 1px solid #e8e4df; }
   .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer; font-family: 'Source Sans 3', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 20px; color: #999; transition: all 0.2s; margin-bottom: -1px; }
   .tab-btn.active { border-bottom-color: #1a1a1a; color: #1a1a1a; }
   .tab-content { display: none; padding: 0 20px; }
   .tab-content.active { display: block; }
+
+  /* News headlines */
   .headline { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: block; color: inherit; transition: background 0.15s; }
   .headline:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
   .headline:last-child { border-bottom: none; }
   .headline h3 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 700; line-height: 1.35; margin-bottom: 3px; }
   .headline p { font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #777; line-height: 1.5; }
+
+  /* Reddit posts */
+  .reddit-post { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: flex; gap: 12px; align-items: flex-start; color: inherit; transition: background 0.15s; }
+  .reddit-post:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
+  .reddit-post:last-child { border-bottom: none; }
+  .reddit-thumb { width: 64px; height: 64px; object-fit: cover; flex-shrink: 0; background: #f0ede8; }
+  .reddit-post h3 { font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 700; line-height: 1.35; }
+  .reddit-posts { padding: 0 20px; }
+
+  #news-updated { padding: 6px 20px; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; border-bottom: 1px solid #e8e4df; }
+
   .loading { padding: 28px; text-align: center; font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #bbb; }
   .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #ddd; border-top-color: #888; border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px; }
   @keyframes spin { to { transform: rotate(360deg); } }
   .error { color: #c0392b; }
-  #news-updated { padding: 6px 20px; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; border-bottom: 1px solid #e8e4df; }
   footer { text-align: center; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #ccc; letter-spacing: 0.05em; margin-top: 8px; }
 </style>
 </head>
@@ -66,26 +87,41 @@
 
 <div class="main">
 
-  <div class="card">
+  <!-- Wetter -->
+  <div class="card-full">
     <div class="card-header"><span class="card-label">Wetter · Hannover</span></div>
     <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
   </div>
 
-  <div class="card">
-    <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('tagesschau')">Tagesschau</button>
-      <button class="tab-btn" onclick="switchTab('taz')">taz</button>
+  <!-- News + Reddit nebeneinander -->
+  <div class="news-row">
+
+    <!-- Nachrichten -->
+    <div class="card">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('tagesschau')">Tagesschau</button>
+        <button class="tab-btn" onclick="switchTab('taz')">taz</button>
+      </div>
+      <div id="news-updated"></div>
+      <div id="tab-tagesschau" class="tab-content active">
+        <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
+      </div>
+      <div id="tab-taz" class="tab-content">
+        <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
+      </div>
     </div>
-    <div id="news-updated"></div>
-    <div id="tab-tagesschau" class="tab-content active">
-      <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
+
+    <!-- Reddit -->
+    <div class="card">
+      <div class="card-header"><span class="card-label">Reddit · Bike</span></div>
+      <div class="reddit-posts" id="reddit-posts">
+        <div class="loading"><span class="spinner"></span>Lade Posts…</div>
+      </div>
     </div>
-    <div id="tab-taz" class="tab-content">
-      <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
-    </div>
+
   </div>
 
-  <footer>Quellen: Tagesschau · taz · Open-Meteo · GitHub Actions</footer>
+  <footer>Quellen: Tagesschau · taz · Reddit · Open-Meteo · GitHub Actions</footer>
 </div>
 
 <script>
@@ -149,6 +185,24 @@ function renderNews(items, tabId) {
     </a>`).join('');
 }
 
+function renderReddit(items) {
+  const el = document.getElementById('reddit-posts');
+  if (!items || !items.length) {
+    el.innerHTML = `<div class="loading error">⚠️ Keine Posts verfügbar</div>`;
+    return;
+  }
+  const withImages = items.filter(item => item.thumb);
+  if (!withImages.length) {
+    el.innerHTML = `<div class="loading error">⚠️ Keine Posts mit Bildern verfügbar</div>`;
+    return;
+  }
+  el.innerHTML = withImages.map(item => `
+    <a class="reddit-post" href="${item.link}" target="_blank" rel="noopener">
+      <img class="reddit-thumb" src="${item.thumb}" alt="" onerror="this.parentElement.style.display='none'">
+      <h3>${item.title}</h3>
+    </a>`).join('');
+}
+
 async function loadNews() {
   try {
     const r = await fetch(`news.json?t=${Date.now()}`);
@@ -156,6 +210,7 @@ async function loadNews() {
     const data = await r.json();
     renderNews(data.tagesschau, 'tab-tagesschau');
     renderNews(data.taz, 'tab-taz');
+    renderReddit(data.reddit);
     const updated = new Date(r.headers.get('last-modified') || Date.now());
     const pad = n => String(n).padStart(2,'0');
     document.getElementById('news-updated').textContent =
@@ -164,6 +219,7 @@ async function loadNews() {
     ['tab-tagesschau','tab-taz'].forEach(id => {
       document.getElementById(id).innerHTML = `<div class="loading error">⚠️ ${e.message}</div>`;
     });
+    document.getElementById('reddit-posts').innerHTML = `<div class="loading error">⚠️ ${e.message}</div>`;
   }
 }
 

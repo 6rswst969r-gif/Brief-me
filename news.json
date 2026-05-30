@@ -1,56 +1,5 @@
 {
-  "tagesschau": [
-    {
-      "title": "Familienministerin Prien gegen Bildschirmzeit für kleine Kinder",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/familienministerium-bildschirmzeit-kinder-100.html",
-      "desc": "Kein Kontakt zu Smartphones und Tablets für Kinder unter drei Jahren: Das fordert Familienministerin Prien. Um das zu erreichen, will die CDU-Politike"
-    },
-    {
-      "title": "Unionspolitiker geben Merz in Debatte über Kanzlertausch Rückendeckung",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/merz-wuest-kanzlerdebatte-100.html",
-      "desc": "In der Debatte über einen möglichen Kanzlertausch haben führende Unionspolitiker Friedrich Merz den Rücken gestärkt. NRW-Ministerpräsident Wüst bezeic"
-    },
-    {
-      "title": "Sensorpflaster als Lebensretter im Katastrophenfall",
-      "link": "https://www.tagesschau.de/wissen/forschung/katastrophenhilfe-sensorpflaster-100.html",
-      "desc": "Welche Verletzten werden zuerst versorgt? Das müssen Rettungskräfte im Katastrophenfall sekundenschnell entscheiden. Ein neues Sensorpflaster soll sie"
-    },
-    {
-      "title": "Warum sich Menschen für den schönsten Tag im Leben verschulden",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/hochzeit-finanzen-schulden-pleite-100.html",
-      "desc": "Die Hochzeit soll der schönste Tag im Leben sein - da will man nicht geizen. Doch der Wunsch nach Perfektion ist so groß, dass jedes dritte Paar berei"
-    },
-    {
-      "title": "Strack-Zimmermann kandidiert überraschend für FPD-Vorsitz",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/kandidatur-strack-zimmermann-fdp-100.html",
-      "desc": "Bis kurz vor der Wahl des neuen FDP-Parteichefs sah es so aus, als sei Kubicki der einzige Kandidat für den Posten. Doch ein anderes bekanntes Gesicht"
-    }
-  ],
-  "taz": [
-    {
-      "title": "FDP-Bundesparteitag: Kubicki mit Ach und Krach zum neuen FDP-Chef gewählt",
-      "link": "https://taz.de/FDP-Bundesparteitag/!6181988/",
-      "desc": "Eigentlich galt die Wahl Wolfgang Kubickis beim FDP-Parteitag als Formalie. Dann kam es anders. Vor allem die Brandmauer-Debatte bestimmt das Treffen."
-    },
-    {
-      "title": "Fotograf über queere Söhne und Väter: „Sollen wir uns umarmen?“",
-      "link": "https://taz.de/Fotograf-ueber-queere-Soehne-und-Vaeter/!6179898/",
-      "desc": "Der Berliner Fotograf Rainer Christian Kurzeder porträtiert queere Söhne und ihre Väter. Ein Gespräch über Intimität unter Männern und diese Stille. m"
-    },
-    {
-      "title": "Mit Bahn und Rad zur Autobahn-Demo: Tausende bei Protest gegen Verkehrsflut am Brenner",
-      "link": "https://taz.de/Tausende-bei-Protest-gegen-Verkehrsflut-am-Brenner/!6182926/",
-      "desc": "Am Brenner-Pass protestieren unerwartet viele Menschen gegen den starken Verkehr. Sie wollen auch in Zukunft nicht ruhen. mehr..."
-    },
-    {
-      "title": "Trotz Ukraine-Krieg: Wehrdienst in Russland für Bundesregierung kein Schutzgrund",
-      "link": "https://taz.de/Trotz-Ukraine-Krieg/!6182924/",
-      "desc": "Russen werden in Deutschland nicht automatisch als Flüchtlinge anerkannt, nur weil ihnen Einberufung droht. Die Bundesregierung pocht auf Einzelfallpr"
-    },
-    {
-      "title": "Ukrainische Drohnenangriffe: Tote und Schäden in Russland",
-      "link": "https://taz.de/Ukrainische-Drohnenangriffe/!6182920/",
-      "desc": "Erneut zielt die Ukraine auf die russische Ölindustrie. Moskau und Kyjiw melden zivile Opfer. Die in Rumänien eingeschlagene Drohne kam laut Nato aus "
-    }
-  ]
+  "tagesschau": [],
+  "taz": [],
+  "reddit": []
 }
