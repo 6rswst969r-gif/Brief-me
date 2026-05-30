@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morgen-Briefing · Hannover</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #f7f5f2; font-family: 'Georgia', serif; color: #1a1a1a; min-height: 100vh; }
+  header {
+    background: #1a1a1a; color: #f7f5f2; padding: 28px 32px 24px;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255,255,255,0.03) 39px, rgba(255,255,255,0.03) 40px);
+    display: flex; justify-content: space-between; align-items: flex-end;
+  }
+  #clock { font-family: 'Playfair Display', serif; font-size: clamp(40px, 8vw, 64px); font-weight: 900; letter-spacing: -0.02em; line-height: 1; }
+  #datestr { font-family: 'Source Sans 3', sans-serif; font-size: 13px; font-weight: 300; letter-spacing: 0.15em; text-transform: uppercase; color: #999; margin-top: 6px; }
+  .header-right { text-align: right; }
+  .header-right h1 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
+  .header-right p { font-family: 'Source Sans 3', sans-serif; font-size: 12px; color: #888; margin-top: 2px; }
+  .main { max-width: 860px; margin: 0 auto; padding: 20px 20px 60px; }
+  .card { background: #fff; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .card-header { padding: 14px 20px; border-bottom: 1px solid #e8e4df; }
+  .card-label { font-family: 'Source Sans 3', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; }
+  .weather-temp { font-family: 'Playfair Display', serif; font-size: 48px; font-weight: 700; line-height: 1; }
+  .weather-desc { font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #666; margin-top: 4px; }
+  .weather-meta { margin-left: auto; text-align: right; font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #888; line-height: 1.8; }
+  .weather-forecast { display: flex; }
+  .forecast-day { flex: 1; text-align: center; padding: 12px 6px; border-right: 1px solid #e8e4df; }
+  .forecast-day:last-child { border-right: none; }
+  .forecast-day.today { background: #1a1a1a; color: #f7f5f2; }
+  .forecast-label { font-family: 'Source Sans 3', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #888; margin-bottom: 6px; }
+  .forecast-day.today .forecast-label { color: #ccc; }
+  .forecast-temps { font-family: 'Source Sans 3', sans-serif; font-size: 13px; margin-top: 6px; }
+  .forecast-rain { font-size: 11px; color: #aac4e0; margin-top: 3px; font-family: 'Source Sans 3', sans-serif; }
+  .forecast-day.today .forecast-rain { color: #88aacc; }
+  .tabs { display: flex; border-bottom: 1px solid #e8e4df; }
+  .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer; font-family: 'Source Sans 3', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 20px; color: #999; transition: all 0.2s; margin-bottom: -1px; }
+  .tab-btn.active { border-bottom-color: #1a1a1a; color: #1a1a1a; }
+  .tab-content { display: none; padding: 0 20px; }
+  .tab-content.active { display: block; }
+  .headline { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: block; color: inherit; transition: background 0.15s; }
+  .headline:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
+  .headline:last-child { border-bottom: none; }
+  .headline h3 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 700; line-height: 1.35; margin-bottom: 3px; }
+  .headline p { font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #777; line-height: 1.5; }
+  .loading { padding: 28px; text-align: center; font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #bbb; }
+  .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #ddd; border-top-color: #888; border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .error { color: #c0392b; }
+  #news-updated { padding: 6px 20px; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; border-bottom: 1px solid #e8e4df; }
+  footer { text-align: center; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #ccc; letter-spacing: 0.05em; margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div id="clock">--:--</div>
+    <div id="datestr"></div>
+  </div>
+  <div class="header-right">
+    <h1>Guten Morgen.</h1>
+    <p>Hannover</p>
+  </div>
+</header>
+
+<div class="main">
+
+  <div class="card">
+    <div class="card-header"><span class="card-label">Wetter · Hannover</span></div>
+    <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
+  </div>
+
+  <div class="card">
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('tagesschau')">Tagesschau</button>
+      <button class="tab-btn" onclick="switchTab('taz')">taz</button>
+    </div>
+    <div id="news-updated"></div>
+    <div id="tab-tagesschau" class="tab-content active">
+      <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
+    </div>
+    <div id="tab-taz" class="tab-content">
+      <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
+    </div>
+  </div>
+
+  <footer>Quellen: Tagesschau · taz · Open-Meteo · GitHub Actions</footer>
+</div>
+
+<script>
+const DAYS = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+const MONTHS = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
+  document.getElementById('datestr').textContent = `${DAYS[now.getDay()]}, ${now.getDate()}. ${MONTHS[now.getMonth()]} ${now.getFullYear()}`;
+}
+updateClock();
+setInterval(updateClock, 60000);
+
+function switchTab(name) {
+  document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', ['tagesschau','taz'][i] === name));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+}
+
+const W_ICONS = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',80:'🌦️',81:'🌧️',82:'⛈️',95:'⛈️',96:'⛈️',99:'⛈️'};
+const W_DESC = {0:'Klarer Himmel',1:'Überwiegend klar',2:'Teilweise bewölkt',3:'Bedeckt',45:'Neblig',48:'Gefrierender Nebel',51:'Leichter Nieselregen',53:'Nieselregen',55:'Starker Nieselregen',61:'Leichter Regen',63:'Regen',65:'Starker Regen',71:'Leichter Schneefall',73:'Schneefall',75:'Starker Schneefall',80:'Regenschauer',81:'Starke Schauer',82:'Heftige Schauer',95:'Gewitter',96:'Gewitter mit Hagel',99:'Schweres Gewitter'};
+
+async function loadWeather() {
+  try {
+    const r = await fetch('https://api.open-meteo.com/v1/forecast?latitude=52.3759&longitude=9.7320&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m&daily=temperature_2m_max,temperature_2m_min,weather_code,precipitation_probability_max&timezone=auto&forecast_days=4');
+    const d = await r.json();
+    const c = d.current, dl = d.daily;
+    const getDayLabel = i => i===0?'Heute':i===1?'Morgen':DAYS[new Date(new Date().setDate(new Date().getDate()+i)).getDay()];
+    const forecastHTML = dl.time.slice(0,4).map((_,i) => `
+      <div class="forecast-day${i===0?' today':''}">
+        <div class="forecast-label">${getDayLabel(i)}</div>
+        <div style="font-size:22px">${W_ICONS[dl.weather_code[i]]||'🌡️'}</div>
+        <div class="forecast-temps"><strong>${Math.round(dl.temperature_2m_max[i])}°</strong> <span style="color:${i===0?'#888':'#bbb'}">${Math.round(dl.temperature_2m_min[i])}°</span></div>
+        ${dl.precipitation_probability_max[i]>20?`<div class="forecast-rain">🌧 ${dl.precipitation_probability_max[i]}%</div>`:''}
+      </div>`).join('');
+    document.getElementById('weather-body').innerHTML = `
+      <div style="display:flex;align-items:center;gap:20px;padding:20px 24px;border-bottom:1px solid #e8e4df;">
+        <div style="font-size:52px">${W_ICONS[c.weather_code]||'🌡️'}</div>
+        <div>
+          <div class="weather-temp">${Math.round(c.temperature_2m)}°</div>
+          <div class="weather-desc">${W_DESC[c.weather_code]||''} · Gefühlt ${Math.round(c.apparent_temperature)}°</div>
+        </div>
+        <div class="weather-meta">💨 ${Math.round(c.wind_speed_10m)} km/h<br>💧 ${c.relative_humidity_2m}%</div>
+      </div>
+      <div class="weather-forecast">${forecastHTML}</div>`;
+  } catch(e) {
+    document.getElementById('weather-body').innerHTML = `<div class="loading error">⚠️ Wetter nicht verfügbar</div>`;
+  }
+}
+
+function renderNews(items, tabId) {
+  if (!items || !items.length) {
+    document.getElementById(tabId).innerHTML = `<div class="loading error">⚠️ Keine Schlagzeilen verfügbar</div>`;
+    return;
+  }
+  document.getElementById(tabId).innerHTML = items.map(item => `
+    <a class="headline" href="${item.link}" target="_blank" rel="noopener">
+      <h3>${item.title}</h3>
+      ${item.desc ? `<p>${item.desc}</p>` : ''}
+    </a>`).join('');
+}
+
+async function loadNews() {
+  try {
+    const r = await fetch(`news.json?t=${Date.now()}`);
+    if (!r.ok) throw new Error('news.json nicht gefunden');
+    const data = await r.json();
+    renderNews(data.tagesschau, 'tab-tagesschau');
+    renderNews(data.taz, 'tab-taz');
+    const updated = new Date(r.headers.get('last-modified') || Date.now());
+    const pad = n => String(n).padStart(2,'0');
+    document.getElementById('news-updated').textContent =
+      `Zuletzt aktualisiert: ${pad(updated.getHours())}:${pad(updated.getMinutes())} Uhr`;
+  } catch(e) {
+    ['tab-tagesschau','tab-taz'].forEach(id => {
+      document.getElementById(id).innerHTML = `<div class="loading error">⚠️ ${e.message}</div>`;
+    });
+  }
+}
+
+loadWeather();
+loadNews();
+</script>
+</body>
+</html>
