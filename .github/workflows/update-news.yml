@@ -1,0 +1,59 @@
+name: Update News
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch RSS feeds
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import json
+          import re
+
+          def fetch_rss(url, source_name):
+            try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=15) as r:
+                xml = r.read().decode('utf-8', errors='replace')
+              root = ET.fromstring(xml)
+              items = []
+              for item in root.findall('.//item')[:5]:
+                title = item.findtext('title') or ''
+                link = item.findtext('link') or ''
+                desc = item.findtext('description') or ''
+                desc = re.sub(r'<[^>]+>', '', desc).strip()[:150]
+                if title:
+                  items.append({'title': title.strip(), 'link': link.strip(), 'desc': desc})
+              return items
+            except Exception as e:
+              print(f"Error fetching {source_name}: {e}")
+              return []
+
+          news = {
+            'tagesschau': fetch_rss('https://www.tagesschau.de/xml/rss2/', 'Tagesschau'),
+            'taz': fetch_rss('https://taz.de/!p4608;rss/', 'taz')
+          }
+
+          with open('news.json', 'w', encoding='utf-8') as f:
+            json.dump(news, f, ensure_ascii=False, indent=2)
+
+          print(f"Tagesschau: {len(news['tagesschau'])} Artikel")
+          print(f"taz: {len(news['taz'])} Artikel")
+          PYEOF
+
+      - name: Commit news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || git commit -m "Update news $(date -u '+%Y-%m-%d %H:%M')"
+          git push
