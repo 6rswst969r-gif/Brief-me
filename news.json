@@ -1,69 +1,81 @@
 {
   "tagesschau": [
     {
+      "title": "Per Nachname zum Weltrekord: Ungewöhnliches Treffen in Irland",
+      "link": "https://www.tagesschau.de/ausland/europa/weltrekord-nachname-sullivan-102.html",
+      "desc": "Wer den Namen Sullivan oder O'Sullivan trägt, steht ab jetzt im Guinness-Buch der Rekorde. Zu verdanken ist das mehr als 1.800 Namensvettern, die sich"
+    },
+    {
+      "title": "Autos in Nordkorea: Plötzlich Parkplatzmangel in Pjöngjang?",
+      "link": "https://www.tagesschau.de/ausland/asien/nordkorea-autos-100.html",
+      "desc": "In der nordkoreanischen Hauptstadt Pjöngjang soll es immer mehr Autos geben. Das zeigen wohl Satellitenbilder und private Aufnahmen aus dem abgeschott"
+    },
+    {
+      "title": "Streit zwischen Union und SPD: BAföG-Reform auf der Kippe",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bafoeg-reform-koalition-100.html",
+      "desc": "Es knirscht mal wieder in der Koalition: Bundesforschungsministerin Bär hat sich von einer schnellen BAföG-Erhöhung verabschiedet. Dafür gebe es keine"
+    },
+    {
+      "title": "Maltas Regierungspartei erringt vierten Wahlsieg in Folge",
+      "link": "https://www.tagesschau.de/ausland/europa/malta-wahlen-ergebnis-abela-wiedergewaehlt-100.html",
+      "desc": "Angesichts internationaler Krisen wollte Maltas Premier Abela von den Bürgern ein neues Mandat für seine Regierung bekommen. Das erhielt seine Labour-"
+    },
+    {
       "title": "Israel meldet Einnahme der Burg Beaufort im Südlibanon",
       "link": "https://www.tagesschau.de/ausland/asien/israel-libanon-bodeneinsatz-kreuzfahrerburg-beaufort-eingenommen-100.html",
       "desc": "Bei den Kämpfen gegen die Hisbollah-Miliz rückt Israel im Südlibanon weiter vor. Nun haben Streitkräfte die strategisch und symbolisch wichtige Burg B"
-    },
-    {
-      "title": "Neues Waffenruhe-Abkommen zwischen USA und Iran verzögert sich weiter",
-      "link": "https://www.tagesschau.de/ausland/asien/iran-usa-verhandlungen-eingefrorene-gelder-nachverhandlungen-100.html",
-      "desc": "Bei den Verhandlungen über eine Verlängerung der Waffenruhe zwischen den USA und Iran gibt es offenbar weitere Verzögerungen. US-Präsident Trump ist l"
-    },
-    {
-      "title": "Wie Großbritannien eine rauchfreie Zukunft plant",
-      "link": "https://www.tagesschau.de/ausland/europa/grossbritannien-rauchen-100.html",
-      "desc": "Die britische Regierung will den Tabakkonsum mit drastischen Maßnahmen zurückdrängen. Im nächsten Jahr wird der Verkauf an junge Menschen verboten. Ei"
-    },
-    {
-      "title": "Gesundheitspolitiker fordern höhere Tabaksteuer",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/tabaksteuer-vapen-jugendliche-streeck-100.html",
-      "desc": "Die Zahl der junge Menschen in Deutschland, die rauchen und vapen, steigt. Gesundheitspolitiker fordern, die Tabaksteuer anzuheben. Auch die WHO appel"
-    },
-    {
-      "title": "\"Fruit Love Island\": Warum KI-Content bei Kindern Ängste schürt",
-      "link": "https://www.tagesschau.de/kultur/ki-serie-fruit-love-island-suchtpotenzial-100.html",
-      "desc": "Seit Monaten fluten KI-generierte Videos von sprechendem Obst und Gemüse Instagram und TikTok. Sie treten in fiktiven Reality-Serien wie \"Fruit Love I"
     }
   ],
   "taz": [
     {
-      "title": "Polyworking: Ich habe mehrere Jobs, weil ich muss",
-      "link": "https://taz.de/Polyworking-Trend-Kein-Grund-fuer-Glorifizierung/!6179857/",
-      "desc": "Zwei oder mehr Jobs zu haben, ist unter dem Namen „Polyworking“ zum Trend geworden. Unsere Autorin findet, dass es daran nichts zu glorifizieren gibt."
+      "title": "FDP-Bundesparteitag: Reichweite ist nicht Zustimmung",
+      "link": "https://taz.de/FDP-Bundesparteitag/!6182994/",
+      "desc": "Nicht alle in der FDP sind von der Wahl des notorischen Polterers Kubicki begeistert. Der 17-jährige Jungliberale Lars Jan Verwaal dagegen umso mehr. "
     },
     {
-      "title": "40 Jahre „Junge Freiheit“: Außen bürgerlich, innen radikal",
-      "link": "https://taz.de/40-Jahre-Junge-Freiheit/!6179763/",
-      "desc": "Zum Jubiläum zeigt sich, wo die neurechte Zeitung steht: zwischen politischem Kulturkampf, Angriffen auf Feminismus und strategischer Radikalisierung."
+      "title": "Bürokratie und Bürgergeld: Kein mangelnder Wille",
+      "link": "https://taz.de/Buerokratie-und-Buergergeld/!6183039/",
+      "desc": "Unübersichtliche Strukturen und Zuständigkeiten sind Hindernisse bei der Arbeitssuche. Der Staat ignoriert die Lebensrealitäten vieler Empfänger. mehr"
     },
     {
-      "title": "Kolumnist hat sich verliebt: Ich habe ein Gesetz kennengelernt und bin total verknallt",
-      "link": "https://taz.de/Kolumnist-hat-sich-verliebt/!6181936/",
-      "desc": "Was in Behörden passiert, geht grundsätzlich die Öffentlichkeit an. Ist ja kein Selbstzweck, was die da machen. Dafür gibt's ein tolles Gesetz. mehr.."
+      "title": "Wim Wenders und Nastassja Kinski: Wenders’ Trick",
+      "link": "https://taz.de/Wim-Wenders-und-Nastassja-Kinski/!6182992/",
+      "desc": "Der Starregisseur filmte Nastassja Kinski einst als Kind halbnackt. Seine Verteidigungsstrategie bei der Filmpreisverleihung ist äußerst fragwürdig. m"
     },
     {
-      "title": "Ministerin Bär gegen Bafög-Erhöhung: „Es wird kein Vollkaskostudium geben“",
-      "link": "https://taz.de/Ministerin-Baer-gegen-Bafoeg-Erhoehung/!6182955/",
-      "desc": "Forschungsministerin Dorothee Bär erwartet doch keine schnelle Bafög-Reform mehr. Studierende sollen lieber „jobben“ gehen. Nur: Tun die meisten berei"
+      "title": "Parlamentswahl in Malta: Malta wählt wieder die Korruption",
+      "link": "https://taz.de/Parlamentswahl-in-Malta/!6182976/",
+      "desc": "Maltas Labour-Regierung feiert ihren Wahlsieg. Der Konservative Alex Borg war bei den Parlamentswahlen vergeblich gegen Vetternwirtschaft angetreten. "
     },
     {
-      "title": "Ebola-Ausbruch: WHO-Chef sichert Kongo internationale Unterstützung zu",
-      "link": "https://taz.de/Ebola-Ausbruch/!6182965/",
-      "desc": "Tedros Adhanom Ghebreyesus verspricht den Menschen im Osten Kongos Hilfe. Ärzte ohne Grenzen beklagen zu wenig medizinische Fachkräfte in der Region. "
+      "title": "Menschenrechtsaktivistin inhaftiert: Ägyptische Oppositionelle wird im Oman gefangen gehalten",
+      "link": "https://taz.de/Menschenrechtsaktivistin-inhaftiert/!6183049/",
+      "desc": "Die ägyptische Aktivistin Mariam Mohamed El-Sayed Abdel Baset wird ohne rechtliche Grundlage festgehalten. Ihr droht die Auslieferung nach Ägypten. me"
     }
   ],
   "reddit": [
     {
-      "title": "New bike day (to the spouse)",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1tshmop/new_bike_day_to_the_spouse/",
-      "thumb": "https://preview.redd.it/ln2jfla6nd4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=36e2656e5b2270aa1ea41fca4e4db7a4e5aad345",
+      "title": "Chasing Sunsets in Lithuania.",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tsv4ga/chasing_sunsets_in_lithuania/",
+      "thumb": "https://preview.redd.it/apjpceru2h4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9141ef2ff7fbfcd6891317d00ed3d0a055bce721",
       "desc": ""
     },
     {
-      "title": "Parts bin build",
-      "link": "https://www.reddit.com/r/xbiking/comments/1ts1cws/parts_bin_build/",
-      "thumb": "https://preview.redd.it/esd5xt02ba4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=4583bb80c2ccfd527b49af17a798783366c8255a",
+      "title": "Maiden voyage overnight through the Australian countryside…",
+      "link": "https://www.reddit.com/r/xbiking/comments/1tspu5e/maiden_voyage_overnight_through_the_australian/",
+      "thumb": "https://preview.redd.it/5llryfgprf4h1.jpg?width=140&amp;height=92&amp;auto=webp&amp;s=838cef56cf192cf15d078318c9523af8b1f03ecb",
+      "desc": ""
+    },
+    {
+      "title": "We did it yall! 120 miles from Sacramento to San Francisco!",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tswqs9/we_did_it_yall_120_miles_from_sacramento_to_san/",
+      "thumb": "https://preview.redd.it/2rnygdmvfh4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7235b9c1b6b484973935adc804d471caa3163996",
+      "desc": ""
+    },
+    {
+      "title": "Cannondale 700cm spin",
+      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1tsx1j7/cannondale_700cm_spin/",
+      "thumb": "",
       "desc": ""
     },
     {
@@ -71,24 +83,12 @@
       "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tsdtoc/aliexpress_slop_bxt_135_my_mom_says_im_cool_build/",
       "thumb": "",
       "desc": ""
-    },
-    {
-      "title": "Real recognize real",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1ts5p5l/real_recognize_real/",
-      "thumb": "https://preview.redd.it/fxpt3jqo5b4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5869449be11ee5d3be5af47a2b6b82040d1a0f79",
-      "desc": ""
-    },
-    {
-      "title": "Any Trek 620/720 experts? My LBS sold me a \"620 from the mid/late 80s\" but I'm starting to suspect it might be a 82-83' 720? frame and forks are Reynolds 531 and the chain stay is ~47cm. Serial number is worn but MIGHT be 023169",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1tsikuz/any_trek_620720_experts_my_lbs_sold_me_a_620_from/",
-      "thumb": "https://preview.redd.it/8atftgudvd4h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=e593de71b6a21b54e8c0ee018ece6978a7fd31b0",
-      "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Sun, 31 May 2026 11:34:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0531/AU-20260531-1134-2300.mp3",
+    "pub_date": "Sun, 31 May 2026 16:04:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0531/AU-20260531-1604-5400.mp3",
     "duration": "00:04:49"
   }
 }
