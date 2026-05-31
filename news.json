@@ -1,9 +1,175 @@
 {
-  "tagesschau": [],
-  "taz": [],
-  "reddit": [],
-  "ndr_audio": {"title": "", "pub_date": "", "audio_url": "", "duration": ""},
-  "bt_themen": [],
-  "bt_presse": [],
-  "bt_hib": []
+  "tagesschau": [
+    {
+      "title": "FDP-Parteitag: Quicklebendig im Umfragetief",
+      "link": "https://www.tagesschau.de/kommentar/fdp-parteitag-266.html",
+      "desc": "Der FDP-Parteitag hat gezeigt, dass in der totgesagten Partei noch Leben steckt, meint Lissy Kaufmann. Parteichef Kubicki muss nun zeigen, dass die Li"
+    },
+    {
+      "title": "Wadephul wirbt für Deutschlands Sitz im UN-Sicherheitsrat",
+      "link": "https://www.tagesschau.de/inland/deutschland-un-sicherheitsrat-100.html",
+      "desc": "Deutschland erhofft sich mehr Einfluss durch einen Sitz im UN-Sicherheitsrat. Außenminister Wadephul ist aktuell auf Werbetour. Im Bericht aus Berlin "
+    },
+    {
+      "title": "Mehr als 50 Tote bei Explosion in Rebellengebiet von Myanmar",
+      "link": "https://www.tagesschau.de/ausland/asien/myanmar-explosion-100.html",
+      "desc": "Nach einer Explosion in einem Munitionslager in Myanmar sind mindestens 50 Menschen ums Leben gekommen. Dutzende weitere wurden verletzt. Offenbar det"
+    },
+    {
+      "title": "Israels Bodenoffensive im Libanon geht weiter: Experte sieht \"Wendepunkt\"",
+      "link": "https://www.tagesschau.de/ausland/libanon-israel-festung-100.html",
+      "desc": "Israel rückt weiter im Libanon vor. Nun hat die Armee eine strategisch wichtige Festung eingenommen. Ein Experte sieht einen \"Wendepunkt\" gekommen, di"
+    },
+    {
+      "title": "Bundessieger von \"Jugend forscht\" gekürt",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/jugend-forscht-gewinner-110.html",
+      "desc": "Wie tickt eine Sanduhr? Kann KI Proteine auseinanderhalten? Solchen Fragen haben sich junge Forscherinnen und Forscher für den Wissenschaftswettbewerb"
+    }
+  ],
+  "taz": [
+    {
+      "title": "Neutralitätsdebatte in der Schule: Herr Heckel und die AfD",
+      "link": "https://taz.de/Neutralitaetsdebatte-in-der-Schule/!6179783/",
+      "desc": "Ein Lehrer in Sachsen-Anhalt warnt im Unterricht vor der AfD. Die Partei protestiert, das Schulamt mahnt ihn ab. Wie neutral muss ein Lehrer sein? meh"
+    },
+    {
+      "title": "AfD beschließt Wahlprogramme: AfD wählt Ex-Mitglied der NPD-Jugend zum Generalsekretär",
+      "link": "https://taz.de/AfD-beschliesst-Wahlprogramme/!6182982/",
+      "desc": "Beim AfD-Parteitag in Mecklenburg-Vorpommern wählen 91 Prozent der Delegierten einen mutmaßlichen Ex-Nazi. Das Wahlprogramm liest sich rassistisch. me"
+    },
+    {
+      "title": "Olympia-Referendum: Hamburg sagt die Spiele ab",
+      "link": "https://taz.de/Olympia-Referendum/!6182176/",
+      "desc": "Bei einer Volksbefragung zur Bewerbung für Olympische Spiele stimmt eine deutliche Mehrheit mit Nein. Dafür sind nur die eher wohlhabenden Stadtteile."
+    },
+    {
+      "title": "Harvard-Historiker über Atomwaffen: „Sorge vor einem neuen Tschornobyl“",
+      "link": "https://taz.de/Harvard-Historiker-ueber-Atomwaffen/!6182973/",
+      "desc": "Der ukrainische Harvard-Historiker Serhii Plokhy über die Risiken atomarer Abrüstung, die Logik der Abschreckung und die Gefahr eines neuen Wettrüsten"
+    },
+    {
+      "title": "Regierungsantwort auf Linken-Anfrage: Nudeln mit Ketchup statt Obst und Gemüse",
+      "link": "https://taz.de/Regierungsantwort-auf-Linken-Anfrage/!6182877/",
+      "desc": "Die Bundesregierung berechnet derzeit die Höhe der Grundsicherung neu. Ob das Geld für gesunde Ernährung reicht, spielt im Verfahren keine Rolle. mehr"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Unbound 50 mile mud section",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tt3mlt/unbound_50_mile_mud_section/",
+      "thumb": "https://external-preview.redd.it/amJrMDJyY3pwaTRoMTHMnE4esNu4B9tpjCaegTRQrZA8rjyqNpRyO4WU1M1a.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9fccf3da147547721febb241f766a1b78623d605",
+      "desc": ""
+    },
+    {
+      "title": "We did it yall! 120 miles from Sacramento to San Francisco!",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tswqs9/we_did_it_yall_120_miles_from_sacramento_to_san/",
+      "thumb": "https://preview.redd.it/2rnygdmvfh4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7235b9c1b6b484973935adc804d471caa3163996",
+      "desc": ""
+    },
+    {
+      "title": "Biplane forks are finally here!",
+      "link": "https://www.reddit.com/r/xbiking/comments/1tsysu0/biplane_forks_are_finally_here/",
+      "thumb": "https://preview.redd.it/68w9rxv0uh4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=5432f9b69907f4719881387f04b8cffaa34a6a24",
+      "desc": ""
+    },
+    {
+      "title": "State 4130 Scorcher",
+      "link": "https://www.reddit.com/r/scorchers/comments/1tt15bf/state_4130_scorcher/",
+      "thumb": "https://preview.redd.it/r5fjr89t9i4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=58043836d85fb24ec5eb90a3074fa527fd73b2b2",
+      "desc": ""
+    },
+    {
+      "title": "Can i call it a gravlocross ? Trackvell ?",
+      "link": "https://www.reddit.com/r/tracklocross/comments/1tt5rff/can_i_call_it_a_gravlocross_trackvell/",
+      "thumb": "https://preview.redd.it/zv0uy1724j4h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=32d0625694142a30391442064d7004cb6266334f",
+      "desc": ""
+    }
+  ],
+  "ndr_audio": {
+    "title": "NDR Info Nachrichten",
+    "pub_date": "Sun, 31 May 2026 20:37:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0531/AU-20260531-2037-5000.mp3",
+    "duration": "00:07:09"
+  },
+  "bt_themen": [
+    {
+      "title": "Sicherheits- und Handels­fra­gen dominieren Gespräche in Australien und Fidschi",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw22-pg-australien-fidschi-1170334",
+      "desc": "Partnerschaften mit gleichgesinnten Ländern pflegen, voneinander lernen, gemeinsam für eine multilaterale Weltordnung einstehen in einer Welt machtpol"
+    },
+    {
+      "title": "Alexander Dobrindt und Alois Rainer stellen sich den Fragen der Abgeordneten",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-regierungsbefragung-1154566",
+      "desc": "Die Sitzungswoche beginnt am Mittwoch, 10. Juni 2026, mit der eineinhalbstündigen Regierungsbefragung. Darin stellen sich Bundesinnenminister Alexande"
+    },
+    {
+      "title": "Fragestunde am 10. Juni",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-fragestunde-1154586",
+      "desc": "Im Anschluss an die Regierungsbefragung folgt am Mittwoch, 10. Juni 2026, die Fragestunde. Getrennt nach Ressorts beantworten Vertreter der Bundesregi"
+    },
+    {
+      "title": "Parlament berät Tätigkeitsbericht des Petitionsausschusses",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-petitionsbericht-2025-1181866",
+      "desc": "Den Tätigkeitsbericht des Petitionsausschusses für das Jahr 2025 berät der Bundestag am Mittwoch, 10. Juni 2026. Nach der zehnminütigen Einführung dur"
+    },
+    {
+      "title": "Zeugnisverweigerungsrecht für Sozialarbeiter",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-strafprozessordnung-1181868",
+      "desc": "Über die Forderung der Fraktion Bündnis 90/Die Grünen nach einem Zeugnisverweigerungsrecht für staatlich anerkannte Sozialarbeiter beziehungsweise sta"
+    }
+  ],
+  "bt_presse": [
+    {
+      "title": "Finanzausschuss reist nach Stockholm und Oslo",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-a-finanz-swe-1182824",
+      "desc": "Eine Delegation des Finanzausschusses führt vom 1. bis 5. Juni Gespräche in Stockholm und Oslo. Im Mittelpunkt stehen der Austausch über verschiedene "
+    },
+    {
+      "title": "Umweltausschuss informiert sich in Dänemark und Finnland",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-a-umwelt-daenemark-finnland-1182796",
+      "desc": "Der Ausschuss für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit des Deutschen Bundestages reist mit einer Delegation unter Leitung seines V"
+    },
+    {
+      "title": "Ausschuss für Wohnen, Stadtentwicklung, Bauwesen und Kommunen reist nach Japan",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-bauausschuss-japan-1182794",
+      "desc": "Eine Delegation des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen reist vom 30. Mai bis 06. Juni 2026 nach Japan. Stationen der Reis"
+    },
+    {
+      "title": "Öffentliche Sitzung des Petitionsausschusses zu den Themen: Gebührenordnung für Heilberufe und Eingliederungshilfe für Menschen mit Behinderung",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260528oepm-petitionsausschuss-1182706",
+      "desc": ""
+    },
+    {
+      "title": "Haushaltsausschuss reist in die USA",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260528-pm-delreise-a-haushalt-usa-1182704",
+      "desc": "Eine Delegation der Obleute des Haushaltsausschusses des Deutschen Bundestages reist vom 31. Mai bis 6. Juni 2026 in die Vereinigten Staaten von Ameri"
+    }
+  ],
+  "bt_hib": [
+    {
+      "title": "Beschaffung von Laserwaffen für die Marine",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1182834",
+      "desc": "Verteidigung/Antwort Mit der Entwicklung, Beschaffung und Einführung von Laserwaffen bei der Marine soll eine Fähigkeitslücke geschlossen werden. Dies"
+    },
+    {
+      "title": "Krisenresilienz der Bundeswehrkrankenhäuser",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1182832",
+      "desc": "Verteidigung/Antwort Alle Krankenhäuser der Bundeswehr verfügen über eine Planung für Krisen- und Katastrophenereignisse. Dies teilt die Bundesregieru"
+    },
+    {
+      "title": "Entlassungen wegen verfassungsfeindlicher Bestrebungen",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1182830",
+      "desc": "Verteidigung/Antwort Die Bundeswehr hat 19 Soldaten wegen verfassungsfeindlicher Bestrebungen entlassen. Dies teilt die Bundesregierung in einer Antwo"
+    },
+    {
+      "title": "Grundwasserschutz im Atommüll-Endlager Schacht Konrad",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1182842",
+      "desc": "Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit/Antwort Die Bundesregierung hat in ihrer Antwort auf Anfrage der Linksfraktion wasserrechtlic"
+    },
+    {
+      "title": "Einfuhr von Jagdtrophäen geschützter Arten",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1182840",
+      "desc": "Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit/Antwort Das Bundesamt für Naturschutz hat 2025 in 40 Fällen die Einfuhr von Jagdtrophäen gesc"
+    }
+  ]
 }
