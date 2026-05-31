@@ -10,7 +10,6 @@
   :root {
     --bg: #f2f2f7;
     --card: #ffffff;
-    --card2: #f2f2f7;
     --label: rgba(60,60,67,0.6);
     --text: #1c1c1e;
     --text2: rgba(60,60,67,0.6);
@@ -36,7 +35,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 1px solid var(--border);
-    padding: 20px 28px;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,63 +43,39 @@
     top: 0;
     z-index: 100;
   }
-  .header-left {}
   #clock {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
     letter-spacing: -1.5px;
     line-height: 1;
-    color: var(--text);
   }
   #datestr {
     font-size: 13px;
     font-weight: 400;
     color: var(--text2);
     margin-top: 3px;
-    letter-spacing: 0.1px;
   }
-  .header-right {
-    text-align: right;
-  }
-  .header-title {
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--text);
-  }
-  .header-sub {
-    font-size: 13px;
-    font-weight: 400;
-    color: var(--text2);
-    margin-top: 2px;
-  }
+  .header-right { text-align: right; }
+  .header-title { font-size: 17px; font-weight: 600; }
+  .header-sub { font-size: 13px; color: var(--text2); margin-top: 2px; }
 
   /* LAYOUT */
   .main {
-    max-width: 1120px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 24px 20px 60px;
+    padding: 20px 16px 60px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
   }
 
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-  }
-  @media (max-width: 720px) {
-    .grid-2 { grid-template-columns: 1fr; }
-  }
-
-  /* CARDS */
   .card {
     background: var(--card);
     border-radius: var(--radius);
     overflow: hidden;
   }
   .card-header {
-    padding: 16px 20px 0;
+    padding: 14px 18px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,108 +89,73 @@
   }
   .card-meta {
     font-size: 12px;
-    font-weight: 400;
     color: var(--text3);
   }
 
   /* NDR AUDIO */
   .audio-wrap {
-    padding: 20px;
+    padding: 16px 18px 18px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
   }
   .play-btn {
-    width: 48px;
-    height: 48px;
+    width: 46px; height: 46px;
     border-radius: 50%;
     background: var(--accent);
-    border: none;
-    cursor: pointer;
+    border: none; cursor: pointer;
     flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     transition: transform 0.1s, opacity 0.1s;
     -webkit-tap-highlight-color: transparent;
   }
-  .play-btn:active { transform: scale(0.93); opacity: 0.85; }
+  .play-btn:active { transform: scale(0.92); opacity: 0.85; }
   .play-btn svg { width: 18px; height: 18px; fill: #fff; margin-left: 2px; }
   .play-btn.playing svg { margin-left: 0; }
   .audio-info { flex: 1; min-width: 0; }
-  .audio-title {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 3px;
-  }
-  .audio-meta {
-    font-size: 12px;
-    color: var(--text2);
-    margin-bottom: 10px;
-  }
+  .audio-title { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
+  .audio-meta { font-size: 12px; color: var(--text2); margin-bottom: 10px; }
   .progress-bar {
-    width: 100%;
-    height: 4px;
+    width: 100%; height: 8px;
     background: var(--border);
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     position: relative;
   }
   .progress-fill {
     height: 100%;
     background: var(--accent);
-    border-radius: 2px;
+    border-radius: 4px;
     width: 0%;
     pointer-events: none;
     transition: width 0.1s linear;
   }
   .progress-handle {
     position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 14px;
-    height: 14px;
+    top: 50%; transform: translate(-50%, -50%);
+    width: 16px; height: 16px;
     border-radius: 50%;
     background: var(--accent);
     left: 0%;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.15s;
+    box-shadow: 0 1px 4px rgba(0,122,255,0.4);
   }
-  .progress-bar:hover .progress-handle { opacity: 1; }
-  .audio-times {
-    display: flex;
-    justify-content: space-between;
-    font-size: 11px;
-    color: var(--text3);
-    margin-top: 5px;
-  }
+  .progress-bar:hover .progress-handle,
+  .progress-bar:active .progress-handle { opacity: 1; }
+  .audio-times { display: flex; justify-content: space-between; font-size: 11px; color: var(--text3); margin-top: 5px; }
 
   /* WETTER */
   .weather-main {
-    padding: 20px;
+    padding: 16px 18px;
     display: flex;
-    gap: 20px;
+    gap: 16px;
     align-items: flex-start;
   }
-  .weather-icon-wrap { font-size: 56px; line-height: 1; flex-shrink: 0; }
-  .weather-temp-big {
-    font-size: 52px;
-    font-weight: 300;
-    letter-spacing: -2px;
-    line-height: 1;
-    color: var(--text);
-  }
-  .weather-desc-line {
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--text2);
-    margin-top: 4px;
-  }
+  .weather-icon-wrap { font-size: 52px; line-height: 1; flex-shrink: 0; }
+  .weather-temp-big { font-size: 48px; font-weight: 300; letter-spacing: -2px; line-height: 1; }
+  .weather-desc-line { font-size: 14px; color: var(--text2); margin-top: 4px; }
   .weather-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -225,39 +165,29 @@
   }
   .weather-stat {
     background: var(--card);
-    padding: 14px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
+    padding: 12px 14px;
   }
-  .weather-stat-label {
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text2);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  .weather-stat-value {
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--text);
-  }
-  .weather-stat-sub {
-    font-size: 12px;
-    color: var(--text2);
-  }
+  .weather-stat-label { font-size: 10px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 3px; }
+  .weather-stat-value { font-size: 16px; font-weight: 600; }
+  .weather-stat-sub { font-size: 11px; color: var(--text2); margin-top: 1px; }
 
   /* NEWS TICKER */
   .ticker-outer {
-    overflow: hidden;
-    padding: 16px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 14px 0;
     position: relative;
+    cursor: grab;
   }
+  .ticker-outer:active { cursor: grabbing; }
+  .ticker-outer::-webkit-scrollbar { display: none; }
   .ticker-outer::before, .ticker-outer::after {
     content: '';
     position: absolute;
     top: 0; bottom: 0;
-    width: 48px;
+    width: 36px;
     z-index: 2;
     pointer-events: none;
   }
@@ -266,11 +196,11 @@
   .ticker-track {
     display: flex;
     gap: 0;
-    animation: ticker-scroll 60s linear infinite;
+    animation: ticker-scroll 25s linear infinite;
     white-space: nowrap;
     width: max-content;
   }
-  .ticker-track:hover { animation-play-state: paused; }
+  .ticker-track.paused { animation-play-state: paused; }
   @keyframes ticker-scroll {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
@@ -278,103 +208,101 @@
   .ticker-item {
     display: inline-flex;
     align-items: center;
-    gap: 20px;
-    padding: 0 32px;
+    gap: 12px;
+    padding: 0 24px;
     text-decoration: none;
     color: var(--text);
   }
-  .ticker-source {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    flex-shrink: 0;
-  }
-  .ticker-title {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--text);
-  }
-  .ticker-dot {
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: var(--border);
-    flex-shrink: 0;
+  .ticker-source { font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; flex-shrink: 0; }
+  .ticker-title { font-size: 14px; font-weight: 400; }
+  .ticker-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
+
+  /* BOTTOM GRID */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
   }
 
   /* REDDIT */
-  .reddit-list { padding: 8px 0; }
+  .reddit-list { padding: 6px 0 4px; }
   .reddit-post {
     display: flex;
-    gap: 12px;
-    align-items: center;
-    padding: 10px 20px;
+    flex-direction: column;
     text-decoration: none;
     color: var(--text);
-    transition: background 0.15s;
     border-bottom: 1px solid var(--border);
+    transition: background 0.12s;
   }
   .reddit-post:last-child { border-bottom: none; }
   .reddit-post:hover { background: var(--bg); }
   .reddit-thumb {
-    width: 56px;
-    height: 56px;
-    border-radius: var(--radius-sm);
+    width: 100%;
+    aspect-ratio: 16/9;
     object-fit: cover;
-    flex-shrink: 0;
+    display: block;
     background: var(--bg);
   }
-  .reddit-post h3 {
-    font-size: 14px;
+  .reddit-post-title {
+    font-size: 11px;
     font-weight: 500;
-    line-height: 1.4;
-    color: var(--text);
+    color: var(--text2);
+    padding: 7px 14px 8px;
+    line-height: 1.35;
   }
 
   /* SHIP MAP */
   .ship-map-wrap {
-    width: 100%;
-    height: 320px;
+    width: 100%; height: 300px;
     overflow: hidden;
-    border-radius: 0 0 var(--radius) var(--radius);
   }
   .ship-map-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
 
-  /* MISC */
-  .loading {
-    padding: 28px;
-    text-align: center;
-    font-size: 14px;
-    color: var(--text3);
-  }
+  .loading { padding: 24px; text-align: center; font-size: 14px; color: var(--text3); }
   .spinner {
-    display: inline-block;
-    width: 16px; height: 16px;
-    border: 2px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.7s linear infinite;
-    vertical-align: middle;
-    margin-right: 6px;
+    display: inline-block; width: 16px; height: 16px;
+    border: 2px solid var(--border); border-top-color: var(--accent);
+    border-radius: 50%; animation: spin 0.7s linear infinite;
+    vertical-align: middle; margin-right: 6px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
-  .error { color: #ff3b30; font-size: 13px; padding: 16px 20px; }
+  .error { color: #ff3b30; font-size: 13px; padding: 14px 18px; }
 
-  footer {
-    text-align: center;
-    font-size: 11px;
-    color: var(--text3);
-    letter-spacing: 0.03em;
-    margin-top: 8px;
+  /* RESPONSIVE: iPhone 16e (393px) */
+  @media (max-width: 430px) {
+    .header { padding: 12px 16px; }
+    #clock { font-size: 30px; letter-spacing: -1px; }
+    #datestr { font-size: 12px; }
+    .header-title { font-size: 15px; }
+    .main { padding: 12px 12px 48px; gap: 10px; }
+    .grid-2 { grid-template-columns: 1fr; }
+    .weather-temp-big { font-size: 40px; }
+    .weather-icon-wrap { font-size: 42px; }
+    .weather-grid { grid-template-columns: repeat(2, 1fr); }
+    .ship-map-wrap { height: 220px; }
+    .audio-wrap { gap: 10px; }
+    .play-btn { width: 40px; height: 40px; }
   }
+
+  /* RESPONSIVE: iPad Air M3 (820px+) */
+  @media (min-width: 768px) and (max-width: 1100px) {
+    .main { padding: 24px 24px 60px; gap: 16px; }
+    #clock { font-size: 44px; }
+    .weather-temp-big { font-size: 56px; }
+    .weather-icon-wrap { font-size: 60px; }
+    .weather-grid { grid-template-columns: repeat(3, 1fr); }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .ship-map-wrap { height: 340px; }
+    .reddit-post-title { font-size: 12px; }
+  }
+
+  footer { text-align: center; font-size: 11px; color: var(--text3); margin-top: 4px; }
 </style>
 </head>
 <body>
 
 <header class="header">
-  <div class="header-left">
+  <div>
     <div id="clock">--:--</div>
     <div id="datestr"></div>
   </div>
@@ -404,13 +332,13 @@
     <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
   </div>
 
-  <!-- News Ticker -->
+  <!-- Ticker -->
   <div class="card">
-    <div class="card-header" style="padding-bottom:0">
+    <div class="card-header">
       <span class="card-label">Nachrichten</span>
       <span class="card-meta" id="news-updated"></span>
     </div>
-    <div class="ticker-outer">
+    <div class="ticker-outer" id="ticker-outer">
       <div class="ticker-track" id="ticker-track">
         <div class="loading"><span class="spinner"></span>Lade…</div>
       </div>
@@ -427,13 +355,12 @@
         <div class="loading"><span class="spinner"></span>Lade Posts…</div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-header" style="padding-bottom:0">
         <span class="card-label">Mittellandkanal</span>
       </div>
       <div class="ship-map-wrap">
-        <script>var width="100%";var height="320";var latitude="52.4163";var longitude="9.7169";var zoom="15";var names=true;</script>
+        <script>var width="100%";var height="100%";var latitude="52.4163";var longitude="9.7169";var zoom="15";var names=true;</script>
         <script src="https://www.vesselfinder.com/aismap.js"></script>
       </div>
     </div>
@@ -448,7 +375,6 @@ const DAYS_SHORT = ["So","Mo","Di","Mi","Do","Fr","Sa"];
 const MONTHS = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
 let audioEl = null, isPlaying = false;
 
-// Clock
 function updateClock() {
   const now = new Date();
   document.getElementById('clock').textContent = now.toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
@@ -456,7 +382,6 @@ function updateClock() {
 }
 updateClock(); setInterval(updateClock, 60000);
 
-// Audio
 function formatTime(s) {
   if (!s || isNaN(s)) return '0:00';
   return `${Math.floor(s/60)}:${Math.floor(s%60).toString().padStart(2,'0')}`;
@@ -492,8 +417,8 @@ function togglePlay(url) {
       const f = document.getElementById('prog-fill');
       const h = document.getElementById('prog-handle');
       const c = document.getElementById('t-cur');
-      if (f) { f.style.width = pct+'%'; }
-      if (h) { h.style.left = pct+'%'; }
+      if (f) f.style.width = pct+'%';
+      if (h) h.style.left = pct+'%';
       if (c) c.textContent = formatTime(audioEl.currentTime);
     });
     audioEl.addEventListener('loadedmetadata', () => {
@@ -523,37 +448,28 @@ function seekAudio(e, bar) {
   audioEl.currentTime = ((e.clientX - r.left) / r.width) * audioEl.duration;
 }
 
-// Weather
 const W_ICONS = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',80:'🌦️',81:'🌧️',82:'⛈️',95:'⛈️',96:'⛈️',99:'⛈️'};
 const W_DESC = {0:'Klarer Himmel',1:'Überwiegend klar',2:'Teilweise bewölkt',3:'Bedeckt',45:'Neblig',48:'Gefrierender Nebel',51:'Leichter Nieselregen',53:'Nieselregen',55:'Starker Nieselregen',61:'Leichter Regen',63:'Regen',65:'Starker Regen',71:'Leichter Schneefall',73:'Schneefall',75:'Starker Schneefall',80:'Regenschauer',81:'Starke Schauer',82:'Heftige Schauer',95:'Gewitter',96:'Gewitter mit Hagel',99:'Schweres Gewitter'};
 
 async function loadWeather() {
   try {
     const [wRes, aqRes] = await Promise.all([
-      fetch('https://api.open-meteo.com/v1/forecast?latitude=52.3759&longitude=9.7320&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m,precipitation&daily=temperature_2m_max,temperature_2m_min,weather_code,precipitation_sum,precipitation_hours,sunrise,sunset&hourly=precipitation&timezone=auto&forecast_days=1'),
+      fetch('https://api.open-meteo.com/v1/forecast?latitude=52.3759&longitude=9.7320&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_hours,sunrise,sunset&timezone=auto&forecast_days=1'),
       fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=52.3759&longitude=9.7320&current=european_aqi&timezone=auto')
     ]);
     const d = await wRes.json();
     const aq = await aqRes.json();
     const c = d.current, dl = d.daily;
     const now = new Date();
-
-    // AQI label
-    const aqi = aq.current?.european_aqi;
-    const aqiLabel = aqi <= 20 ? 'Sehr gut' : aqi <= 40 ? 'Gut' : aqi <= 60 ? 'Mäßig' : aqi <= 80 ? 'Schlecht' : 'Sehr schlecht';
-    const aqiColor = aqi <= 20 ? '#34c759' : aqi <= 40 ? '#34c759' : aqi <= 60 ? '#ff9500' : '#ff3b30';
-
-    // Sunrise/sunset
+    const aqi = aq.current?.european_aqi ?? null;
+    const aqiLabel = !aqi ? '–' : aqi<=20?'Sehr gut':aqi<=40?'Gut':aqi<=60?'Mäßig':aqi<=80?'Schlecht':'Sehr schlecht';
+    const aqiColor = !aqi ? 'var(--text)' : aqi<=40?'#34c759':aqi<=60?'#ff9500':'#ff3b30';
     const sunrise = new Date(dl.sunrise[0]).toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
     const sunset = new Date(dl.sunset[0]).toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
-
-    // Precipitation
     const precip = dl.precipitation_sum[0];
-    const precipHours = dl.precipitation_hours[0];
-    const precipText = precip > 0 ? `${precip} mm · ${precipHours}h` : 'Kein Niederschlag';
-
+    const precipH = dl.precipitation_hours[0];
+    const precipText = precip > 0 ? `${precip} mm · ${precipH}h` : 'Kein Niederschlag';
     document.getElementById('weather-date').textContent = `${DAYS_SHORT[now.getDay()]}, ${now.getDate()}. ${MONTHS[now.getMonth()]}`;
-
     document.getElementById('weather-body').innerHTML = `
       <div class="weather-main">
         <div class="weather-icon-wrap">${W_ICONS[c.weather_code]||'🌡️'}</div>
@@ -569,12 +485,12 @@ async function loadWeather() {
         </div>
         <div class="weather-stat">
           <div class="weather-stat-label">Niederschlag</div>
-          <div class="weather-stat-value" style="font-size:14px">${precipText}</div>
+          <div class="weather-stat-value" style="font-size:13px;line-height:1.3">${precipText}</div>
         </div>
         <div class="weather-stat">
           <div class="weather-stat-label">Luftqualität</div>
           <div class="weather-stat-value" style="color:${aqiColor}">${aqiLabel}</div>
-          <div class="weather-stat-sub">AQI ${aqi}</div>
+          ${aqi ? `<div class="weather-stat-sub">AQI ${aqi}</div>` : ''}
         </div>
         <div class="weather-stat">
           <div class="weather-stat-label">Sonnenaufgang</div>
@@ -585,9 +501,9 @@ async function loadWeather() {
           <div class="weather-stat-value">${sunset}</div>
         </div>
         <div class="weather-stat">
-          <div class="weather-stat-label">Wind</div>
+          <div class="weather-stat-label">Wind / Feuchte</div>
           <div class="weather-stat-value">${Math.round(c.wind_speed_10m)} km/h</div>
-          <div class="weather-stat-sub">${c.relative_humidity_2m}% Feuchte</div>
+          <div class="weather-stat-sub">${c.relative_humidity_2m}% Luftfeuchte</div>
         </div>
       </div>`;
   } catch(e) {
@@ -595,7 +511,6 @@ async function loadWeather() {
   }
 }
 
-// Ticker
 function buildTicker(tagesschau, taz) {
   const all = [
     ...tagesschau.map(i => ({...i, src:'Tagesschau'})),
@@ -611,16 +526,28 @@ function buildTicker(tagesschau, taz) {
       <span class="ticker-title">${i.title}</span>
       <span class="ticker-dot"></span>
     </a>`).join('');
-  // Double for seamless loop
   document.getElementById('ticker-track').innerHTML = items + items;
-  // Adjust animation speed based on content width
+
+  // Manual scroll + pause on touch/drag
+  const outer = document.getElementById('ticker-outer');
   const track = document.getElementById('ticker-track');
-  const totalWidth = track.scrollWidth / 2;
-  const speed = Math.max(40, totalWidth / 8); // px per second
-  track.style.animationDuration = `${speed}s`;
+  let isDragging = false, startX = 0, scrollLeft = 0;
+
+  outer.addEventListener('mousedown', e => {
+    isDragging = true; startX = e.pageX - outer.offsetLeft; scrollLeft = outer.scrollLeft;
+    track.classList.add('paused');
+  });
+  outer.addEventListener('mouseleave', () => { if(isDragging) { isDragging=false; track.classList.remove('paused'); } });
+  outer.addEventListener('mouseup', () => { isDragging=false; track.classList.remove('paused'); });
+  outer.addEventListener('mousemove', e => {
+    if(!isDragging) return;
+    e.preventDefault();
+    outer.scrollLeft = scrollLeft - (e.pageX - outer.offsetLeft - startX);
+  });
+  outer.addEventListener('touchstart', () => track.classList.add('paused'), {passive:true});
+  outer.addEventListener('touchend', () => setTimeout(() => track.classList.remove('paused'), 2000), {passive:true});
 }
 
-// Reddit
 function renderReddit(items) {
   const el = document.getElementById('reddit-posts');
   if (!items?.length) { el.innerHTML = `<div class="error">Keine Posts verfügbar</div>`; return; }
@@ -629,18 +556,17 @@ function renderReddit(items) {
   el.innerHTML = withImg.map(i => `
     <a class="reddit-post" href="${i.link}" target="_blank" rel="noopener">
       <img class="reddit-thumb" src="${i.thumb}" alt="" onerror="this.parentElement.style.display='none'">
-      <h3>${i.title}</h3>
+      <div class="reddit-post-title">${i.title}</div>
     </a>`).join('');
 }
 
-// Load all data
 async function loadData() {
   try {
     const r = await fetch(`news.json?t=${Date.now()}`);
     if (!r.ok) throw new Error('news.json nicht gefunden');
     const data = await r.json();
     renderAudio(data.ndr_audio);
-    buildTicker(data.tagesschau || [], data.taz || []);
+    buildTicker(data.tagesschau||[], data.taz||[]);
     renderReddit(data.reddit);
     const updated = new Date(r.headers.get('last-modified') || Date.now());
     const pad = n => String(n).padStart(2,'0');
