@@ -84,7 +84,10 @@ jobs:
             'tagesschau': fetch_rss('https://www.tagesschau.de/xml/rss2/', 'Tagesschau'),
             'taz': fetch_rss('https://taz.de/!p4608;rss/', 'taz'),
             'reddit': fetch_rss('https://www.reddit.com/user/alxbeirut/m/bike/.rss', 'Reddit', is_reddit=True),
-            'ndr_audio': fetch_ndr_audio('https://www.ndr.de/nachrichten/info/podcast4370.xml')
+            'ndr_audio': fetch_ndr_audio('https://www.ndr.de/nachrichten/info/podcast4370.xml'),
+            'bt_themen': fetch_rss('https://www.bundestag.de/static/appdata/includes/rss/aktuellethemen.rss', 'BT Themen'),
+            'bt_presse': fetch_rss('https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss', 'BT Presse'),
+            'bt_hib': fetch_rss('https://www.bundestag.de/static/appdata/includes/rss/hib.rss', 'BT hib')
           }
 
           with open('news.json', 'w', encoding='utf-8') as f:
@@ -94,6 +97,9 @@ jobs:
           print(f"taz: {len(news['taz'])} Artikel")
           print(f"Reddit: {len(news['reddit'])} Posts")
           print(f"NDR Audio: {news['ndr_audio'].get('title', 'nicht gefunden')}")
+          print(f"BT Themen: {len(news['bt_themen'])} Artikel")
+          print(f"BT Presse: {len(news['bt_presse'])} Artikel")
+          print(f"BT hib: {len(news['bt_hib'])} Artikel")
           PYEOF
 
       - name: Commit news.json
