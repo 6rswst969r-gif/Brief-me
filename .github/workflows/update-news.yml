@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Fetch RSS feeds
+      - name: Fetch RSS feeds and NDR audio
         run: |
           python3 << 'PYEOF'
           import urllib.request
@@ -56,10 +56,35 @@ jobs:
               print(f"Error fetching {source_name}: {e}")
               return []
 
+          def fetch_ndr_audio(url):
+            try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; briefing-bot/1.0)'})
+              with urllib.request.urlopen(req, timeout=15) as r:
+                xml_data = r.read().decode('utf-8', errors='replace')
+              root = ET.fromstring(xml_data)
+              item = root.find('.//item')
+              if item is None:
+                return {}
+              title = item.findtext('title') or ''
+              pub_date = item.findtext('pubDate') or ''
+              enclosure = item.find('enclosure')
+              audio_url = enclosure.get('url', '') if enclosure is not None else ''
+              duration = item.findtext('{http://www.itunes.com/dtds/podcast-1.0.dtd}duration') or ''
+              return {
+                'title': title.strip(),
+                'pub_date': pub_date.strip(),
+                'audio_url': audio_url.strip(),
+                'duration': duration.strip()
+              }
+            except Exception as e:
+              print(f"Error fetching NDR audio: {e}")
+              return {}
+
           news = {
             'tagesschau': fetch_rss('https://www.tagesschau.de/xml/rss2/', 'Tagesschau'),
             'taz': fetch_rss('https://taz.de/!p4608;rss/', 'taz'),
-            'reddit': fetch_rss('https://www.reddit.com/user/alxbeirut/m/bike/.rss', 'Reddit', is_reddit=True)
+            'reddit': fetch_rss('https://www.reddit.com/user/alxbeirut/m/bike/.rss', 'Reddit', is_reddit=True),
+            'ndr_audio': fetch_ndr_audio('https://www.ndr.de/nachrichten/info/podcast4370.xml')
           }
 
           with open('news.json', 'w', encoding='utf-8') as f:
@@ -68,6 +93,7 @@ jobs:
           print(f"Tagesschau: {len(news['tagesschau'])} Artikel")
           print(f"taz: {len(news['taz'])} Artikel")
           print(f"Reddit: {len(news['reddit'])} Posts")
+          print(f"NDR Audio: {news['ndr_audio'].get('title', 'nicht gefunden')}")
           PYEOF
 
       - name: Commit news.json
