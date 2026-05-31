@@ -1,11 +1,94 @@
 {
-  "tagesschau": [],
-  "taz": [],
-  "reddit": [],
+  "tagesschau": [
+    {
+      "title": "\"Fruit Love Island\": Warum KI-Content bei Kindern Ängste schürt",
+      "link": "https://www.tagesschau.de/kultur/ki-serie-fruit-love-island-suchtpotenzial-100.html",
+      "desc": "Seit Monaten fluten KI-generierte Videos von sprechendem Obst und Gemüse Instagram und TikTok. Sie treten in fiktiven Reality-Serien wie \"Fruit Love I"
+    },
+    {
+      "title": "Kann der Inlandstourismus der deutschen Wirtschaft helfen?",
+      "link": "https://www.tagesschau.de/wirtschaft/konjunktur/tourismus-deutschland-132.html",
+      "desc": "Der Inlandstourismus boomt. Investoren setzen auf Ferienparks in Deutschland, wovon nicht nur Einzelhändler und Restaurants profitieren. Hilft das im "
+    },
+    {
+      "title": "Psychische Krankheit allein führt selten zu Gewalt",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/zusammenhang-gewalt-psyche-100.html",
+      "desc": "Was bringt einen Menschen dazu, eine Gewalttat zu verüben? Schnell richten sich die Blicke auf die psychische Verfassung - dabei werden die wenigsten "
+    },
+    {
+      "title": "Renteneintritt: Länger arbeiten trotz regional ungleicher Lebenserwartung?",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/rente-kommission-alterserwartung-100.html",
+      "desc": "Wer länger lebt, muss länger arbeiten - so lautet eine Forderung in der Reformdebatte zur Rente. Doch Zahlen zeigen: Die Lebenserwartung fällt in den "
+    },
+    {
+      "title": "Rückkehr zur harten Hand? Kolumbien wählt einen neuen Präsidenten",
+      "link": "https://www.tagesschau.de/ausland/amerika/kolumbien-wahl-112.html",
+      "desc": "Heute wählt Kolumbien einen neuen Präsidenten. Amtsinhaber Petro tritt nicht an. Zuletzt hat im Land die Gewalt wieder zugenommen - was die Wahl auch "
+    }
+  ],
+  "taz": [
+    {
+      "title": "Wahlen in Lateinamerika: Links vor rechts",
+      "link": "https://taz.de/Wahlen-in-Lateinamerika/!6181944/",
+      "desc": "Kolumbien wählt am Sonntag einen neuen Präsidenten. Der progressive Iván Cepeda liegt in Umfragen vorn. Auch in den Nachbarländern dürfen Linke hoffen"
+    },
+    {
+      "title": "Ungarische Medien nach Orbán: Was bleibt nach 15 Jahren Propaganda?",
+      "link": "https://taz.de/Ungarische-Medien-nach-Orban/!6182669/",
+      "desc": "Márton Gergely erzählt vom Niedergang der Fidesz-Medien, journalistischen Überlebensstrategien und welche Hoffnungen es nun in Ungarn für Medien gibt."
+    },
+    {
+      "title": "US-Militäreinsatz im Ostpazifik: Wieder drei Tote bei US-Angriff auf mutmaßliches Drogenboot",
+      "link": "https://taz.de/US-Militaereinsatz-im-Ostpazifik/!6182941/",
+      "desc": "Bisher starben bei den außergerichtlichen Tötungen nach einer Zählung von AFP mehr als 200 Menschen. Die Vorwürfe hat Washington bisher nie bewiesen. "
+    },
+    {
+      "title": "+++ Nachrichten im Nahost-Krieg +++: Israel meldet Einnahme der Kreuzritterburg Beaufort im Südlibanon",
+      "link": "https://taz.de/-Nachrichten-im-Nahost-Krieg-/!6182931/",
+      "desc": "Israel weitet seinen Bodeneinsatz im Libanon auf „zusätzliche Gebiete“ aus. Libanons Premier kritisiert „Kollektivstrafe“. Hisbollah beschießt Nordisr"
+    },
+    {
+      "title": "Verdrängung auf dem Land: Am See",
+      "link": "https://taz.de/Verdraengung-auf-dem-Land/!6179868/",
+      "desc": "Aus einer alten Bungalowanlage an der Mecklenburgischen Seenplatte soll ein Feriendorf für Großstädter werden. Die alten Be­woh­ne­r:in­nen stören da."
+    }
+  ],
+  "reddit": [
+    {
+      "title": "New bike day (to the spouse)",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tshmop/new_bike_day_to_the_spouse/",
+      "thumb": "https://preview.redd.it/ln2jfla6nd4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=36e2656e5b2270aa1ea41fca4e4db7a4e5aad345",
+      "desc": ""
+    },
+    {
+      "title": "Parts bin build",
+      "link": "https://www.reddit.com/r/xbiking/comments/1ts1cws/parts_bin_build/",
+      "thumb": "https://preview.redd.it/esd5xt02ba4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=4583bb80c2ccfd527b49af17a798783366c8255a",
+      "desc": ""
+    },
+    {
+      "title": "AliExpress slop BXT 135 “my mom says I’m cool” build",
+      "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tsdtoc/aliexpress_slop_bxt_135_my_mom_says_im_cool_build/",
+      "thumb": "",
+      "desc": ""
+    },
+    {
+      "title": "Real recognize real",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1ts5p5l/real_recognize_real/",
+      "thumb": "https://preview.redd.it/fxpt3jqo5b4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5869449be11ee5d3be5af47a2b6b82040d1a0f79",
+      "desc": ""
+    },
+    {
+      "title": "Any Trek 620/720 experts? My LBS sold me a \"620 from the mid/late 80s\" but I'm starting to suspect it might be a 82-83' 720? frame and forks are Reynolds 531 and the chain stay is ~47cm. Serial number is worn but MIGHT be 023169",
+      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1tsikuz/any_trek_620720_experts_my_lbs_sold_me_a_620_from/",
+      "thumb": "https://preview.redd.it/8atftgudvd4h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=e593de71b6a21b54e8c0ee018ece6978a7fd31b0",
+      "desc": ""
+    }
+  ],
   "ndr_audio": {
-    "title": "",
-    "pub_date": "",
-    "audio_url": "",
-    "duration": ""
+    "title": "NDR Info Nachrichten",
+    "pub_date": "Sun, 31 May 2026 09:35:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0531/AU-20260531-0935-0900.mp3",
+    "duration": "00:04:49"
   }
 }
