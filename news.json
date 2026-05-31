@@ -1,88 +1,11 @@
 {
-  "tagesschau": [
-    {
-      "title": "Nach Champions-League-Sieg: Festnahmen und Ausschreitungen in Paris",
-      "link": "https://www.tagesschau.de/ausland/europa/ausschreitungen-paris-psg-100.html",
-      "desc": "In Paris wurde der Champions-League-Sieg von PSG ausgelassen gefeiert. Nach massiven Ausschreitungen im Vorjahr war die Polizei mit etwa 8.000 Kräften"
-    },
-    {
-      "title": "US-Armee beschießt erneut Schiff im Golf von Oman",
-      "link": "https://www.tagesschau.de/ausland/asien/usa-angriff-strasse-von-hormus-100.html",
-      "desc": "Die Straße von Hormus ist weitgehend blockiert: Nun teilt die US-Armee mit, erneut ein Schiff auf dem Weg nach Iran gewaltsam gestoppt zu haben. Eine "
-    },
-    {
-      "title": "tagesthemen-Interview: FDP-Chef Kubicki zufrieden mit Wahlergebnis",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/kubicki-tt-interview-100.html",
-      "desc": "FDP-Chef Kubicki hat sich im tagesthemen-Interview zufrieden über sein Wahlergebnis geäußert. Seine Gegner will er nicht überzeugen, die AfD nicht zu "
-    },
-    {
-      "title": "Wie die Ukraine mit behinderten Kindern umgeht",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-inklusion-100.html",
-      "desc": "Russlands Angriffskrieg hat viele Kinder in der Ukraine traumatisiert und ihnen schwere Wunden zugefügt. Im Land mangelt es an Therapieplätzen - und d"
-    },
-    {
-      "title": "Kubicki ist FDP-Chef: Alles andere als ein strahlender Sieger",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/fdp-kubicki-neustart-100.html",
-      "desc": "Das \"alte Schlachtross\" Wolfgang Kubicki soll die FDP in die Zukunft führen. Beim Parteitag wählten ihn aber weniger als 60 Prozent. Ein Grund: die üb"
-    }
-  ],
-  "taz": [
-    {
-      "title": "Verdrängung auf dem Land: Am See",
-      "link": "https://taz.de/Verdraengung-auf-dem-Land/!6179868/",
-      "desc": "Aus einer alten Bungalowanlage an der Mecklenburgischen Seenplatte soll ein Feriendorf für Großstädter werden. Die alten Be­woh­ne­r:in­nen stören da."
-    },
-    {
-      "title": "Unlogische Reformen: Senkt die Kassenbeiträge, nicht die Einkommensteuer!",
-      "link": "https://taz.de/Unlogische-Reformen/!6179776/",
-      "desc": "Wer an der Einkommenssteuer dreht, beschenkt vor allem Großverdiener. Andere Entlastungen wären gerechter. Und politisch klüger. mehr..."
-    },
-    {
-      "title": "Neue Klimaproteste: Gegenwind für Katherina Reiche",
-      "link": "https://taz.de/Neue-Klimaproteste/!6182929/",
-      "desc": "Tausende demonstrieren für die Energiewende – und gegen neue Gaskraftwerke. Die Polizei setzt hunderte Ak­ti­vis­t:in­nen von Ende Gelände fest. mehr."
-    },
-    {
-      "title": "Trauer über Kontinente hinweg: Wenn am Ende der Reise ein Sarg steht",
-      "link": "https://taz.de/Trauer-ueber-Kontinente-hinweg/!6182537/",
-      "desc": "Distanz ist politisch: Die einen können kommen, zu einer Beerdigung oder einer Hochzeit, die anderen nur mit Visum. Dann wird es schrecklich konkret. "
-    },
-    {
-      "title": "Nahrungsergänzungsmittel: Ashwagandha: beliebt, unkontrolliert, gefährlich",
-      "link": "https://taz.de/Nahrungsergaenzungsmittel/!6180781/",
-      "desc": "In­flu­en­ce­r:in­nen loben die Schlafbeere als Wundermittel. Doch Leberschäden, dünne Studienlage und fehlende Regulierung erzählen eine andere Gesch"
-    }
-  ],
-  "reddit": [
-    {
-      "title": "Parts bin build",
-      "link": "https://www.reddit.com/r/xbiking/comments/1ts1cws/parts_bin_build/",
-      "thumb": "https://preview.redd.it/esd5xt02ba4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=4583bb80c2ccfd527b49af17a798783366c8255a",
-      "desc": ""
-    },
-    {
-      "title": "Robin Gemperle wins Unbound Gravel XL on 32 inch wheels",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1ts65bt/robin_gemperle_wins_unbound_gravel_xl_on_32_inch/",
-      "thumb": "https://external-preview.redd.it/HIiMwmzdnlhyhkFNx5RLbRKnKXtS0dzzO6OmdjPGuoc.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a989799eebfd73875d94cdbc9363724295dc0fba",
-      "desc": ""
-    },
-    {
-      "title": "Real recognize real",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1ts5p5l/real_recognize_real/",
-      "thumb": "https://preview.redd.it/fxpt3jqo5b4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5869449be11ee5d3be5af47a2b6b82040d1a0f79",
-      "desc": ""
-    },
-    {
-      "title": "AliExpress slop BXT 135 “my mom says I’m cool” build",
-      "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tsdtoc/aliexpress_slop_bxt_135_my_mom_says_im_cool_build/",
-      "thumb": "",
-      "desc": ""
-    },
-    {
-      "title": "First 40 mile.",
-      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1ts7uxg/first_40_mile/",
-      "thumb": "https://preview.redd.it/oj8z19pxkb4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=290cbc494fc2226a3e8ca0dd7597197597ebd8b3",
-      "desc": ""
-    }
-  ]
+  "tagesschau": [],
+  "taz": [],
+  "reddit": [],
+  "ndr_audio": {
+    "title": "",
+    "pub_date": "",
+    "audio_url": "",
+    "duration": ""
+  }
 }

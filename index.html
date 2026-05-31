@@ -18,17 +18,13 @@
   .header-right { text-align: right; }
   .header-right h1 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
   .header-right p { font-family: 'Source Sans 3', sans-serif; font-size: 12px; color: #888; margin-top: 2px; }
-
   .main { max-width: 1200px; margin: 0 auto; padding: 20px 20px 60px; }
-
   .news-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   @media (max-width: 700px) { .news-row { grid-template-columns: 1fr; } }
-
   .card { background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
   .card-full { background: #fff; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
   .card-header { padding: 14px 20px; border-bottom: 1px solid #e8e4df; }
   .card-label { font-family: 'Source Sans 3', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; }
-
   .weather-temp { font-family: 'Playfair Display', serif; font-size: 48px; font-weight: 700; line-height: 1; }
   .weather-desc { font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #666; margin-top: 4px; }
   .weather-meta { margin-left: auto; text-align: right; font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #888; line-height: 1.8; }
@@ -41,19 +37,16 @@
   .forecast-temps { font-family: 'Source Sans 3', sans-serif; font-size: 13px; margin-top: 6px; }
   .forecast-rain { font-size: 11px; color: #aac4e0; margin-top: 3px; font-family: 'Source Sans 3', sans-serif; }
   .forecast-day.today .forecast-rain { color: #88aacc; }
-
   .tabs { display: flex; border-bottom: 1px solid #e8e4df; }
   .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer; font-family: 'Source Sans 3', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 20px; color: #999; transition: all 0.2s; margin-bottom: -1px; }
   .tab-btn.active { border-bottom-color: #1a1a1a; color: #1a1a1a; }
   .tab-content { display: none; padding: 0 20px; }
   .tab-content.active { display: block; }
-
   .headline { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: block; color: inherit; transition: background 0.15s; }
   .headline:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
   .headline:last-child { border-bottom: none; }
   .headline h3 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 700; line-height: 1.35; margin-bottom: 3px; }
   .headline p { font-family: 'Source Sans 3', sans-serif; font-size: 13px; color: #777; line-height: 1.5; }
-
   .reddit-post { border-bottom: 1px solid #e8e4df; padding: 12px 0; text-decoration: none; display: flex; gap: 12px; align-items: flex-start; color: inherit; transition: background 0.15s; }
   .reddit-post:hover { background: #f0ede8; margin: 0 -20px; padding: 12px 20px; }
   .reddit-post:last-child { border-bottom: none; }
@@ -61,12 +54,27 @@
   .reddit-post h3 { font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 700; line-height: 1.35; }
   .reddit-posts { padding: 0 20px; }
 
-  /* Ship map */
-  .ship-map-wrapper { width: 100%; height: 340px; position: relative; overflow: hidden; }
+  /* NDR Audio Player */
+  .audio-player { padding: 20px 24px; display: flex; align-items: center; gap: 20px; }
+  .play-btn {
+    width: 52px; height: 52px; border-radius: 50%; background: #1a1a1a; border: none;
+    cursor: pointer; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s;
+  }
+  .play-btn:hover { background: #333; }
+  .play-btn svg { width: 20px; height: 20px; fill: #f7f5f2; margin-left: 3px; }
+  .play-btn.playing svg { margin-left: 0; }
+  .audio-info { flex: 1; }
+  .audio-title { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 700; line-height: 1.3; margin-bottom: 4px; }
+  .audio-meta { font-family: 'Source Sans 3', sans-serif; font-size: 12px; color: #888; }
+  .audio-progress { margin-top: 10px; }
+  .progress-bar { width: 100%; height: 3px; background: #e8e4df; border-radius: 2px; cursor: pointer; position: relative; }
+  .progress-fill { height: 100%; background: #1a1a1a; border-radius: 2px; width: 0%; transition: width 0.1s linear; }
+  .audio-times { display: flex; justify-content: space-between; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; margin-top: 4px; }
+
+  .ship-map-wrapper { width: 100%; height: 340px; overflow: hidden; }
   .ship-map-wrapper iframe { width: 100%; height: 100%; border: none; display: block; }
-
   #news-updated { padding: 6px 20px; font-family: 'Source Sans 3', sans-serif; font-size: 11px; color: #bbb; border-bottom: 1px solid #e8e4df; }
-
   .loading { padding: 28px; text-align: center; font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #bbb; }
   .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #ddd; border-top-color: #888; border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -87,6 +95,12 @@
 </header>
 
 <div class="main">
+
+  <!-- NDR Audio – ganz oben -->
+  <div class="card-full" id="ndr-card">
+    <div class="card-header"><span class="card-label">NDR Info · Nachrichten</span></div>
+    <div id="ndr-player"><div class="loading"><span class="spinner"></span>Lade Nachrichtenclip…</div></div>
+  </div>
 
   <!-- Wetter -->
   <div class="card-full">
@@ -109,7 +123,6 @@
         <div class="loading"><span class="spinner"></span>Lade Schlagzeilen…</div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-label">Reddit · Bike</span></div>
       <div class="reddit-posts" id="reddit-posts">
@@ -120,26 +133,23 @@
 
   <!-- Schifftracking -->
   <div class="card-full">
-    <div class="card-header"><span class="card-label">Schiffverkehr · Mittellandkanal bei Otto Müller</span></div>
+    <div class="card-header"><span class="card-label">Schiffverkehr · Mittellandkanal</span></div>
     <div class="ship-map-wrapper">
       <script type="text/javascript">
-        var width    = "100%";
-        var height   = "340";
-        var latitude = "52.4163";
-        var longitude= "9.7169";
-        var zoom     = "15";
-        var names    = true;
+        var width="100%"; var height="340"; var latitude="52.4163"; var longitude="9.7169"; var zoom="15"; var names=true;
       </script>
       <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
     </div>
   </div>
 
-  <footer>Quellen: Tagesschau · taz · Reddit · Open-Meteo · VesselFinder · GitHub Actions</footer>
+  <footer>Quellen: NDR Info · Tagesschau · taz · Reddit · Open-Meteo · VesselFinder · GitHub Actions</footer>
 </div>
 
 <script>
 const DAYS = ["So","Mo","Di","Mi","Do","Fr","Sa"];
 const MONTHS = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+let audioEl = null;
+let isPlaying = false;
 
 function updateClock() {
   const now = new Date();
@@ -153,6 +163,89 @@ function switchTab(name) {
   document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', ['tagesschau','taz'][i] === name));
   document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
+}
+
+function formatTime(s) {
+  if (!s || isNaN(s)) return '0:00';
+  const m = Math.floor(s/60), sec = Math.floor(s%60);
+  return `${m}:${sec.toString().padStart(2,'0')}`;
+}
+
+function renderAudioPlayer(data) {
+  const el = document.getElementById('ndr-player');
+  if (!data || !data.audio_url) {
+    el.innerHTML = `<div class="loading error">⚠️ Kein Clip verfügbar</div>`;
+    return;
+  }
+  const pubDate = data.pub_date ? new Date(data.pub_date).toLocaleString('de-DE', {weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}) : '';
+  el.innerHTML = `
+    <div class="audio-player">
+      <button class="play-btn" id="play-btn" onclick="togglePlay('${data.audio_url}')">
+        <svg id="play-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+      </button>
+      <div class="audio-info">
+        <div class="audio-title">${data.title}</div>
+        <div class="audio-meta">${pubDate}${data.duration ? ' · ' + data.duration : ''}</div>
+        <div class="audio-progress">
+          <div class="progress-bar" onclick="seekAudio(event, this)">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <div class="audio-times">
+            <span id="time-current">0:00</span>
+            <span id="time-total">--:--</span>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function togglePlay(url) {
+  if (!audioEl) {
+    audioEl = new Audio(url);
+    audioEl.addEventListener('timeupdate', () => {
+      const pct = audioEl.duration ? (audioEl.currentTime / audioEl.duration * 100) : 0;
+      const fill = document.getElementById('progress-fill');
+      const cur = document.getElementById('time-current');
+      if (fill) fill.style.width = pct + '%';
+      if (cur) cur.textContent = formatTime(audioEl.currentTime);
+    });
+    audioEl.addEventListener('loadedmetadata', () => {
+      const tot = document.getElementById('time-total');
+      if (tot) tot.textContent = formatTime(audioEl.duration);
+    });
+    audioEl.addEventListener('ended', () => {
+      isPlaying = false;
+      updatePlayBtn(false);
+    });
+  }
+  if (isPlaying) {
+    audioEl.pause();
+    isPlaying = false;
+  } else {
+    audioEl.play();
+    isPlaying = true;
+  }
+  updatePlayBtn(isPlaying);
+}
+
+function updatePlayBtn(playing) {
+  const icon = document.getElementById('play-icon');
+  const btn = document.getElementById('play-btn');
+  if (!icon) return;
+  if (playing) {
+    icon.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+    btn.classList.add('playing');
+  } else {
+    icon.innerHTML = '<polygon points="5,3 19,12 5,21"/>';
+    btn.classList.remove('playing');
+  }
+}
+
+function seekAudio(e, bar) {
+  if (!audioEl || !audioEl.duration) return;
+  const rect = bar.getBoundingClientRect();
+  const pct = (e.clientX - rect.left) / rect.width;
+  audioEl.currentTime = pct * audioEl.duration;
 }
 
 const W_ICONS = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',80:'🌦️',81:'🌧️',82:'⛈️',95:'⛈️',96:'⛈️',99:'⛈️'};
@@ -200,15 +293,9 @@ function renderNews(items, tabId) {
 
 function renderReddit(items) {
   const el = document.getElementById('reddit-posts');
-  if (!items || !items.length) {
-    el.innerHTML = `<div class="loading error">⚠️ Keine Posts verfügbar</div>`;
-    return;
-  }
+  if (!items || !items.length) { el.innerHTML = `<div class="loading error">⚠️ Keine Posts verfügbar</div>`; return; }
   const withImages = items.filter(item => item.thumb);
-  if (!withImages.length) {
-    el.innerHTML = `<div class="loading error">⚠️ Keine Posts mit Bildern verfügbar</div>`;
-    return;
-  }
+  if (!withImages.length) { el.innerHTML = `<div class="loading error">⚠️ Keine Posts mit Bildern</div>`; return; }
   el.innerHTML = withImages.map(item => `
     <a class="reddit-post" href="${item.link}" target="_blank" rel="noopener">
       <img class="reddit-thumb" src="${item.thumb}" alt="" onerror="this.parentElement.style.display='none'">
@@ -221,6 +308,7 @@ async function loadNews() {
     const r = await fetch(`news.json?t=${Date.now()}`);
     if (!r.ok) throw new Error('news.json nicht gefunden');
     const data = await r.json();
+    renderAudioPlayer(data.ndr_audio);
     renderNews(data.tagesschau, 'tab-tagesschau');
     renderNews(data.taz, 'tab-taz');
     renderReddit(data.reddit);
@@ -229,6 +317,7 @@ async function loadNews() {
     document.getElementById('news-updated').textContent =
       `Zuletzt aktualisiert: ${pad(updated.getHours())}:${pad(updated.getMinutes())} Uhr`;
   } catch(e) {
+    document.getElementById('ndr-player').innerHTML = `<div class="loading error">⚠️ ${e.message}</div>`;
     ['tab-tagesschau','tab-taz'].forEach(id => {
       document.getElementById(id).innerHTML = `<div class="loading error">⚠️ ${e.message}</div>`;
     });
