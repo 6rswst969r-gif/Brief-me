@@ -3,370 +3,278 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Morgen-Briefing · Hannover</title>
+<title>Morgen-Briefing</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
   :root {
-    --bg: #f2f2f7;
-    --card: #ffffff;
-    --label: rgba(60,60,67,0.6);
+    --accent: #007aff;
     --text: #1c1c1e;
     --text2: rgba(60,60,67,0.6);
     --text3: rgba(60,60,67,0.3);
-    --accent: #007aff;
-    --border: rgba(60,60,67,0.1);
-    --radius: 16px;
-    --radius-sm: 10px;
+    --border: rgba(255,255,255,0.55);
+    --border-inner: rgba(0,0,0,0.06);
+    --radius: 20px;
+    --radius-sm: 12px;
   }
-
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
-
   body {
-    background: var(--bg);
     font-family: 'Inter', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: var(--text);
     min-height: 100vh;
+    background:
+      radial-gradient(ellipse at 15% 15%, rgba(255,200,220,0.55) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 10%, rgba(255,180,210,0.35) 0%, transparent 45%),
+      radial-gradient(ellipse at 55% 80%, rgba(255,220,235,0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at 5% 85%, rgba(255,240,245,0.4) 0%, transparent 45%),
+      linear-gradient(160deg, #fff5f8 0%, #ffe8f0 40%, #fff0f5 100%);
+    background-attachment: fixed;
   }
 
   /* HEADER */
   .header {
-    background: rgba(255,255,255,0.72);
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.38);
+    backdrop-filter: saturate(220%) blur(32px);
+    -webkit-backdrop-filter: saturate(220%) blur(32px);
+    border-bottom: 1px solid rgba(255,255,255,0.55);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 4px 24px rgba(0,0,0,0.03);
     padding: 16px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    display: flex; justify-content: space-between; align-items: center;
+    position: sticky; top: 0; z-index: 100;
   }
-  #clock {
-    font-size: 38px;
-    font-weight: 700;
-    letter-spacing: -1.5px;
-    line-height: 1;
-  }
-  #datestr {
-    font-size: 13px;
-    font-weight: 400;
-    color: var(--text2);
-    margin-top: 3px;
-  }
-  .header-right { text-align: right; }
-  .header-title { font-size: 17px; font-weight: 600; }
-  .header-sub { font-size: 13px; color: var(--text2); margin-top: 2px; }
+  .header-left {}
+  #clock { font-size: 38px; font-weight: 700; letter-spacing: -1.5px; line-height: 1; }
+  #datestr { font-size: 13px; color: var(--text2); margin-top: 2px; }
+  #location { font-size: 12px; color: var(--text3); margin-top: 1px; }
 
-  /* LAYOUT */
-  .main {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px 16px 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
+  /* MAIN */
+  .main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 60px; display: flex; flex-direction: column; gap: 14px; }
 
+  /* GLASS CARD */
   .card {
-    background: var(--card);
+    background: rgba(255,255,255,0.45);
+    backdrop-filter: saturate(180%) blur(24px);
+    -webkit-backdrop-filter: saturate(180%) blur(24px);
     border-radius: var(--radius);
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0 2px 0 rgba(255,255,255,0.6) inset, 0 8px 32px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
     overflow: hidden;
   }
-  .card-header {
-    padding: 14px 18px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .card-label {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text2);
-  }
-  .card-meta {
-    font-size: 12px;
-    color: var(--text3);
-  }
+  .card-header { padding: 14px 18px 0; display: flex; justify-content: space-between; align-items: center; }
+  .card-label { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text2); }
+  .card-meta { font-size: 12px; color: var(--text3); }
 
-  /* NDR AUDIO */
-  .audio-wrap {
-    padding: 16px 18px 18px;
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
+  /* TOP ROW */
+  .top-row { display: grid; grid-template-columns: 1fr 1.6fr; gap: 14px; }
+
+  /* AUDIO */
+  .audio-wrap { padding: 16px 18px 18px; display: flex; align-items: center; gap: 14px; }
   .play-btn {
-    width: 46px; height: 46px;
-    border-radius: 50%;
-    background: var(--accent);
-    border: none; cursor: pointer;
-    flex-shrink: 0;
+    width: 46px; height: 46px; border-radius: 50%;
+    background: rgba(0,122,255,0.82);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 2px 0 rgba(255,255,255,0.3) inset, 0 4px 16px rgba(0,122,255,0.4), 0 1px 4px rgba(0,0,0,0.08);
+    cursor: pointer; flex-shrink: 0;
     display: flex; align-items: center; justify-content: center;
-    transition: transform 0.1s, opacity 0.1s;
+    transition: transform 0.1s, box-shadow 0.15s;
     -webkit-tap-highlight-color: transparent;
   }
-  .play-btn:active { transform: scale(0.92); opacity: 0.85; }
+  .play-btn:active { transform: scale(0.92); }
+  .play-btn:hover { box-shadow: 0 2px 0 rgba(255,255,255,0.3) inset, 0 6px 24px rgba(0,122,255,0.55), 0 1px 4px rgba(0,0,0,0.08); }
   .play-btn svg { width: 18px; height: 18px; fill: #fff; margin-left: 2px; }
   .play-btn.playing svg { margin-left: 0; }
   .audio-info { flex: 1; min-width: 0; }
   .audio-title { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
   .audio-meta { font-size: 12px; color: var(--text2); margin-bottom: 10px; }
-  .progress-bar {
-    width: 100%; height: 8px;
-    background: var(--border);
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-  }
-  .progress-fill {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 4px;
-    width: 0%;
-    pointer-events: none;
-    transition: width 0.1s linear;
-  }
-  .progress-handle {
-    position: absolute;
-    top: 50%; transform: translate(-50%, -50%);
-    width: 16px; height: 16px;
-    border-radius: 50%;
-    background: var(--accent);
-    left: 0%;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.15s;
-    box-shadow: 0 1px 4px rgba(0,122,255,0.4);
-  }
-  .progress-bar:hover .progress-handle,
-  .progress-bar:active .progress-handle { opacity: 1; }
+  .progress-bar { width: 100%; height: 8px; background: rgba(0,0,0,0.08); border-radius: 4px; cursor: pointer; position: relative; border: 1px solid rgba(255,255,255,0.4); }
+  .progress-fill { height: 100%; background: rgba(0,122,255,0.8); border-radius: 4px; width: 0%; pointer-events: none; }
+  .progress-handle { position: absolute; top: 50%; transform: translate(-50%,-50%); width: 16px; height: 16px; border-radius: 50%; background: var(--accent); left: 0%; pointer-events: none; opacity: 0; transition: opacity 0.15s; box-shadow: 0 1px 4px rgba(0,122,255,0.4); }
+  .progress-bar:hover .progress-handle, .progress-bar:active .progress-handle { opacity: 1; }
   .audio-times { display: flex; justify-content: space-between; font-size: 11px; color: var(--text3); margin-top: 5px; }
 
-  /* WETTER */
-  .weather-main {
-    padding: 16px 18px;
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .weather-icon-wrap { font-size: 52px; line-height: 1; flex-shrink: 0; }
-  .weather-temp-big { font-size: 48px; font-weight: 300; letter-spacing: -2px; line-height: 1; }
-  .weather-desc-line { font-size: 14px; color: var(--text2); margin-top: 4px; }
-  .weather-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    background: var(--border);
-    border-top: 1px solid var(--border);
-  }
-  .weather-stat {
-    background: var(--card);
-    padding: 12px 14px;
-  }
+  /* WEATHER */
+  .weather-main { padding: 16px 18px; display: flex; gap: 16px; align-items: flex-start; }
+  .weather-icon { font-size: 52px; line-height: 1; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.08)); }
+  .weather-temp { font-size: 48px; font-weight: 300; letter-spacing: -2px; line-height: 1; }
+  .weather-desc { font-size: 14px; color: var(--text2); margin-top: 4px; }
+  .weather-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: rgba(0,0,0,0.05); border-top: 1px solid rgba(255,255,255,0.5); }
+  .weather-stat { background: rgba(255,255,255,0.3); backdrop-filter: blur(8px); padding: 12px 14px; transition: background 0.2s; }
+  .weather-stat:hover { background: rgba(255,255,255,0.5); }
   .weather-stat-label { font-size: 10px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 3px; }
   .weather-stat-value { font-size: 16px; font-weight: 600; }
   .weather-stat-sub { font-size: 11px; color: var(--text2); margin-top: 1px; }
 
-  /* NEWS TICKER */
+  /* NEWS ROW */
+  .news-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+  /* TICKER */
+  .ticker-section { border-top: 1px solid rgba(255,255,255,0.45); }
+  .ticker-section:first-child { border-top: none; }
+  .ticker-label { padding: 8px 18px 0; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text3); }
   .ticker-outer {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: auto; overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    padding: 14px 0;
+    padding: 10px 0;
     position: relative;
     cursor: grab;
+    background: rgba(255,255,255,0.15);
   }
   .ticker-outer:active { cursor: grabbing; }
   .ticker-outer::-webkit-scrollbar { display: none; }
-  .ticker-outer::before, .ticker-outer::after {
-    content: '';
-    position: absolute;
-    top: 0; bottom: 0;
-    width: 36px;
-    z-index: 2;
-    pointer-events: none;
-  }
-  .ticker-outer::before { left: 0; background: linear-gradient(to right, var(--card), transparent); }
-  .ticker-outer::after { right: 0; background: linear-gradient(to left, var(--card), transparent); }
-  .ticker-track {
-    display: flex;
-    gap: 0;
-    animation: ticker-scroll 50s linear infinite;
-    white-space: nowrap;
-    width: max-content;
-  }
+  .ticker-outer::before, .ticker-outer::after { content:''; position:absolute; top:0; bottom:0; width:36px; z-index:2; pointer-events:none; }
+  .ticker-outer::before { left:0; background: linear-gradient(to right, rgba(255,255,255,0.45), transparent); }
+  .ticker-outer::after { right:0; background: linear-gradient(to left, rgba(255,255,255,0.45), transparent); }
+  .ticker-track { display:flex; animation: ticker-scroll 50s linear infinite; white-space: nowrap; width: max-content; }
   .ticker-track.paused { animation-play-state: paused; }
-  @keyframes ticker-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-  .ticker-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 0 24px;
-    text-decoration: none;
-    color: var(--text);
-  }
-  .ticker-source { font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; flex-shrink: 0; }
-  .ticker-title { font-size: 14px; font-weight: 400; }
-  .ticker-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
+  @keyframes ticker-scroll { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+  .ticker-item { display:inline-flex; align-items:center; gap:10px; padding:0 20px; text-decoration:none; color:var(--text); }
+  .ticker-source { font-size:10px; font-weight:700; color:var(--accent); text-transform:uppercase; letter-spacing:0.05em; flex-shrink:0; }
+  .ticker-title { font-size:13px; font-weight:400; }
+  .ticker-dot { width:3px; height:3px; border-radius:50%; background:var(--text3); flex-shrink:0; }
 
-  /* BOTTOM GRID */
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-  }
+  /* BOTTOM ROW */
+  .bottom-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
   /* REDDIT */
   .reddit-list { padding: 6px 0 4px; }
-  .reddit-post {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: var(--text);
-    border-bottom: 1px solid var(--border);
-    transition: background 0.12s;
-  }
-  .reddit-post:last-child { border-bottom: none; }
-  .reddit-post:hover { background: var(--bg); }
-  .reddit-thumb {
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    display: block;
-    background: var(--bg);
-  }
-  .reddit-post-title {
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text2);
-    padding: 7px 14px 8px;
-    line-height: 1.35;
-  }
+  .reddit-post { display:flex; flex-direction:column; border-bottom: 1px solid rgba(255,255,255,0.45); text-decoration:none; color:var(--text); transition: background 0.12s; }
+  .reddit-post:last-child { border-bottom:none; }
+  .reddit-post:hover { background: rgba(255,255,255,0.3); }
+  .reddit-thumb { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+  .reddit-post-title { font-size:11px; font-weight:500; color:var(--text2); padding:7px 14px 8px; line-height:1.35; }
 
-  /* SHIP MAP */
-  .ship-map-wrap {
-    width: 100%; height: 300px;
-    overflow: hidden;
-  }
-  .ship-map-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
+  /* SHIP */
+  .ship-map-wrap { width:100%; height:300px; overflow:hidden; }
+  .ship-map-wrap iframe { width:100%; height:100%; border:none; display:block; }
 
+  /* UTILS */
   .loading { padding: 24px; text-align: center; font-size: 14px; color: var(--text3); }
-  .spinner {
-    display: inline-block; width: 16px; height: 16px;
-    border: 2px solid var(--border); border-top-color: var(--accent);
-    border-radius: 50%; animation: spin 0.7s linear infinite;
-    vertical-align: middle; margin-right: 6px;
-  }
+  .spinner { display:inline-block; width:16px; height:16px; border:2px solid rgba(0,0,0,0.08); border-top-color:var(--accent); border-radius:50%; animation:spin 0.7s linear infinite; vertical-align:middle; margin-right:6px; }
   @keyframes spin { to { transform: rotate(360deg); } }
   .error { color: #ff3b30; font-size: 13px; padding: 14px 18px; }
 
-  /* RESPONSIVE: iPhone 16e (393px) */
+  /* RESPONSIVE iPhone 16e */
   @media (max-width: 430px) {
     .header { padding: 12px 16px; }
     #clock { font-size: 30px; letter-spacing: -1px; }
-    #datestr { font-size: 12px; }
-    .header-title { font-size: 15px; }
     .main { padding: 12px 12px 48px; gap: 10px; }
-    .grid-2 { grid-template-columns: 1fr; }
-    .weather-temp-big { font-size: 40px; }
-    .weather-icon-wrap { font-size: 42px; }
-    .weather-grid { grid-template-columns: repeat(2, 1fr); }
+    .top-row, .news-row, .bottom-row { grid-template-columns: 1fr; }
+    .weather-temp { font-size: 40px; }
+    .weather-icon { font-size: 42px; }
+    .weather-grid { grid-template-columns: repeat(2,1fr); }
     .ship-map-wrap { height: 220px; }
-    .audio-wrap { gap: 10px; }
-    .play-btn { width: 40px; height: 40px; }
   }
 
-  /* RESPONSIVE: iPad Air M3 (820px+) */
+  /* RESPONSIVE iPad Air M3 */
   @media (min-width: 768px) and (max-width: 1100px) {
-    .main { padding: 24px 24px 60px; gap: 16px; }
+    .main { padding: 24px 24px 60px; }
     #clock { font-size: 44px; }
-    .weather-temp-big { font-size: 56px; }
-    .weather-icon-wrap { font-size: 60px; }
-    .weather-grid { grid-template-columns: repeat(3, 1fr); }
-    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .weather-temp { font-size: 56px; }
+    .weather-icon { font-size: 60px; }
     .ship-map-wrap { height: 340px; }
-    .reddit-post-title { font-size: 12px; }
   }
 
-  footer { text-align: center; font-size: 11px; color: var(--text3); margin-top: 4px; }
+  footer { text-align:center; font-size:11px; color:var(--text3); margin-top:4px; }
 </style>
 </head>
 <body>
 
 <header class="header">
-  <div>
+  <div class="header-left">
     <div id="clock">--:--</div>
     <div id="datestr"></div>
-  </div>
-  <div class="header-right">
-    <div class="header-title">Guten Morgen.</div>
-    <div class="header-sub">Hannover</div>
+    <div id="location">Hannover</div>
   </div>
 </header>
 
 <div class="main">
 
-  <!-- NDR -->
-  <div class="card">
-    <div class="card-header">
-      <span class="card-label">NDR Info</span>
-      <span class="card-meta" id="ndr-meta"></span>
-    </div>
-    <div id="ndr-player"><div class="loading"><span class="spinner"></span>Lade Nachrichtenclip…</div></div>
-  </div>
+  <!-- ROW 1: Player + Wetter -->
+  <div class="top-row">
 
-  <!-- Wetter -->
-  <div class="card">
-    <div class="card-header">
-      <span class="card-label">Wetter</span>
-      <span class="card-meta" id="weather-date"></span>
-    </div>
-    <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
-  </div>
-
-  <!-- Ticker -->
-  <div class="card">
-    <div class="card-header">
-      <span class="card-label">Nachrichten</span>
-      <span class="card-meta" id="news-updated"></span>
-    </div>
-    <div class="ticker-outer" id="ticker-outer">
-      <div class="ticker-track" id="ticker-track">
-        <div class="loading"><span class="spinner"></span>Lade…</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Reddit + Schiffe -->
-  <div class="grid-2">
     <div class="card">
-      <div class="card-header" style="padding-bottom:8px">
-        <span class="card-label">Reddit · Bike</span>
+      <div class="card-header">
+        <span class="card-label">NDR Info</span>
+        <span class="card-meta" id="ndr-meta"></span>
       </div>
-      <div class="reddit-list" id="reddit-posts">
-        <div class="loading"><span class="spinner"></span>Lade Posts…</div>
+      <div id="ndr-player"><div class="loading"><span class="spinner"></span>Lade…</div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-label">Wetter</span>
+        <span class="card-meta" id="weather-date"></span>
+      </div>
+      <div id="weather-body"><div class="loading"><span class="spinner"></span>Lade Wetterdaten…</div></div>
+    </div>
+
+  </div>
+
+  <!-- ROW 2: News1 + News2 -->
+  <div class="news-row">
+
+    <!-- News 1: Tagesschau + taz -->
+    <div class="card">
+      <div class="card-header"><span class="card-label">Nachrichten</span><span class="card-meta" id="news-updated"></span></div>
+      <div class="ticker-section">
+        <div class="ticker-label">Tagesschau</div>
+        <div class="ticker-outer" id="to-tagesschau">
+          <div class="ticker-track" id="tt-tagesschau"><div class="loading"><span class="spinner"></span></div></div>
+        </div>
+      </div>
+      <div class="ticker-section">
+        <div class="ticker-label">taz</div>
+        <div class="ticker-outer" id="to-taz">
+          <div class="ticker-track" id="tt-taz"><div class="loading"><span class="spinner"></span></div></div>
+        </div>
       </div>
     </div>
+
+    <!-- News 2: Bundestag -->
     <div class="card">
-      <div class="card-header" style="padding-bottom:0">
-        <span class="card-label">Mittellandkanal</span>
+      <div class="card-header"><span class="card-label">Bundestag</span></div>
+      <div class="ticker-section">
+        <div class="ticker-label">Aktuelle Themen</div>
+        <div class="ticker-outer" id="to-bt1">
+          <div class="ticker-track" id="tt-bt1"><div class="loading"><span class="spinner"></span></div></div>
+        </div>
       </div>
+      <div class="ticker-section">
+        <div class="ticker-label">Pressemitteilungen</div>
+        <div class="ticker-outer" id="to-bt2">
+          <div class="ticker-track" id="tt-bt2"><div class="loading"><span class="spinner"></span></div></div>
+        </div>
+      </div>
+      <div class="ticker-section">
+        <div class="ticker-label">Kurzmeldungen (hib)</div>
+        <div class="ticker-outer" id="to-bt3">
+          <div class="ticker-track" id="tt-bt3"><div class="loading"><span class="spinner"></span></div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW 3: Reddit + Schiffe -->
+  <div class="bottom-row">
+
+    <div class="card">
+      <div class="card-header" style="padding-bottom:8px"><span class="card-label">Reddit · Bike</span></div>
+      <div class="reddit-list" id="reddit-posts"><div class="loading"><span class="spinner"></span>Lade Posts…</div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" style="padding-bottom:0"><span class="card-label">Mittellandkanal</span></div>
       <div class="ship-map-wrap">
         <script>var width="100%";var height="100%";var latitude="52.4163";var longitude="9.7169";var zoom="15";var names=true;</script>
         <script src="https://www.vesselfinder.com/aismap.js"></script>
       </div>
     </div>
+
   </div>
 
-  <footer>NDR Info · Tagesschau · taz · Reddit · Open-Meteo · VesselFinder</footer>
+  <footer>NDR Info · Tagesschau · taz · Bundestag · Reddit · Open-Meteo · VesselFinder</footer>
 </div>
 
 <script>
@@ -436,9 +344,7 @@ function updatePlayBtn(playing) {
   const icon = document.getElementById('play-icon');
   const btn = document.getElementById('play-btn');
   if (!icon) return;
-  icon.innerHTML = playing
-    ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
-    : '<polygon points="6,3 20,12 6,21"/>';
+  icon.innerHTML = playing ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>' : '<polygon points="6,3 20,12 6,21"/>';
   btn?.classList.toggle('playing', playing);
 }
 
@@ -448,6 +354,7 @@ function seekAudio(e, bar) {
   audioEl.currentTime = ((e.clientX - r.left) / r.width) * audioEl.duration;
 }
 
+// Weather
 const W_ICONS = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',80:'🌦️',81:'🌧️',82:'⛈️',95:'⛈️',96:'⛈️',99:'⛈️'};
 const W_DESC = {0:'Klarer Himmel',1:'Überwiegend klar',2:'Teilweise bewölkt',3:'Bedeckt',45:'Neblig',48:'Gefrierender Nebel',51:'Leichter Nieselregen',53:'Nieselregen',55:'Starker Nieselregen',61:'Leichter Regen',63:'Regen',65:'Starker Regen',71:'Leichter Schneefall',73:'Schneefall',75:'Starker Schneefall',80:'Regenschauer',81:'Starke Schauer',82:'Heftige Schauer',95:'Gewitter',96:'Gewitter mit Hagel',99:'Schweres Gewitter'};
 
@@ -459,11 +366,10 @@ async function loadWeather() {
     ]);
     const d = await wRes.json();
     const aq = await aqRes.json();
-    const c = d.current, dl = d.daily;
-    const now = new Date();
+    const c = d.current, dl = d.daily, now = new Date();
     const aqi = aq.current?.european_aqi ?? null;
-    const aqiLabel = !aqi ? '–' : aqi<=20?'Sehr gut':aqi<=40?'Gut':aqi<=60?'Mäßig':aqi<=80?'Schlecht':'Sehr schlecht';
-    const aqiColor = !aqi ? 'var(--text)' : aqi<=40?'#34c759':aqi<=60?'#ff9500':'#ff3b30';
+    const aqiLabel = !aqi?'–':aqi<=20?'Sehr gut':aqi<=40?'Gut':aqi<=60?'Mäßig':aqi<=80?'Schlecht':'Sehr schlecht';
+    const aqiColor = !aqi?'var(--text)':aqi<=40?'#34c759':aqi<=60?'#ff9500':'#ff3b30';
     const sunrise = new Date(dl.sunrise[0]).toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
     const sunset = new Date(dl.sunset[0]).toLocaleTimeString('de-DE', {hour:'2-digit', minute:'2-digit'});
     const precip = dl.precipitation_sum[0];
@@ -472,80 +378,46 @@ async function loadWeather() {
     document.getElementById('weather-date').textContent = `${DAYS_SHORT[now.getDay()]}, ${now.getDate()}. ${MONTHS[now.getMonth()]}`;
     document.getElementById('weather-body').innerHTML = `
       <div class="weather-main">
-        <div class="weather-icon-wrap">${W_ICONS[c.weather_code]||'🌡️'}</div>
+        <div class="weather-icon">${W_ICONS[c.weather_code]||'🌡️'}</div>
         <div>
-          <div class="weather-temp-big">${Math.round(c.temperature_2m)}°</div>
-          <div class="weather-desc-line">${W_DESC[c.weather_code]||''} · Gefühlt ${Math.round(c.apparent_temperature)}°</div>
+          <div class="weather-temp">${Math.round(c.temperature_2m)}°</div>
+          <div class="weather-desc">${W_DESC[c.weather_code]||''} · Gefühlt ${Math.round(c.apparent_temperature)}°</div>
         </div>
       </div>
       <div class="weather-grid">
-        <div class="weather-stat">
-          <div class="weather-stat-label">Hoch / Tief</div>
-          <div class="weather-stat-value">${Math.round(dl.temperature_2m_max[0])}° / ${Math.round(dl.temperature_2m_min[0])}°</div>
-        </div>
-        <div class="weather-stat">
-          <div class="weather-stat-label">Niederschlag</div>
-          <div class="weather-stat-value" style="font-size:13px;line-height:1.3">${precipText}</div>
-        </div>
-        <div class="weather-stat">
-          <div class="weather-stat-label">Luftqualität</div>
-          <div class="weather-stat-value" style="color:${aqiColor}">${aqiLabel}</div>
-          ${aqi ? `<div class="weather-stat-sub">AQI ${aqi}</div>` : ''}
-        </div>
-        <div class="weather-stat">
-          <div class="weather-stat-label">Sonnenaufgang</div>
-          <div class="weather-stat-value">${sunrise}</div>
-        </div>
-        <div class="weather-stat">
-          <div class="weather-stat-label">Sonnenuntergang</div>
-          <div class="weather-stat-value">${sunset}</div>
-        </div>
-        <div class="weather-stat">
-          <div class="weather-stat-label">Wind / Feuchte</div>
-          <div class="weather-stat-value">${Math.round(c.wind_speed_10m)} km/h</div>
-          <div class="weather-stat-sub">${c.relative_humidity_2m}% Luftfeuchte</div>
-        </div>
+        <div class="weather-stat"><div class="weather-stat-label">Hoch / Tief</div><div class="weather-stat-value">${Math.round(dl.temperature_2m_max[0])}° / ${Math.round(dl.temperature_2m_min[0])}°</div></div>
+        <div class="weather-stat"><div class="weather-stat-label">Niederschlag</div><div class="weather-stat-value" style="font-size:13px;line-height:1.3">${precipText}</div></div>
+        <div class="weather-stat"><div class="weather-stat-label">Luftqualität</div><div class="weather-stat-value" style="color:${aqiColor}">${aqiLabel}</div>${aqi?`<div class="weather-stat-sub">AQI ${aqi}</div>`:''}</div>
+        <div class="weather-stat"><div class="weather-stat-label">Sonnenaufgang</div><div class="weather-stat-value">${sunrise}</div></div>
+        <div class="weather-stat"><div class="weather-stat-label">Sonnenuntergang</div><div class="weather-stat-value">${sunset}</div></div>
+        <div class="weather-stat"><div class="weather-stat-label">Wind / Feuchte</div><div class="weather-stat-value">${Math.round(c.wind_speed_10m)} km/h</div><div class="weather-stat-sub">${c.relative_humidity_2m}% Luftfeuchte</div></div>
       </div>`;
   } catch(e) {
     document.getElementById('weather-body').innerHTML = `<div class="error">Wetter nicht verfügbar</div>`;
   }
 }
 
-function buildTicker(tagesschau, taz) {
-  const all = [
-    ...tagesschau.map(i => ({...i, src:'Tagesschau'})),
-    ...taz.map(i => ({...i, src:'taz'}))
-  ];
-  if (!all.length) {
-    document.getElementById('ticker-track').innerHTML = `<span style="padding:0 20px;font-size:14px;color:var(--text3)">Keine Nachrichten verfügbar</span>`;
-    return;
-  }
-  const items = all.map(i => `
+// Ticker builder
+function buildTicker(items, trackId, outerId, sourceLabel) {
+  const track = document.getElementById(trackId);
+  const outer = document.getElementById(outerId);
+  if (!items || !items.length) { track.innerHTML = `<span style="padding:0 20px;font-size:13px;color:var(--text3)">Keine Meldungen</span>`; return; }
+  const html = items.map(i => `
     <a class="ticker-item" href="${i.link}" target="_blank" rel="noopener">
-      <span class="ticker-source">${i.src}</span>
+      ${sourceLabel ? `<span class="ticker-source">${sourceLabel}</span>` : ''}
       <span class="ticker-title">${i.title}</span>
       <span class="ticker-dot"></span>
     </a>`).join('');
-  document.getElementById('ticker-track').innerHTML = items + items;
+  track.innerHTML = html + html;
 
-  // Manual scroll + pause on touch/drag
-  const outer = document.getElementById('ticker-outer');
-  const track = document.getElementById('ticker-track');
+  // Manual drag scroll
   let isDragging = false, startX = 0, scrollLeft = 0;
-
-  outer.addEventListener('mousedown', e => {
-    isDragging = true; startX = e.pageX - outer.offsetLeft; scrollLeft = outer.scrollLeft;
-    track.classList.add('paused');
-  });
-  outer.addEventListener('mouseleave', () => { if(isDragging) { isDragging=false; track.classList.remove('paused'); } });
+  outer.addEventListener('mousedown', e => { isDragging=true; startX=e.pageX-outer.offsetLeft; scrollLeft=outer.scrollLeft; track.classList.add('paused'); });
+  outer.addEventListener('mouseleave', () => { if(isDragging){isDragging=false; track.classList.remove('paused');} });
   outer.addEventListener('mouseup', () => { isDragging=false; track.classList.remove('paused'); });
-  outer.addEventListener('mousemove', e => {
-    if(!isDragging) return;
-    e.preventDefault();
-    outer.scrollLeft = scrollLeft - (e.pageX - outer.offsetLeft - startX);
-  });
-  outer.addEventListener('touchstart', () => track.classList.add('paused'), {passive:true});
-  outer.addEventListener('touchend', () => setTimeout(() => track.classList.remove('paused'), 2000), {passive:true});
+  outer.addEventListener('mousemove', e => { if(!isDragging)return; e.preventDefault(); outer.scrollLeft=scrollLeft-(e.pageX-outer.offsetLeft-startX); });
+  outer.addEventListener('touchstart', ()=>track.classList.add('paused'),{passive:true});
+  outer.addEventListener('touchend', ()=>setTimeout(()=>track.classList.remove('paused'),2000),{passive:true});
 }
 
 function renderReddit(items) {
@@ -565,14 +437,22 @@ async function loadData() {
     const r = await fetch(`news.json?t=${Date.now()}`);
     if (!r.ok) throw new Error('news.json nicht gefunden');
     const data = await r.json();
+
     renderAudio(data.ndr_audio);
-    buildTicker(data.tagesschau||[], data.taz||[]);
+
+    buildTicker(data.tagesschau, 'tt-tagesschau', 'to-tagesschau', null);
+    buildTicker(data.taz, 'tt-taz', 'to-taz', null);
+    buildTicker(data.bt_themen, 'tt-bt1', 'to-bt1', null);
+    buildTicker(data.bt_presse, 'tt-bt2', 'to-bt2', null);
+    buildTicker(data.bt_hib, 'tt-bt3', 'to-bt3', null);
+
     renderReddit(data.reddit);
+
     const updated = new Date(r.headers.get('last-modified') || Date.now());
     const pad = n => String(n).padStart(2,'0');
     document.getElementById('news-updated').textContent = `${pad(updated.getHours())}:${pad(updated.getMinutes())} Uhr`;
   } catch(e) {
-    ['ticker-track','reddit-posts','ndr-player'].forEach(id => {
+    ['tt-tagesschau','tt-taz','tt-bt1','tt-bt2','tt-bt3','reddit-posts','ndr-player'].forEach(id => {
       const el = document.getElementById(id);
       if (el) el.innerHTML = `<div class="error">${e.message}</div>`;
     });
