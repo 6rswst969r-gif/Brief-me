@@ -1,6 +1,21 @@
 {
   "tagesschau": [
     {
+      "title": "Gewitter beschädigt Kunstinstallation an der Pont Neuf",
+      "link": "https://www.tagesschau.de/ausland/europa/la-caverne-du-pont-neuf-102.html",
+      "desc": "Starker Wind hat die Kunstinstallation \"La Caverne du Pont Neuf\" in Paris beschädigt. Die Hommage an die Künstler Christo und Jeanne Claude sollte am "
+    },
+    {
+      "title": "Britische Polizei unter Druck im Fall eines getöteten Studenten",
+      "link": "https://www.tagesschau.de/ausland/europa/london-messerangriff-haft-100.html",
+      "desc": "Ende 2025 stirbt ein britischer Student nach einem Messerangriff auf der Straße - im Beisein von Polizisten. Diese hatten Täter und Opfer verwechselt."
+    },
+    {
+      "title": "USA führen freiwilligen Sicherheitstest für neue KI-Modelle ein",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-erlass-ki-sicherheitspruefung-100.html",
+      "desc": "Kehrtwende in Trumps Umgang mit KI: Wollte der US-Präsident zuvor nicht in die Branche eingreifen, führt er nun per Erlass einen freiwilligen Sicherhe"
+    },
+    {
       "title": "Die erwarteten Mega-Börsengänge des Jahres an der Wall Street",
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/boersengaenge-wall-street-100.html",
       "desc": "Nach dem Raumfahrtkonzern SpaceX hat nun auch das KI-Schwergewicht Anthropic einen Börsengang in den USA beantragt. Daneben wollen auch weitere namhaf"
@@ -9,21 +24,6 @@
       "title": "Marktbericht: KI-Hype schlägt Iran-Sorgen",
       "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-euro-dollar-106.html",
       "desc": "Die ungebrochene Euphorie rund um Künstliche Intelligenz hat an der Börse einmal mehr die Unsicherheit wegen des Iran-Konflikts überlagert. Der DAX ko"
-    },
-    {
-      "title": "Mikrozensus: Mehr als jeder zweite Erwachsene ist übergewichtig",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/uebergewicht-deutschland-mikrozensus-100.html",
-      "desc": "Mit einem Body-Mass-Index über 25 gilt man laut WHO als übergewichtig. In Deutschland trifft das mehr als die Hälfte aller Erwachsenen zu. Während die"
-    },
-    {
-      "title": "Kommentar zu Abschiebezentren: In der Praxis wird das schwierig werden",
-      "link": "https://www.tagesschau.de/kommentar/eu-abschiebungen-drittstaaten-100.html",
-      "desc": "Rückkehrzentren in Drittstaaten einzurichten, verschiebt nur ein Grundproblem der Migrationspolitik, meint Andreas Meyer-Feist. Die EU sollte keine fa"
-    },
-    {
-      "title": "Lob und Kritik für den verschärften EU-Migrationskurs",
-      "link": "https://www.tagesschau.de/ausland/europa/eu-asylpolitik-reaktionen-100.html",
-      "desc": "Die EU setzt ihren strikten Kurs bei der Migrationspolitik fort und löst damit unterschiedliche Reaktionen aus. Für manche Befürworter war die erzielt"
     }
   ],
   "taz": [
@@ -61,15 +61,15 @@
       "desc": ""
     },
     {
-      "title": "Old reliable",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tus1nl/old_reliable/",
-      "thumb": "https://preview.redd.it/qwk6c5ntmv4h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=8968dc7da9fa79de524bb37f1a85350447dc1d4a",
+      "title": "Unbound 100 recap from a newbie cyclist and first-time racer",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tv4lju/unbound_100_recap_from_a_newbie_cyclist_and/",
+      "thumb": "https://preview.redd.it/970w8vk7sx4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=9af028de8bbb92a0528816faad7b78d05179079a",
       "desc": ""
     },
     {
-      "title": "Unbound 2026: Crashing, Broken Wheel & Handlebar, and a Crazy Chase",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1tuubwb/unbound_2026_crashing_broken_wheel_handlebar_and/",
-      "thumb": "",
+      "title": "I love seeing a fixie in the wild. If this is your bike in Dallas, it's sick.",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tuxnwy/i_love_seeing_a_fixie_in_the_wild_if_this_is_your/",
+      "thumb": "https://preview.redd.it/ab8kxgo5lw4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d98efb4458721d9c018819aaa664dcc4da4a8b29",
       "desc": ""
     },
     {
@@ -79,17 +79,17 @@
       "desc": ""
     },
     {
-      "title": "I didn’t need another bike but couldn’t pass on this 90’s Giant RS900 for $20 from my local Goodwill. Just bought new tires and tubes for it. Going to change out the foam grip to standard bar tape soon. Anybody else ever restored one of these bikes?",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1tusxhr/i_didnt_need_another_bike_but_couldnt_pass_on/",
-      "thumb": "https://preview.redd.it/yq2zswdesv4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0f316d0c7aea0f1aa87c5f966891cec56e48f26d",
+      "title": "Seraph TT-X42",
+      "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tv4i2o/seraph_ttx42/",
+      "thumb": "",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Tue, 02 Jun 2026 19:33:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0602/AU-20260602-1933-2000.mp3",
-    "duration": "00:03:14"
+    "pub_date": "Wed, 03 Jun 2026 00:03:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0603/AU-20260603-0003-3800.mp3",
+    "duration": "00:03:22"
   },
   "bt_themen": [
     {
