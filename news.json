@@ -1,97 +1,102 @@
 {
   "tagesschau": [
     {
-      "title": "Vulkan Kilauea auf Hawaii bricht Lavafontänen-Rekord",
-      "link": "https://www.tagesschau.de/ausland/amerika/vulkan-kilauea-100.html",
-      "desc": "Seit rund eineinhalb Jahren bricht der Vulkan Kilauea immer wieder aus - damit hat er jetzt einen Rekord gebrochen. Aufgrund der anhaltenden Eruption "
+      "title": "Die erwarteten Mega-Börsengänge des Jahres an der Wall Street",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/boersengaenge-wall-street-100.html",
+      "desc": "Nach dem Raumfahrtkonzern SpaceX hat nun auch das KI-Schwergewicht Anthropic einen Börsengang in den USA beantragt. Daneben wollen auch weitere namhaf"
     },
     {
-      "title": "DB-Bilanz bewegt sich laut Konzernchefin \"in Richtung schwarze Null\"",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/bahn-umbau-palla-100.html",
-      "desc": "In der Bilanz der Deutschen Bahn standen zuletzt Milliardenverluste. Das könnte sich laut Konzernchefin Palla dieses Jahr ändern. Die Züge werden dage"
+      "title": "Marktbericht: KI-Hype schlägt Iran-Sorgen",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-euro-dollar-106.html",
+      "desc": "Die ungebrochene Euphorie rund um Künstliche Intelligenz hat an der Börse einmal mehr die Unsicherheit wegen des Iran-Konflikts überlagert. Der DAX ko"
     },
     {
-      "title": "Lage im Libanon: Auch die begrenzte Waffenruhe ist brüchig",
-      "link": "https://www.tagesschau.de/ausland/asien/libanon-israel-usa-waffenruhe-100.html",
-      "desc": "Nach dem von US-Präsident Trump angekündigten Stopp der Angriffe zwischen Israel und der Hisbollah ist vieles unklar. Der Libanon sprach von einer beg"
+      "title": "Mikrozensus: Mehr als jeder zweite Erwachsene ist übergewichtig",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/uebergewicht-deutschland-mikrozensus-100.html",
+      "desc": "Mit einem Body-Mass-Index über 25 gilt man laut WHO als übergewichtig. In Deutschland trifft das mehr als die Hälfte aller Erwachsenen zu. Während die"
     },
     {
-      "title": "Inflation in der Eurozone steigt im Mai auf 3,2 Prozent",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/inflation-eurozone-mai-100.html",
-      "desc": "Höhere Ölpreise wegen des Iran-Kriegs führen zu einem Inflationsschub in der Eurozone. Im Mai stiegen die Verbraucherpreise im Jahresvergleich um 3,2 "
+      "title": "Kommentar zu Abschiebezentren: In der Praxis wird das schwierig werden",
+      "link": "https://www.tagesschau.de/kommentar/eu-abschiebungen-drittstaaten-100.html",
+      "desc": "Rückkehrzentren in Drittstaaten einzurichten, verschiebt nur ein Grundproblem der Migrationspolitik, meint Andreas Meyer-Feist. Die EU sollte keine fa"
     },
     {
-      "title": "Kölner Dom kostet ab Juli zwölf Euro Eintritt",
-      "link": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/koelner-dom-eintritt-102.html",
-      "desc": "Der Kölner Dom ist die wohl berühmteste deutsche Kirche. Für die jährlich etwa sechs Millionen Besucher ist er bislang kostenlos zugänglich. Ab Juli w"
+      "title": "Lob und Kritik für den verschärften EU-Migrationskurs",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-asylpolitik-reaktionen-100.html",
+      "desc": "Die EU setzt ihren strikten Kurs bei der Migrationspolitik fort und löst damit unterschiedliche Reaktionen aus. Für manche Befürworter war die erzielt"
     }
   ],
   "taz": [
     {
-      "title": "EU-Abschiebelager in Drittstaaten: Humanität in die Wüste geschickt",
-      "link": "https://taz.de/EU-Abschiebelager-in-Drittstaaten/!6183645/",
-      "desc": "Die EU-Mitgliedsstaaten und das Parlament einigen sich auf Abschiebelager in Drittstaaten. Alle bisherigen „Vorbilder“ sind bisher gescheitert. mehr.."
+      "title": "Schwere Luftangriffe auf Kyjiw: „Wir dachten, wir überleben die Nacht nicht“",
+      "link": "https://taz.de/Schwere-Luftangriffe-auf-Kyjiw/!6183670/",
+      "desc": "In der Nacht zu Dienstag griffen die russischen Streitkräfte die ukrainische Hauptstadt mit Hyperschallwaffen und Raketen an. Es gab mindestens 6 Tote"
     },
     {
-      "title": "Ein Fisch stirbt aus: Heute gibts Aal. Noch.",
-      "link": "https://taz.de/Ein-Fisch-stirbt-aus/!6180064/",
-      "desc": "Der Aal ist vom Aussterben bedroht. Wieso landet er in vielen Ländern immer noch auf dem Teller? Von Fischern, Farmern und Fangverbotsfans. mehr..."
+      "title": "AfD und CDU streichen Fördergelder: Landrätin will Bürger über AfD-Förderstopp abstimmen lassen",
+      "link": "https://taz.de/AfD-und-CDU-streichen-Foerdergelder/!6183625/",
+      "desc": "„Demokratie leben“ förderte Projekte im Ilm-Kreis. Ein Antrag der AfD im Kreistag stoppt das. Landrätin Petra Enders setzt nun auf direkte Demokratie."
     },
     {
-      "title": "US-Gesundheitspolitik in Afrika: Kenia als Abladeplatz für US-Amerikaner unter Ebola-Verdacht",
-      "link": "https://taz.de/US-Gesundheitspolitik-in-Afrika/!6183666/",
-      "desc": "Weil sich Ebola in der DR Kongo ausbreitet, soll Kenia gefährdete US-Bürger aus der Region aufnehmen. Es gibt Proteste vor Gericht und auf der Straße."
+      "title": "Fehlende Kapazitäten im Stromnetz: Kritik an Reiches Plänen zum Netzausbau",
+      "link": "https://taz.de/Fehlende-Kapazitaeten-im-Stromnetz/!6183630/",
+      "desc": "Die Wirtschaftsministerin will neue Regeln für Stromnetzanschlüsse von Erneuerbaren. Germanwatch und Deutsche Umwelthilfe haben Gegenvorschläge. mehr."
     },
     {
-      "title": "Weltwetterorganisation warnt vor El Niño: „Öl in das Feuer der globalen Erwärmung“",
-      "link": "https://taz.de/Weltwetterorganisation-warnt-vor-El-Nino/!6183702/",
-      "desc": "UN-Generalsekretär António Guterres warnt vor Extremwetter durch das bevorstehende Klimaphänomen El Niño. Er fordert den Ausstieg aus fossilen Brennst"
+      "title": "Nius-Werbung in der BVG: Weil wir Reichelt lieben",
+      "link": "https://taz.de/Nius-Werbung-in-der-BVG/!6183705/",
+      "desc": "Das rechtspopulistische Portal Nius wirbt in der BVG mit Slogans gegen öffentlich-rechtliche Medien. Das sorgt für Proteste, die BVG weist die Verantw"
     },
     {
-      "title": "Genozid als Unterrichtsthema: Geschichte vielfältiger lehren",
-      "link": "https://taz.de/Genozid-als-Unterrichtsthema/!6183302/",
-      "desc": "An Schulen ist der Völkermord an den Christen im Osmanischen Reich kaum Thema. Nachfahren der Opfer fordern die Bildungministerkonferenz auf, das zu ä"
+      "title": "Antonio Scurati über Italiens Faschismus: „Der Duce war nur ein herrlicher Bluff“",
+      "link": "https://taz.de/Antonio-Scurati-ueber-Italiens-Faschismus/!6179897/",
+      "desc": "„M – Das Ende und der Anfang“. Antonio Scuratis letzter Band seiner herausragenden literarischen Biografie über den italienischen Diktator Mussolini. "
     }
   ],
   "reddit": [
     {
-      "title": "Girlfriends first bike",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tuczfn/girlfriends_first_bike/",
-      "thumb": "https://preview.redd.it/7dnpzz4c0s4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=89ffcaf530268cc82919c146a9449dd3d733e74c",
+      "title": "Xcanoeing",
+      "link": "https://www.reddit.com/r/xbiking/comments/1tuu21r/xcanoeing/",
+      "thumb": "https://external-preview.redd.it/ZnU5N3dkYjJ6djRoMeKp3t_MkWUj_iInMwhj-OSu6MJjC7phT0zYCmE2QoPR.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=571e95099ac40eb7e65fa579226909eadd0ff2d5",
       "desc": ""
     },
     {
-      "title": "Happy Pride xBiking!",
-      "link": "https://www.reddit.com/r/xbiking/comments/1tu6gd1/happy_pride_xbiking/",
-      "thumb": "https://preview.redd.it/vsx51mnroq4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d993afc7ff8bc651c56ae25bed5d27868ceeb950",
+      "title": "Old reliable",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tus1nl/old_reliable/",
+      "thumb": "https://preview.redd.it/qwk6c5ntmv4h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=8968dc7da9fa79de524bb37f1a85350447dc1d4a",
       "desc": ""
     },
     {
-      "title": "First ride to work and home",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1tubioh/first_ride_to_work_and_home/",
-      "thumb": "https://preview.redd.it/t6udepvqor4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=95b8df71fed499cf16ac5f538f35e7590c88e27f",
-      "desc": ""
-    },
-    {
-      "title": "Took my retro build out for a big city loop",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1tuf15j/took_my_retro_build_out_for_a_big_city_loop/",
-      "thumb": "https://preview.redd.it/pgfr3d51hs4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=e5b266bcd6e4dbac3666ad029cf711088f6fe729",
-      "desc": ""
-    },
-    {
-      "title": "I did it",
-      "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tuahs9/i_did_it/",
+      "title": "Unbound 2026: Crashing, Broken Wheel & Handlebar, and a Crazy Chase",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tuubwb/unbound_2026_crashing_broken_wheel_handlebar_and/",
       "thumb": "",
+      "desc": ""
+    },
+    {
+      "title": "Got my money worth it",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1tuwm9i/got_my_money_worth_it/",
+      "thumb": "https://preview.redd.it/2t5tnasvew4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7c76aaf64f0554a26cb1d34ec34e9474486eea96",
+      "desc": ""
+    },
+    {
+      "title": "I didn’t need another bike but couldn’t pass on this 90’s Giant RS900 for $20 from my local Goodwill. Just bought new tires and tubes for it. Going to change out the foam grip to standard bar tape soon. Anybody else ever restored one of these bikes?",
+      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1tusxhr/i_didnt_need_another_bike_but_couldnt_pass_on/",
+      "thumb": "https://preview.redd.it/yq2zswdesv4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0f316d0c7aea0f1aa87c5f966891cec56e48f26d",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Tue, 02 Jun 2026 13:36:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0602/AU-20260602-1336-0600.mp3",
-    "duration": "00:05:44"
+    "pub_date": "Tue, 02 Jun 2026 19:33:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0602/AU-20260602-1933-2000.mp3",
+    "duration": "00:03:14"
   },
   "bt_themen": [
+    {
+      "title": "Anhörung der Verkehrsminister Deutschlands und Frankreichs",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-pa-dfpv-1182168",
+      "desc": "Die Deutsch-Französische Parlamentarische Versammlung tritt am Freitag, 12. Juni 2026, zu einer einstündigen Sondersitzung zusammen. Geplant ist eine "
+    },
     {
       "title": "Sicherheits- und Handels­fra­gen dominieren Gespräche in Australien und Fidschi",
       "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw22-pg-australien-fidschi-1170334",
@@ -111,11 +116,6 @@
       "title": "Parlament berät Tätigkeitsbericht des Petitionsausschusses",
       "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-petitionsbericht-2025-1181866",
       "desc": "Den Tätigkeitsbericht des Petitionsausschusses für das Jahr 2025 berät der Bundestag am Mittwoch, 10. Juni 2026. Nach der zehnminütigen Einführung dur"
-    },
-    {
-      "title": "Zeugnisverweigerungsrecht für Sozialarbeiter",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-strafprozessordnung-1181868",
-      "desc": "Über die Forderung der Fraktion Bündnis 90/Die Grünen nach einem Zeugnisverweigerungsrecht für staatlich anerkannte Sozialarbeiter beziehungsweise sta"
     }
   ],
   "bt_presse": [
@@ -147,29 +147,29 @@
   ],
   "bt_hib": [
     {
-      "title": "Bahninfrastruktur im Berliner Bezirk Marzahn-Hellersdorf",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183094",
-      "desc": "Verkehr/KleineAnfrage Die Grünen erkundigt sich in einer Kleinen Anfrage nach dem aktuellen Zustand und dem Ausbau der Bahninfrastruktur im Berliner B"
+      "title": "Mit Bundesmitteln finanzierte Projekte in Namibia",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183208",
+      "desc": "Wirtschaftliche Zusammenarbeit und Entwicklung/Antwort Mit Bundesmitteln finanzierte Projekte in Namibia tragen laut Bundesregierung zur Erreichung de"
     },
     {
-      "title": "Linke thematisiert EU-Haushalt",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183092",
-      "desc": "Wirtschaft und Energie/KleineAnfrage Die Linke befürchtet Nachteile für strukturschwache Regionen durch Änderungen beim Mehrjährigen Finanzrahmen der "
+      "title": "Strafverfahren des Generalbundesanwalts",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183206",
+      "desc": "Recht und Verbraucherschutz/Antwort Die Bundesregierung äußert sich in einer Antwort zu Strafverfahren des Generalbundesanwalts."
     },
     {
-      "title": "Förderung von Frauenrechts-Aktivistinnen im südlichen Afrika",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183090",
-      "desc": "Wirtschaftliche Zusammenarbeit und Entwicklung/KleineAnfrage Um Ziele und Durchführung eines BMZ-Projekts zur Stärkung von Aktivistinnen für Frauenrec"
+      "title": "Neuberechnung der Regelbedarfe",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183204",
+      "desc": "Arbeit und Soziales/Antwort Eine Neuberechnung der Regelbedarfe in der Grundsicherung bedeute nicht automatisch auch deren Erhöhung, schreibt die Bund"
     },
     {
-      "title": "Grüne fordern Initiativen gegen hohe Lebensmittelpreise",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183088",
-      "desc": "Landwirtschaft, Ernährung und Heimat/Antrag Die Grünen fordern in einem Antrag politische Initiativen, um einer Lebensmittelpreiskrise vorzubeugen."
+      "title": "Haftbedingungen in türkischen Rückführungszentren",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183202",
+      "desc": "Auswärtiges/Antwort Zu Haftbedingungen in türkischen Rückführungszentren nimmt die Bundesregierung in der Antwort auf eine Kleine Anfrage der AfD Stel"
     },
     {
-      "title": "AfD will Spekulation mit Agrarflächen begrenzen",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183086",
-      "desc": "Landwirtschaft, Ernährung und Heimat/Antrag Die Bundesregierung soll Maßnahmen ergreifen, um Spekulationen mit landwirtschaftlichem Boden durch nichtl"
+      "title": "Desinformationsbekämpfung und KI-Nutzung im Auswärtigen Amt",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183214",
+      "desc": "Auswärtiges/GroßeAnfrage Nach dem Kampf gegen Desinformation und dem Einsatz von KI in der politischen Kommunikation mit Bezug zur Außenpolitik erkund"
     }
   ]
 }
