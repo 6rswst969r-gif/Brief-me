@@ -1,101 +1,111 @@
 {
   "tagesschau": [
     {
-      "title": "Gewitter beschädigt Kunstinstallation an der Pont Neuf",
-      "link": "https://www.tagesschau.de/ausland/europa/la-caverne-du-pont-neuf-102.html",
-      "desc": "Starker Wind hat die Kunstinstallation \"La Caverne du Pont Neuf\" in Paris beschädigt. Die Hommage an die Künstler Christo und Jeanne Claude sollte am "
+      "title": "Deutschland scheitert mit Bewerbung für UN-Sicherheitsrat",
+      "link": "https://www.tagesschau.de/ausland/amerika/un-sicherheitsrat-bewerbung-100.html",
+      "desc": "Deutschland ist mit seiner Kandidatur für einen Sitz im Sicherheitsrat der Vereinten Nationen bereits im ersten Wahlgang gescheitert. Bei der Wahl in "
     },
     {
-      "title": "Britische Polizei unter Druck im Fall eines getöteten Studenten",
-      "link": "https://www.tagesschau.de/ausland/europa/london-messerangriff-haft-100.html",
-      "desc": "Ende 2025 stirbt ein britischer Student nach einem Messerangriff auf der Straße - im Beisein von Polizisten. Diese hatten Täter und Opfer verwechselt."
+      "title": "Streit um Nacktszene: Wenders zieht Film vorerst zurück",
+      "link": "https://www.tagesschau.de/kultur/wenders-falsche-bewegung-100.html",
+      "desc": "In dem Film \"Falsche Bewegung\" ist die damals 13-Jährige Kinski halbnackt zu sehen. Sie fordert Regisseur Wenders seit Jahren vergeblich auf, die Szen"
     },
     {
-      "title": "USA führen freiwilligen Sicherheitstest für neue KI-Modelle ein",
-      "link": "https://www.tagesschau.de/ausland/amerika/trump-erlass-ki-sicherheitspruefung-100.html",
-      "desc": "Kehrtwende in Trumps Umgang mit KI: Wollte der US-Präsident zuvor nicht in die Branche eingreifen, führt er nun per Erlass einen freiwilligen Sicherhe"
+      "title": "20 Jahre Unabhängigkeit: Wie steht es um Montenegros EU-Chancen?",
+      "link": "https://www.tagesschau.de/ausland/europa/20-jahre-unabhaengigkeit-montenegro-100.html",
+      "desc": "Heute vor 20 Jahren wurde Montenegro unabhängig. Seine Chancen, EU-Mitglied zu werden, sind größer als die aller anderen Staaten des Westbalkans. Doch"
     },
     {
-      "title": "Die erwarteten Mega-Börsengänge des Jahres an der Wall Street",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/boersengaenge-wall-street-100.html",
-      "desc": "Nach dem Raumfahrtkonzern SpaceX hat nun auch das KI-Schwergewicht Anthropic einen Börsengang in den USA beantragt. Daneben wollen auch weitere namhaf"
+      "title": "Warnungen der Ukraine: \"Gefahr eines Angriffs aus Belarus wächst\"",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-belarus-112.html",
+      "desc": "Belarus hat bislang Russlands Krieg gegen die Ukraine vor allem passiv unterstützt. Doch die Ukraine befürchtet, dass Belarus aktiver werden könnte. D"
     },
     {
-      "title": "Marktbericht: KI-Hype schlägt Iran-Sorgen",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-euro-dollar-106.html",
-      "desc": "Die ungebrochene Euphorie rund um Künstliche Intelligenz hat an der Börse einmal mehr die Unsicherheit wegen des Iran-Konflikts überlagert. Der DAX ko"
+      "title": "Mehr Hochleistungschips sollen aus Europa kommen",
+      "link": "https://www.tagesschau.de/wirtschaft/ki-chips-taiwan-europa-100.html",
+      "desc": "Die meisten Hochleistungschips kommen aus Taiwan. Mit einem neuen Förderpaket für Künstliche Intelligenz und Halbleiter will das die EU-Kommission änd"
     }
   ],
   "taz": [
     {
-      "title": "Schwere Luftangriffe auf Kyjiw: „Wir dachten, wir überleben die Nacht nicht“",
-      "link": "https://taz.de/Schwere-Luftangriffe-auf-Kyjiw/!6183670/",
-      "desc": "In der Nacht zu Dienstag griffen die russischen Streitkräfte die ukrainische Hauptstadt mit Hyperschallwaffen und Raketen an. Es gab mindestens 6 Tote"
+      "title": "Brüchiger Waffenstillstand im Irankrieg: Angriffe und Gegenangriffe",
+      "link": "https://taz.de/Bruechiger-Waffenstillstand-im-Irankrieg/!6184117/",
+      "desc": "Offiziell besteht der Waffenstillstand zwischen den USA und Iran weiter. Tatsächlich wird gekämpft. Iran sagt weiter, die Gespräche seien ausgesetzt. "
     },
     {
-      "title": "AfD und CDU streichen Fördergelder: Landrätin will Bürger über AfD-Förderstopp abstimmen lassen",
-      "link": "https://taz.de/AfD-und-CDU-streichen-Foerdergelder/!6183625/",
-      "desc": "„Demokratie leben“ förderte Projekte im Ilm-Kreis. Ein Antrag der AfD im Kreistag stoppt das. Landrätin Petra Enders setzt nun auf direkte Demokratie."
+      "title": "Rente mit 63 auf der Sparliste: Nicht alle können länger ackern",
+      "link": "https://taz.de/Rente-mit-63-auf-der-Sparliste/!6184061/",
+      "desc": "Eine Abschaffung der Rente mit 63 würde Milliarden Euro sparen, sagt eine Studie. Der Schritt würde aber auch eine hässliche Umverteilung erzeugen. me"
     },
     {
-      "title": "Fehlende Kapazitäten im Stromnetz: Kritik an Reiches Plänen zum Netzausbau",
-      "link": "https://taz.de/Fehlende-Kapazitaeten-im-Stromnetz/!6183630/",
-      "desc": "Die Wirtschaftsministerin will neue Regeln für Stromnetzanschlüsse von Erneuerbaren. Germanwatch und Deutsche Umwelthilfe haben Gegenvorschläge. mehr."
+      "title": "Selbstbestimmungsgesetz: CDU will Regelung verschärfen",
+      "link": "https://taz.de/Selbstbestimmungsgesetz/!6184247/",
+      "desc": "Von Beginn war die Union gegen eine erleichterte Änderung des Geschlechtseintrags. Die Länder fordern jetzt, dass Standesämter möglichen Missbrauch au"
     },
     {
-      "title": "Nius-Werbung in der BVG: Weil wir Reichelt lieben",
-      "link": "https://taz.de/Nius-Werbung-in-der-BVG/!6183705/",
-      "desc": "Das rechtspopulistische Portal Nius wirbt in der BVG mit Slogans gegen öffentlich-rechtliche Medien. Das sorgt für Proteste, die BVG weist die Verantw"
+      "title": "Zu wenig Zweitwohnsitzsteuer gezahlt: Grünen-Chef Banaszak hat Staatsanwaltschaft am Hacken",
+      "link": "https://taz.de/Zu-wenig-Zweitwohnsitzsteuer-gezahlt/!6184235/",
+      "desc": "Der Grünen-Vorsitzende Felix Banaszak hat nach eigenen Angaben im Jahr 2022 vergessen, einen Umzug zu melden. Das tue ihm leid. Jetzt ermittelt die St"
     },
     {
-      "title": "Antonio Scurati über Italiens Faschismus: „Der Duce war nur ein herrlicher Bluff“",
-      "link": "https://taz.de/Antonio-Scurati-ueber-Italiens-Faschismus/!6179897/",
-      "desc": "„M – Das Ende und der Anfang“. Antonio Scuratis letzter Band seiner herausragenden literarischen Biografie über den italienischen Diktator Mussolini. "
+      "title": "Umweltfolgen von künstlicher Intelligenz: 250 Eiffeltürme Elektronikschrott",
+      "link": "https://taz.de/Umweltfolgen-von-kuenstlicher-Intelligenz/!6183982/",
+      "desc": "Wasser, Land, Strom: KI braucht Ressourcen und verursacht Müll. Ein UN-Report zeigt, wie groß das Problem ist – und welche Lösungen es gibt. mehr..."
     }
   ],
   "reddit": [
     {
-      "title": "Xcanoeing",
-      "link": "https://www.reddit.com/r/xbiking/comments/1tuu21r/xcanoeing/",
-      "thumb": "https://external-preview.redd.it/ZnU5N3dkYjJ6djRoMeKp3t_MkWUj_iInMwhj-OSu6MJjC7phT0zYCmE2QoPR.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=571e95099ac40eb7e65fa579226909eadd0ff2d5",
-      "desc": ""
-    },
-    {
-      "title": "Unbound 100 recap from a newbie cyclist and first-time racer",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1tv4lju/unbound_100_recap_from_a_newbie_cyclist_and/",
-      "thumb": "https://preview.redd.it/970w8vk7sx4h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=9af028de8bbb92a0528816faad7b78d05179079a",
-      "desc": ""
-    },
-    {
-      "title": "I love seeing a fixie in the wild. If this is your bike in Dallas, it's sick.",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tuxnwy/i_love_seeing_a_fixie_in_the_wild_if_this_is_your/",
-      "thumb": "https://preview.redd.it/ab8kxgo5lw4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d98efb4458721d9c018819aaa664dcc4da4a8b29",
-      "desc": ""
-    },
-    {
-      "title": "Got my money worth it",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1tuwm9i/got_my_money_worth_it/",
-      "thumb": "https://preview.redd.it/2t5tnasvew4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7c76aaf64f0554a26cb1d34ec34e9474486eea96",
-      "desc": ""
-    },
-    {
-      "title": "Seraph TT-X42",
-      "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tv4i2o/seraph_ttx42/",
+      "title": "Stuck In Traffic",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1tvn3fh/stuck_in_traffic/",
       "thumb": "",
+      "desc": ""
+    },
+    {
+      "title": "French YouTuber Killed in a Collision with a Car at a Gravel Race",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1tvmozj/french_youtuber_killed_in_a_collision_with_a_car/",
+      "thumb": "https://external-preview.redd.it/rpl7QkVFVGjKDuEGpMWzNj9MbKlH3J0JXJslg-MVBWE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5010f905554476e918ec71712817ee675227f5f5",
+      "desc": ""
+    },
+    {
+      "title": "$170 Wal-Mart mini cargo bike",
+      "link": "https://www.reddit.com/r/xbiking/comments/1tvd8ko/170_walmart_mini_cargo_bike/",
+      "thumb": "https://preview.redd.it/sxsz05xakz4h1.jpg?width=140&amp;height=140&amp;auto=webp&amp;s=2f47d67c07240aca7609e83507f5685867f9a010",
+      "desc": ""
+    },
+    {
+      "title": "I guess I'm a short stem kinda guy.",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tvqrnf/i_guess_im_a_short_stem_kinda_guy/",
+      "thumb": "https://preview.redd.it/zaanq2crt25h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=edcaff3d0a46ab92d13f04087cf1926e0be323fe",
+      "desc": ""
+    },
+    {
+      "title": "Finished 2nd Poseidon Fx",
+      "link": "https://www.reddit.com/r/tracklocross/comments/1tvowaz/finished_2nd_poseidon_fx/",
+      "thumb": "https://preview.redd.it/e5xr9ibfh25h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=a56eb62fb686b26585af9f71f8a2219c76b1b850",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Wed, 03 Jun 2026 00:03:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0603/AU-20260603-0003-3800.mp3",
-    "duration": "00:03:22"
+    "pub_date": "Wed, 03 Jun 2026 17:36:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0603/AU-20260603-1736-2700.mp3",
+    "duration": "00:05:56"
   },
   "bt_themen": [
     {
       "title": "Anhörung der Verkehrsminister Deutschlands und Frankreichs",
       "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-pa-dfpv-1182168",
       "desc": "Die Deutsch-Französische Parlamentarische Versammlung tritt am Freitag, 12. Juni 2026, zu einer einstündigen Sondersitzung zusammen. Geplant ist eine "
+    },
+    {
+      "title": "Jürgen Hardt: Geschlossenheit und Entschlossenheit im Nato-Parlament",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw23-interview-hardt-1183042",
+      "desc": "„Die Nato funktioniert“, sagt Jürgen Hardt, stellvertretender Delegationsleiter der deutschen Delegation zur Parlamentarischen Versammlung der Nato (N"
+    },
+    {
+      "title": "Junge Erwachsene schlüpfen in die Rolle von fiktiven Abgeordneten",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-jup-1182626",
+      "desc": "Mehr als 250 junge Erwachsene aus dem gesamten Bundesgebiet stellen in dem großangelegten Planspiel \"Jugend und Parlament\" parlamentarische Verfahren "
     },
     {
       "title": "Sicherheits- und Handels­fra­gen dominieren Gespräche in Australien und Fidschi",
@@ -106,19 +116,24 @@
       "title": "Alexander Dobrindt und Alois Rainer stellen sich den Fragen der Abgeordneten",
       "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-regierungsbefragung-1154566",
       "desc": "Die Sitzungswoche beginnt am Mittwoch, 10. Juni 2026, mit der eineinhalbstündigen Regierungsbefragung. Darin stellen sich Bundesinnenminister Alexande"
-    },
-    {
-      "title": "Fragestunde am 10. Juni",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-fragestunde-1154586",
-      "desc": "Im Anschluss an die Regierungsbefragung folgt am Mittwoch, 10. Juni 2026, die Fragestunde. Getrennt nach Ressorts beantworten Vertreter der Bundesregi"
-    },
-    {
-      "title": "Parlament berät Tätigkeitsbericht des Petitionsausschusses",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-petitionsbericht-2025-1181866",
-      "desc": "Den Tätigkeitsbericht des Petitionsausschusses für das Jahr 2025 berät der Bundestag am Mittwoch, 10. Juni 2026. Nach der zehnminütigen Einführung dur"
     }
   ],
   "bt_presse": [
+    {
+      "title": "Öffentliche Anhörung des Rechtsausschusses zur Förderung des Rechts auf Reparatur von Waren",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260603-oepm-recht-1183260",
+      "desc": ""
+    },
+    {
+      "title": "Öffentliche Anhörung des Gesundheitsausschusses zum Medizinregistergesetz",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260603-oepm-gesundheit-1183224",
+      "desc": ""
+    },
+    {
+      "title": "Jugend und Parlament 2026: Über 250 junge Menschen machen Politik wie im Bundestag",
+      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260603-jugendundparlament-1183218",
+      "desc": "Für vier Tage wird der Deutsche Bundestag zur politischen Bühne für die nächste Generation: Mehr als 250 junge Erwachsene aus ganz Deutschlandkommen v"
+    },
     {
       "title": "Innenausschuss informiert sich in Österreich und in der Schweiz",
       "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260601-delreise-innenausschuss-1182948",
@@ -128,48 +143,33 @@
       "title": "Bürgersprechstunde des Petitionsausschusses auf der Südwest Messe in Villingen-Schwenningen",
       "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260601-buergersprechstunde-petition-1182888",
       "desc": ""
-    },
-    {
-      "title": "Finanzausschuss reist nach Stockholm und Oslo",
-      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-a-finanz-swe-1182824",
-      "desc": "Eine Delegation des Finanzausschusses führt vom 1. bis 5. Juni Gespräche in Stockholm und Oslo. Im Mittelpunkt stehen der Austausch über verschiedene "
-    },
-    {
-      "title": "Umweltausschuss informiert sich in Dänemark und Finnland",
-      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-a-umwelt-daenemark-finnland-1182796",
-      "desc": "Der Ausschuss für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit des Deutschen Bundestages reist mit einer Delegation unter Leitung seines V"
-    },
-    {
-      "title": "Ausschuss für Wohnen, Stadtentwicklung, Bauwesen und Kommunen reist nach Japan",
-      "link": "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260529-delreise-bauausschuss-japan-1182794",
-      "desc": "Eine Delegation des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen reist vom 30. Mai bis 06. Juni 2026 nach Japan. Stationen der Reis"
     }
   ],
   "bt_hib": [
     {
-      "title": "Mit Bundesmitteln finanzierte Projekte in Namibia",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183208",
-      "desc": "Wirtschaftliche Zusammenarbeit und Entwicklung/Antwort Mit Bundesmitteln finanzierte Projekte in Namibia tragen laut Bundesregierung zur Erreichung de"
+      "title": "Beauftragt der Bundesregierung in der 20. Wahlperiode",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183292",
+      "desc": "Digitales und Staatsmodernisierung/AntwortAufGroßeAnfrage Um die \"Beauftragten und Koordinatoren der Bundesregierung in der 20. Wahlperiode\" geht es i"
     },
     {
-      "title": "Strafverfahren des Generalbundesanwalts",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183206",
-      "desc": "Recht und Verbraucherschutz/Antwort Die Bundesregierung äußert sich in einer Antwort zu Strafverfahren des Generalbundesanwalts."
+      "title": "AfD erkundigt sich nach höherer Tabaksteuer",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183302",
+      "desc": "Finanzen/KleineAnfrage Die AfD-Fraktion hat eine Kleine Anfrage mit dem Titel \"Erhöhung der Tabaksteuer\" gestellt."
     },
     {
-      "title": "Neuberechnung der Regelbedarfe",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183204",
-      "desc": "Arbeit und Soziales/Antwort Eine Neuberechnung der Regelbedarfe in der Grundsicherung bedeute nicht automatisch auch deren Erhöhung, schreibt die Bund"
+      "title": "Dynamisierung von Finanzhilfen für die Radverkehrsförderung",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183300",
+      "desc": "Verkehr/Antwort Eine Dynamisierung von Finanzhilfen für die Radverkehrsförderung ist laut Bundesregierung nicht mit Artikel 104b Absatz 2 Satz 7 Grund"
     },
     {
-      "title": "Haftbedingungen in türkischen Rückführungszentren",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183202",
-      "desc": "Auswärtiges/Antwort Zu Haftbedingungen in türkischen Rückführungszentren nimmt die Bundesregierung in der Antwort auf eine Kleine Anfrage der AfD Stel"
+      "title": "Keine konkreten Angaben zur Übung \"Red Storm Charlie\"",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183298",
+      "desc": "Verteidigung/Antwort Die Bundesregierung kann laut eigener Aussage noch keine konkreten Angaben zu Orten und Zeiten der Übung \"Red Storm Charlie\" im S"
     },
     {
-      "title": "Desinformationsbekämpfung und KI-Nutzung im Auswärtigen Amt",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183214",
-      "desc": "Auswärtiges/GroßeAnfrage Nach dem Kampf gegen Desinformation und dem Einsatz von KI in der politischen Kommunikation mit Bezug zur Außenpolitik erkund"
+      "title": "Konversions-Moratorium für Liegenschaften in Brandenburg",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183296",
+      "desc": "Verteidigung/Antwort In Brandenburg sind 15 ehemalige Liegenschaften der Bundeswehr vom Moratorium für eine Konversion betroffen. Dies teilt die Bunde"
     }
   ]
 }
