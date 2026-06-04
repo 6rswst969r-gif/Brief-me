@@ -1,6 +1,16 @@
 {
   "tagesschau": [
     {
+      "title": "Selenskyj bietet Putin direkte Friedensgespräche an",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-selenskyj-brief-putin-100.html",
+      "desc": "Der ukrainische Präsident Selenskyj hat Russlands Präsident in einem Brief zu direkten Friedensverhandlungen aufgefordert. Die Mehrheit der Russen sei"
+    },
+    {
+      "title": "Putin offen für Dialog - unter Bedingungen",
+      "link": "https://www.tagesschau.de/ausland/asien/putin-wirtschaftsforum-ukraine-100.html",
+      "desc": "Russlands Präsident Putin hat sich offen für einen Dialog mit Europa zur Beendigung des Ukraine-Kriegs gezeigt. Deutschland schloss er als Vermittler "
+    },
+    {
       "title": "Vor der WM eskalieren Lehrerproteste in",
       "link": "https://www.tagesschau.de/ausland/amerika/mexiko-proteste-lehrer-100.html",
       "desc": "Eine Woche vor dem Auftakt der Fußball-WM eskalieren in Mexiko die Proteste der Lehrergewerkschaft. Die Lehrer fordern höhere Löhne sowie die Rücknahm"
@@ -13,17 +23,7 @@
     {
       "title": "CSU-Chef unter Druck: Ist das der Beginn der \"Söder-Dämmerung\"?",
       "link": "https://www.tagesschau.de/inland/innenpolitik/soeder-csu-bayern-macht-100.html",
-      "desc": "Ein \"Frontalangriff\" aus Brüssel und lautes Grummeln an der Basis: Söder steht in der CSU unter Druck. Einiges erinnert an das Ende der Stoiber-Ära. W"
-    },
-    {
-      "title": "Geplante Pflegereform: Verbesserung der Pflege - oder Spargesetz?",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/pflegereform-analyse-100.html",
-      "desc": "Es wurde viel diskutiert und spekuliert: Was bringt die geplante Pflegereform? Jetzt gibt es Details. Kritik lässt nicht lange auf sich warten - von O"
-    },
-    {
-      "title": "Sherpa überlebt sechs Tage auf mehr als 5.000 Metern am Mount Everest",
-      "link": "https://www.tagesschau.de/ausland/asien/everest-bergfuehrer-gerettet-100.html",
-      "desc": "Es ist eine schier unglaubliche Überlebensgeschichte: Ein seit fast einer Woche am Mount Everest verschollener Sherpa ist gerettet worden. Wie der 57-"
+      "desc": "Ein \"Frontalangriff\" aus Brüssel und lautes Grummeln an der Basis: Parteichef Söder steht in der CSU unter Druck. Was ist dran an der \"Söder-Dämmerung"
     }
   ],
   "taz": [
@@ -67,29 +67,29 @@
       "desc": ""
     },
     {
-      "title": "Earned my nearly-flattened-by-pickup-going-double-the-limit stripe",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1twa343/earned_my/",
-      "thumb": "https://external-preview.redd.it/NmRiYzh6a2FjNjVoMTanGtGGJYfCEd90ytW8kWT7Y5K14_rUf63fHb6nkQzY.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fe7dd559faf81ee82e848ec31fdc03a0d0bd0285",
+      "title": "Grips got an “upgrade”, I was tired of have sticky grips all the time",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1twzsk9/grips_got_an_upgrade_i_was_tired_of_have_sticky/",
+      "thumb": "https://preview.redd.it/5sct2d39ub5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=d9969220812de5eccb806b31e375984629e13d5a",
       "desc": ""
     },
     {
-      "title": "Thrammuter",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1twltf8/thrammuter/",
-      "thumb": "https://preview.redd.it/dnsk0ucyb95h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=74b2cb9d0f7116407890991c5a9a99b910c3ddbe",
+      "title": "Fixed Bianchi W.U.S.S",
+      "link": "https://www.reddit.com/r/scorchers/comments/1tx2s2e/fixed_bianchi_wuss/",
+      "thumb": "https://preview.redd.it/3qib3ylnec5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=068bdde2d99d29708f6057e4a60fd14e9a9aebe9",
       "desc": ""
     },
     {
-      "title": "My rockhopper 💖",
-      "link": "https://www.reddit.com/r/RockHopper/comments/1twvk01/my_rockhopper/",
-      "thumb": "https://preview.redd.it/vo0i73483b5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ff6430b35861d560f7b91900f7b22ca87d6e75fd",
+      "title": "First build completed✅",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tx0hjf/first_build_completed/",
+      "thumb": "https://preview.redd.it/6ioz28vuyb5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=658865ddca8e12505c68bcda733bc7c70adc8feb",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Thu, 04 Jun 2026 21:03:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0604/AU-20260604-2103-4500.mp3",
-    "duration": "00:03:16"
+    "pub_date": "Fri, 05 Jun 2026 01:33:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0605/AU-20260605-0133-2300.mp3",
+    "duration": "00:03:21"
   },
   "bt_themen": [
     {
