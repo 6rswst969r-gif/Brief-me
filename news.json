@@ -1,59 +1,65 @@
 {
   "tagesschau": [
     {
-      "title": "Brandkatastrophe in Crans-Montana - Barbetreiber werden vernommen",
-      "link": "https://www.tagesschau.de/ausland/europa/schweiz-ermittlungen-brand-cransmontana-100.html",
-      "desc": "41 Menschen kamen in der Silvesternacht durch einen Brand in einer Bar im schweizerischen Crans-Montana ums Leben. Nun wurden die Betreiber der Bar be"
+      "title": "Schnieder verspricht Hilfe bei gesperrter Autobahn-Brücke in Bonn",
+      "link": "https://www.tagesschau.de/inland/autobahn-bonn-sperrung-schnieder-100.html",
+      "desc": "Die Autobahn-Brücke Bonn-Nord ist seit Mittwoch gesperrt - wegen Schäden am Tragwerk. Verkehrsminister Schnieder verspricht bei einem Vor-Ort-Termin s"
     },
     {
-      "title": "Entsiegelung von Flächen als Wettbewerb: Aus Grau wird Grün",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/umweltschutz-abpflastern-entsiegelung-100.html",
-      "desc": "Weniger Pflastersteine, mehr Gräser, Blumen und Sträucher: Die Entsiegelung von bebauten Flächen verbessert das Stadtklima. Ein Wettbewerb im \"Abpflas"
+      "title": "Hubig will \"Nur Ja heißt Ja\"-Regel im Sexualstrafrecht einführen",
+      "link": "https://www.tagesschau.de/ausland/europa/justizminister-hubig-sexualstrafrecht-100.html",
+      "desc": "Justizministerin Hubig will das Sexualstrafrecht reformieren und die \"Nur Ja heißt Ja\"-Regel einführen. Sexuelle Handlungen gelten dann nur als einver"
     },
     {
-      "title": "Marktbericht: Anthropic plädiert für weltweite KI-Pause",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/anthropic-warnung-ki-stopp-100.html",
-      "desc": "Anthropic warnt davor, dass der Mensch die Kontrolle über Künstliche Intelligenz verliert. Es sei sinnvoll, die Entwicklung von KI-Software vorerst zu"
+      "title": "Ukrainische Seedrohne explodiert in rumänischem Hafen",
+      "link": "https://www.tagesschau.de/ausland/europa/drohne-explosion-rumaenien-100.html",
+      "desc": "Im EU- und NATO-Staat Rumänien hat es erneut einen Vorfall mit einer Drohne gegeben: Vor der Küste von Konstanza explodierte eine ukrainische Seedrohn"
     },
     {
-      "title": "Ukraine meldet Tote nach russischem Drohnenangriff auf Fabrik",
-      "link": "https://www.tagesschau.de/ausland/europa/angriff-russland-lebensmittelfabrik-100.html",
-      "desc": "In der Nähe von Kiew sind nach ukrainischen Angaben vier Menschen in einer Lebensmittelfabrik getötet worden. Auch in anderen Teilen des Landes gab es"
+      "title": "Nach Begnadigung durch Trump: Verurteilter Kapitolstürmer arbeitet im Pentagon",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-kapitol-stuermer-pentagon-100.html",
+      "desc": "Ein verurteilter Teilnehmer der Attacke auf das Kapitol arbeitet inzwischen im Pentagon - und soll dort Zugang zu hochsensiblen Informationen haben. S"
     },
     {
-      "title": "EY-Studie: Deutsche Autobauer fallen im Wettbewerb zurück",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/ey-studie-autobauer-100.html",
-      "desc": "Das Geschäft der deutschen Autohersteller ist deutlich weniger profitabel als das internationaler Konkurrenten - und ihr Gewinn ist zuletzt eingebroch"
+      "title": "ISS-Besatzung muss vorübergehend Schutz suchen",
+      "link": "https://www.tagesschau.de/ausland/amerika/nasa-iss-leck-100.html",
+      "desc": "Risse und Lecks an einem Modul der Internationalen Raumstation bereiten der NASA seit Längerem Sorge. Nun sollten sie repariert werden - zur Sicherhei"
     }
   ],
   "taz": [
     {
-      "title": "EU-Strategie zur digitalen Souveränität: Ein guter Anfang, aber noch nicht mutig genug",
-      "link": "https://taz.de/EU-Strategie-zur-digitalen-Souveraenitaet/!6178486/",
-      "desc": "Mit eigenen KI-Modellen und eigener Software setzt Europa auf mehr Unabhängigkeit von den USA und dessen Tech-Konzernen. Das wurde auch mal Zeit. mehr"
+      "title": "Wim Wenders und die Nacktszenen: Es ist nicht kompliziert",
+      "link": "https://taz.de/Wim-Wenders-und-die-Nacktszenen/!6178459/",
+      "desc": "Die Debatte über Wim Wenders Film „Falsche Bewegung“ ist einfacher gelöst als gedacht. Nacktszenen mit Kindern sollte es damals wie heute nicht geben."
     },
     {
-      "title": "Toter Buckelwal in der Ostsee: Timmy war eine Kuh",
-      "link": "https://taz.de/Toter-Buckelwal-in-der-Ostsee/!6184808/",
-      "desc": "Ein SPD-Landesminister hatte es vorher gewusst: Die „Obduktion“ des vor Dänemark angespülten Walkadavers Timmy bringt bahnbrechende Nichtfunde. mehr.."
+      "title": "Pflegeheim-Betreiber vor Gericht: Was geschah wirklich im Haus Linde?",
+      "link": "https://taz.de/Pflegeheim-Betreiber-vor-Gericht/!6184680/",
+      "desc": "In Braunschweig sind Pflegeheim-Betreiber angeklagt, die Pflegebedürftige systematisch sediert, eingesperrt und kränker gemacht haben sollen. mehr..."
     },
     {
-      "title": "Rücknahme der Einbürgerung: Gericht sieht „arglistige Täuschung“",
-      "link": "https://taz.de/Ruecknahme-der-Einbuergerung/!6184800/",
-      "desc": "Das Verwaltungsgericht Berlin hält Abdallah A. für einen Sympathisanten der Hamas und lehnte deshalb den Eilantrag gegen die Ausbürgerung ab. mehr..."
+      "title": "Görlitzer Park in Berlin: Klatsche für Kai Wegner",
+      "link": "https://taz.de/Goerlitzer-Park-in-Berlin/!6178416/",
+      "desc": "Die nächtliche Schließung des Görlitzer Parks ist erst mal vom Tisch. Für den Regierenden Bürgermeister ist das die nächste politische Niederlage. meh"
     },
     {
-      "title": "Anti-Klimapolitik in den USA: Trump will Kohleindustrie mit 700 Millionen US-Dollar stützen",
-      "link": "https://taz.de/Anti-Klimapolitik-in-den-USA/!6184822/",
-      "desc": "Der US-Präsident will die fossile Energiegewinnung mit viel Steuergeld pampern. Er greift dafür auf ein Gesetz aus dem Kalten Krieg zurück. mehr..."
+      "title": "Vier Millionen für restituierte Figur: Teuer, wenn das Bild schillert",
+      "link": "https://taz.de/Vier-Millionen-fuer-restituierte-Figur/!6184782/",
+      "desc": "Der Tänzerinnen-Brunnen von Georg Kolbe wurde in Berlin für 4 Millionen Euro versteigert. Da macht wohl die Objektgeschichte den Preis. mehr..."
     },
     {
-      "title": "Greenpeace-Analyse: Ölkonzerne haben im Mai 700 Millionen Übergewinn gemacht",
-      "link": "https://taz.de/Greenpeace-Analyse/!6184781/",
-      "desc": "Der Tankrabatt soll Au­to­fah­re­r*in­nen mit Verbrenner vor hohen Spritpreisen schützen. Teilweise haben davon auch die Ölkonzerne profitiert. mehr.."
+      "title": "US-Konzern halbiert Milliardenprojekt: Pharma macht Ernst",
+      "link": "https://taz.de/Alzey-ohne-Lilly/!6184803/",
+      "desc": "1.000 Arbeitsplätze sollten in Rheinland-Pfalz geschaffen werden, jetzt wurde das Soll halbiert. Das könnte sogar die Gesundheitsreformen beeinflussen"
     }
   ],
   "reddit": [
+    {
+      "title": "While everyone is converting everything into gravel, I reckon we should bring back the classic Randonneur!✌🏼(Poor man’s Crust)🤣",
+      "link": "https://www.reddit.com/r/xbiking/comments/1txla90/while_everyone_is_converting_everything_into/",
+      "thumb": "https://preview.redd.it/fnswmcwkwg5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=a30848fe34b162bf2b18527ae65bcd077b36b6f7",
+      "desc": ""
+    },
     {
       "title": "A little bit of evening gravel bliss from New England (Massachusetts)",
       "link": "https://www.reddit.com/r/gravelcycling/comments/1txhdg8/a_little_bit_of_evening_gravel_bliss_from_new/",
@@ -61,35 +67,29 @@
       "desc": ""
     },
     {
-      "title": "29ers hearing about the inevitable 32\" takeover",
-      "link": "https://www.reddit.com/r/xbiking/comments/1tx50av/29ers_hearing_about_the_inevitable_32_takeover/",
-      "thumb": "https://preview.redd.it/eo3m5w8kvc5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=46f9d75a908304a22674b2f0f8fe60b5266b188d",
+      "title": "My fresh build. Very rare Rossin with new paint.",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1txlrfr/my_fresh_build_very_rare_rossin_with_new_paint/",
+      "thumb": "https://preview.redd.it/u9uo0tpwzg5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=a58b5c7001d66244c5c707a75fa39322a70afca2",
       "desc": ""
     },
     {
-      "title": "Different bikes at home for so many commuting needs",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1tx4fqt/different_bikes_at_home_for_so_many_commuting/",
-      "thumb": "https://preview.redd.it/rdvb3fj6rc5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0822cd4c9d28051853def30b7543371dd6d574c5",
+      "title": "Swedens widest (?) bicycle lane.",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1txpwyy/swedens_widest_bicycle_lane/",
+      "thumb": "https://preview.redd.it/1ay55a9uqh5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=da6d279d93819748f9dd647ec2b4f1c38192863c",
       "desc": ""
     },
     {
-      "title": "Love machine",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1txep6h/love_machine/",
-      "thumb": "https://preview.redd.it/sv77kfkwaf5h1.jpg?width=140&amp;height=78&amp;auto=webp&amp;s=3b68c7e6d291d10d04b6dfc8324ef9578dc91b9b",
-      "desc": ""
-    },
-    {
-      "title": "Rest stop",
-      "link": "https://www.reddit.com/r/tracklocross/comments/1txf8ln/rest_stop/",
-      "thumb": "https://preview.redd.it/uri8coslgf5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2b91458c66025c6eaccb8627486501aaef22f6ad",
+      "title": "New Coaster Brake Build",
+      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1txofnh/new_coaster_brake_build/",
+      "thumb": "https://preview.redd.it/5a9i2t1fhh5h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=15a7309d6f74edfc55e7c84d7992578e52fccaf2",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Fri, 05 Jun 2026 13:35:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0605/AU-20260605-1335-1500.mp3",
-    "duration": "00:05:39"
+    "pub_date": "Fri, 05 Jun 2026 19:34:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0605/AU-20260605-1934-5400.mp3",
+    "duration": "00:03:34"
   },
   "bt_themen": [
     {
@@ -147,6 +147,21 @@
   ],
   "bt_hib": [
     {
+      "title": "Reformvorhaben im Bereich Informationsfreiheit und Open Data",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183502",
+      "desc": "Digitales und Staatsmodernisierung/Antwort Um Zuständigkeiten und Reformvorhaben im Bereich Informationsfreiheit und Open Data geht es in der Antwort "
+    },
+    {
+      "title": "Bundesregierung begrüßt Baukulturbericht",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183500",
+      "desc": "Wohnen, Stadtentwicklung, Bauwesen und Kommunen/Unterrichtung Die Bundesregierung hat in einer Unterrichtung die Vorlage des Baukulturberichts 2026/27"
+    },
+    {
+      "title": "Anhörung zur Tourismusfinanzierung",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183498",
+      "desc": "Tourismus/Anhörung Der Tourismusausschuss befasst sich am Mittwoch in einer Anhörung mit dem Thema Tourismusfinanzierung."
+    },
+    {
       "title": "Einsatz der Telekommunikationsüberwachung",
       "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183468",
       "desc": "Inneres/KleineAnfrage Der Einsatz der Telekommunikationsüberwachung (TKÜ) ist ein Thema einer Kleinen Anfrage der Fraktion Die Linke."
@@ -155,21 +170,6 @@
       "title": "Straftaten an mehreren nordrhein-westfälischen Bahnhöfen",
       "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183458",
       "desc": "Inneres/Antwort Über die Zahl der in Bezug auf mehrere nordrhein-westfälische Bahnhöfe durch die Bundespolizei 2025 erfassten Gewalt- und Eigentumsdel"
-    },
-    {
-      "title": "Gefährdungspotenzial der rechtsextremen Partei \"III. Weg\"",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183466",
-      "desc": "Inneres/KleineAnfrage Nach Aktivitäten und Gefährdungspotenzial der rechtsextremen Partei \"III. Weg\" erkundigt sich die Fraktion Die Linke in einer Kl"
-    },
-    {
-      "title": "Grüne fragen nach Finanzierung von Klimaschutz in Kommunen",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183464",
-      "desc": "Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit/KleineAnfrage Die Fraktion Bündnis 90/Die Grünen erkundigt sich in einer Kleinen Anfrage (21/"
-    },
-    {
-      "title": "Beziehung zu zentralasiatischen Ländern",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183462",
-      "desc": "Auswärtiges/KleineAnfrage Nach den Beziehungen mit den Staaten Zentralasiens erkundigt sich die Fraktion Die Linke in einer Kleinen Anfrage."
     }
   ]
 }
