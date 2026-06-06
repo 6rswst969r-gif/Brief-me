@@ -1,65 +1,59 @@
 {
   "tagesschau": [
     {
-      "title": "Familienunternehmer: Bundestag soll Sommerpause ausfallen lassen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/reformen-sommerpause-unternehmer-100.html",
-      "desc": "Steuern, Arbeitsmarkt und Rente: Der Verband der Familienunternehmer hat die Koalition aufgefordert Reformen möglichst schnell voranzubringen. Der Bun"
+      "title": "Libanesische Soldaten bei Angriff Israels getötet",
+      "link": "https://www.tagesschau.de/ausland/asien/krieg-libanon-100.html",
+      "desc": "Im Libanon gehen die Kämpfe zwischen Israel und der Hisbollah-Miliz weiter. Mehrere libanesische Soldaten wurden laut Angaben des Militärs bei einem i"
     },
     {
-      "title": "Europas historische Filmpaläste: Wo sich Kino nach großem Theater anfühlt",
-      "link": "https://www.tagesschau.de/kultur/groesste-kinos-von-europa-100.html",
-      "desc": "In Essen, Paris, Amsterdam und Budapest haben vier alte Filmpaläste die Zeit bis heute überdauert. Mit ihrer Architektur und dem Glamour stehen sie fü"
+      "title": "Bericht: Neuer Höchststand bei politisch motivierter Kriminalität",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/hoechststand-politisch-motivierte-straftaten-100.html",
+      "desc": "Hass, Einschüchterung und Gewalt gegen politische Gegner nehmen einem Bericht der Welt am Sonntag zufolge weiter zu. Die Anzahl der Straftaten habe si"
     },
     {
-      "title": "Organspende: Bundestagsgruppen werben für Reformen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/organspende-warten-bundestag-100.html",
-      "desc": "Mehr als 8.000 Menschen warten in Deutschland auf ein Spenderorgan. Zwei fraktionsübergreifende Gruppen im Bundestag wollen die Zahl der Organspenden "
+      "title": "Russland meldet Drohnenattacken - auch auf St. Petersburg",
+      "link": "https://www.tagesschau.de/ausland/europa/st-petersburg-drohnen-100.html",
+      "desc": "Während in St. Petersburg das internationale Wirtschaftsforum zu Ende geht, wird die Stadt mit einer massiven Drohnenattacke überzogen. Auch die Ölinf"
     },
     {
-      "title": "Statt teurer Markenprodukte: Mehr Eigenmarken in den Regalen",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/eigenmarken-statt-markenprodukte-100.html",
-      "desc": "Markenprodukte verlieren an Bedeutung. Händler bauen ihre Eigenmarken aus, und die Verbraucher greifen kräftig zu - vor allem wegen der steigenden Pre"
+      "title": "Prien will EU-Richtlinie zur Gehaltstranzparenz nachverhandeln",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-gender-pay-gap-prien-100.html",
+      "desc": "Eine EU-Richtlinie soll Lohnunterschiede zwischen Frauen und Männern durch neue Transparenzvorschriften bekämpfen. In Deutschland verzögert sich die U"
     },
     {
-      "title": "Reformdebatte: Hat Schwarz-Rot die Jugend noch im Blick?",
-      "link": "https://www.tagesschau.de/inland/generationengerechtigkeit-104.html",
-      "desc": "Kanzler Merz verspricht der jungen Generation eine gute Zukunft. Die fühlt sich hingegen vielfach nicht gehört. Aus Ihrer Sicht gehen die geplanten Re"
+      "title": "Vorgaben der EU: Schließt sich der Gender Pay Gap in Europa?",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-richtlinie-gender-pay-gap-100.html",
+      "desc": "Frauen verdienen in der EU deutlich weniger pro Stunde als Männer. Eine EU-Richtlinie, die den Arbeitsmarkt fairer machen soll, muss von den Mitglieds"
     }
   ],
   "taz": [
+    {
+      "title": "Rechtslastige Polizeigewerkschaften: Hier spricht die Polizei",
+      "link": "https://taz.de/Rechtslastige-Polizeigewerkschaften/!6178449/",
+      "desc": "Die Gewerkschaften DPolG und GdP tragen populistische Narrative in die Medien und die Politik. Wie schaffen sie das? Eine Datenrecherche. mehr..."
+    },
     {
       "title": "Studium und Bafög: Das Studium der Dorothee Mantel",
       "link": "https://taz.de/Studium-und-Bafoeg/!6178492/",
       "desc": "Studierende sollen mehr arbeiten, findet Forschungsministerin Dorothee Bär. Sie habe schließlich auch gejobbt. Aber wie war das noch mal genau? mehr.."
     },
     {
-      "title": "Präsidentschaftswahl in Peru: Richter geht gegen linken Präsidentschaftskandidaten vor",
-      "link": "https://taz.de/Praesidentschaftswahl-in-Peru/!6184920/",
-      "desc": "Kurz vor der Stichwahl um das Präsidentenamt in dem Andenland wird ein Prozess gegen Roberto Sánchez angeordnet. Ihm drohen über fünf Jahre Haft. mehr"
+      "title": "Bruch der Feuerpause im Irankrieg: Washington und Teheran eskalieren weiter",
+      "link": "https://taz.de/Bruch-der-Feuerpause-im-Irankrieg/!6184931/",
+      "desc": "Trotz einer Waffenruhe setzen die USA und Iran ihren gegenseitigen Beschuss fort. Auch Kuwait gerät wieder ins Visier. Ein Ende scheint nicht in Sicht"
     },
     {
-      "title": "Wochentaz-Podcast: Hier spricht die Polizei. Oder?",
-      "link": "https://taz.de/Wochentaz-Podcast/!6184865/",
-      "desc": "Wir reden über die Macht der Polizeigewerkschaften – und anlässlich der WM über die problematische Rolle der Fifa. mehr..."
+      "title": "Streit um Mordfall in Großbritannien: London weist Äußerungen von JD Vance zurück",
+      "link": "https://taz.de/Streit-um-Mordfall-in-Grossbritannien/!6184935/",
+      "desc": "Nach Aussagen des US-Vizepräsidenten zum Mord an dem Teenager Henry Nowak warnt die britische Regierung davor, die Tat für Hass und Spaltung zu instru"
     },
     {
-      "title": "Pflegeheim-Betreiber vor Gericht: Was geschah wirklich im Haus Linde?",
-      "link": "https://taz.de/Pflegeheim-Betreiber-vor-Gericht/!6184680/",
-      "desc": "In Braunschweig sind Pflegeheim-Betreiber angeklagt, die Pflegebedürftige systematisch sediert, eingesperrt und kränker gemacht haben sollen. mehr..."
-    },
-    {
-      "title": "Wim Wenders und die Nacktszenen: Es ist nicht kompliziert",
-      "link": "https://taz.de/Wim-Wenders-und-die-Nacktszenen/!6178459/",
-      "desc": "Die Debatte über Wim Wenders Film „Falsche Bewegung“ ist einfacher gelöst als gedacht. Nacktszenen mit Kindern sollte es damals wie heute nicht geben."
+      "title": "Ebola-Krise in der DR Kongo: Kampf gegen den Virus nimmt langsam Fahrt auf",
+      "link": "https://taz.de/Ebola-Krise-in-der-DR-Kongo/!6184927/",
+      "desc": "Die Zahl der positiv getesteten Ebola-Patienten ist erstmals rückläufig. Zudem wurden 50 Millionen Dollar in Aussicht gestellt für einen Impfstoff. me"
     }
   ],
   "reddit": [
-    {
-      "title": "New Bike Day: Simpatico Gamma Titanium Gravel Race Bike",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1ty4flb/new_bike_day_simpatico_gamma_titanium_gravel_race/",
-      "thumb": "https://preview.redd.it/vtcx74cikk5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=49c5fa5fa0f16463d48f0ed18104d08b49351ef1",
-      "desc": ""
-    },
     {
       "title": "Awerage person here",
       "link": "https://www.reddit.com/r/xbiking/comments/1ty63gn/awerage_person_here/",
@@ -67,15 +61,21 @@
       "desc": ""
     },
     {
-      "title": "i love my bike :3",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1ty79is/i_love_my_bike_3/",
-      "thumb": "https://preview.redd.it/5fens9oial5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a4c0e1ee0529efc3e3c5fe7f8ef20266e86bfae3",
+      "title": "New Bike Day: Simpatico Gamma Titanium Gravel Race Bike",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1ty4flb/new_bike_day_simpatico_gamma_titanium_gravel_race/",
+      "thumb": "https://preview.redd.it/vtcx74cikk5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=49c5fa5fa0f16463d48f0ed18104d08b49351ef1",
       "desc": ""
     },
     {
-      "title": "What's the worst advice you ever received from a cyclist (usually sports oriented about commuting)",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1ty0fuv/whats_the_worst_advice_you_ever_received_from_a/",
-      "thumb": "",
+      "title": "Rain or shine.",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1tye0aj/rain_or_shine/",
+      "thumb": "https://external-preview.redd.it/OWNocjFidnU2bjVoMUzempnLUQW559208xfXhRXGiTLdx4TJH6giuVAyRUkV.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=6f1f35c96ed7317b09f0b61fddb61b3a93cf6e4e",
+      "desc": ""
+    },
+    {
+      "title": "First Fixie!",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tydt03/first_fixie/",
+      "thumb": "https://preview.redd.it/8cw0665v4n5h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=43623a29098a77271e768d9bb31ce149e6609db2",
       "desc": ""
     },
     {
@@ -87,9 +87,9 @@
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Sat, 06 Jun 2026 10:04:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0606/AU-20260606-1004-5400.mp3",
-    "duration": "00:04:18"
+    "pub_date": "Sat, 06 Jun 2026 14:34:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0606/AU-20260606-1434-5901.mp3",
+    "duration": "00:04:19"
   },
   "bt_themen": [
     {
