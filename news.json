@@ -1,59 +1,65 @@
 {
   "tagesschau": [
     {
-      "title": "30.000 Radfahrer beteiligen sich an ADFC-Sternfahrt in Berlin",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/adfc-sternfahrt-berlin-100.html",
-      "desc": "Die Teilnehmer der Sternfahrt des ADFC fordern bessere Bedingungen für den Radverkehr. Sie waren auf rund 20 Strecken unterwegs. Autofahrer mussten we"
+      "title": "Iran feuert Raketen in Richtung Israel ab",
+      "link": "https://www.tagesschau.de/ausland/israel-iran-raketen-100.html",
+      "desc": "Erstmals seit Inkrafttreten der Waffenruhe im April hat Iran Raketen in Richtung Israel abgefeuert. Abwehrsysteme seien im Einsatz, um sie abzufangen,"
     },
     {
-      "title": "Israel greift erneut Hisbollah-Ziele in Beirut an",
-      "link": "https://www.tagesschau.de/ausland/asien/libanon-israel-hisbollah-angriffe-beirut-100.html",
-      "desc": "US-Präsident Trump hatte einen Stopp der Angriffe in Beirut verkündet. Doch nun greift Israels Armee erneut Hisbollah-Ziele in der Hauptstadt des Liba"
+      "title": "Treffen in London: Europäer wollen Ukraine-Diplomatie wieder in Gang bringen",
+      "link": "https://www.tagesschau.de/ausland/europa/grossbritannien-london-treffen-100.html",
+      "desc": "Deutschland, Frankreich und Großbritannien wollen die Bemühungen für ein Ende des Ukraine-Kriegs neu anstoßen. In London berät Kanzler Merz darüber mi"
     },
     {
-      "title": "Konkurrenz aus Asien setzt deutsche Kosmetikmarken unter Druck",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-kosmetikmarken-druck-100.html",
-      "desc": "Der Markt für Hautpflege und Make-up gilt als vergleichsweise krisenfest. Doch trotz stabil wirkenden Umsätzen verändert sich die Branche rasant: durc"
+      "title": "Beamte in die Rente? SPD-Fraktionschef Miersch wägt ab",
+      "link": "https://www.tagesschau.de/inland/bericht-aus-berlin-rentenreform-100.html",
+      "desc": "Sollten Beamte in die gesetzliche Rentenversicherung eingegliedert werden? SPD-Fraktionschef Miersch sieht darin Vor- und Nachteile. Berlins Regierend"
     },
     {
-      "title": "Bovenschulte rät Bundesregierung bei Reformen zu Priorisierung",
-      "link": "https://www.tagesschau.de/inland/bremen-bovenschulte-bundesregierung-reformen-kritik-100.html",
-      "desc": "Steuer, Gesundheit, Pflege, Rente: Die Bundesregierung hat sich derzeit viele Themen gleichzeitig vorgenommen. Zu viele, sagt Bundesratspräsident Bove"
+      "title": "Missbrauchsskandal: Spanier hoffen auf mehr Aufklärung durch Papstbesuch",
+      "link": "https://www.tagesschau.de/ausland/europa/missbrauch-katholische-kirche-papst-100.html",
+      "desc": "Jahrelang wurde über sexuellen Missbrauch in Spaniens katholischer Kirche geschwiegen - viele werfen ihr noch immer Vertuschung vor. Opfer hoffen, das"
     },
     {
-      "title": "Einsatz in Nigeria: 360 Geiseln aus Gewalt der Boko Haram befreit",
-      "link": "https://www.tagesschau.de/ausland/afrika/boko-haram-geiseln-befreit-100.html",
-      "desc": "Das nigerianische Militär hat nach eigenen Angaben 360 Menschen, darunter auch Kinder, aus der Gewalt der Terrorgruppe Boko Haram befreit. Die Verschl"
+      "title": "Russische Drohne trifft Atommülllager-Anlage",
+      "link": "https://www.tagesschau.de/ausland/asien/tschernobyl-kernanlage-100.html",
+      "desc": "Bei einem russischen Drohnenangriff ist ein Gebäude unweit der Atomanlage Tschernobyl getroffen worden. Es gehört zu einem Lager für abgebrannten Kern"
     }
   ],
   "taz": [
     {
-      "title": "Kampf gegen Genitalverstümmelung: „Ich war ja schon immer die Rebellin der Familie“",
-      "link": "https://taz.de/Kampf-gegen-Genitalverstuemmelung/!6179890/",
-      "desc": "Binta Bah, die aus Gambia vor Frühehe und Beschneidung floh, hat in Bremen den Verein Lundu gegründet, um betroffenen Frauen zu helfen. mehr..."
+      "title": "Übergewinnsteuer: Gnadenlose soziale Unwucht",
+      "link": "https://taz.de/Uebergewinnsteuer/!6181103/",
+      "desc": "Union und SPD wollen Bür­ge­r:in­nen mit herben Kürzungen immer stärker belasten. Aber die enormen Übergewinne der Ölkonzerne schöpfen sie nicht ab. m"
     },
     {
-      "title": "EU-Erweiterung: Westbalkan im Warteraum",
-      "link": "https://taz.de/EU-Erweiterung/!6184974/",
-      "desc": "Auf dem Westbalkangipfel inszenierten sich Deutschland und Frankreich als Verfechter einer EU-Erweiterung. Das ist wenig glaubwürdig. mehr..."
+      "title": "EU-Vorgaben bei Lohngleichheit: Gleichstellung ist der Bundesregierung zu bürokratisch",
+      "link": "https://taz.de/EU-Vorgaben-bei-Lohngleichheit/!6184970/",
+      "desc": "Deutschland setzt ein EU-Gesetz zur Gehaltstransparenz nicht um. Frauenministerin Prien redet sich mit Bürokratie und wirtschaftlicher Lage heraus. me"
     },
     {
-      "title": "Gewalt im Westjordanland: Baby von israelischen Militärs erschossen",
-      "link": "https://taz.de/Gewalt-im-Westjordanland/!6185035/",
-      "desc": "Am Freitag haben Sol­da­t:in­nen ein sieben Monate altes Baby erschossen. Die israelischen Streitkräfte bedauern den Vorfall und wollen ihn aufklären."
+      "title": "„Kakerlaken-Partei“ in Indien: Wenn ein Onlineprotest Realität wird",
+      "link": "https://taz.de/Kakerlaken-Partei-in-Indien/!6184978/",
+      "desc": "Die im Netz entstandene indische Kakerlaken-Volkspartei CJP kommt zum Protest in Delhi zusammen. Dabei findet sie prominente Unterstützer:innen. mehr."
     },
     {
-      "title": "Angriffe der ADF-Miliz in der DR Kongo: Nachts kehren die Killer zurück",
-      "link": "https://taz.de/Angriffe-der-ADF-Miliz-in-der-DR-Kongo/!6184984/",
-      "desc": "Im Regierungsgebiet im Osten der DR Kongo ist die Bevölkerung schutzlos gegen die ugandische Miliz ADF. Nach neuen Massakern steigt die Wut. mehr..."
+      "title": "Folge von US-Sanktionen: Kuba abgeschnitten von Visa und Mastercard",
+      "link": "https://taz.de/Folge-von-US-Sanktionen/!6185028/",
+      "desc": "Die USA wollen das Firmenimperium des kubanischen Militärs kleinkriegen und drohen dessen internationalen Partnern. Die ziehen sich zurück. mehr..."
     },
     {
-      "title": "UNO, CSU und EU: Staatsräson kostet Geld",
-      "link": "https://taz.de/UNO-CSU-und-EU/!6184955/",
-      "desc": "Deutschland sucht nach dem Schuldigen des Wahldebakels bei der UNO. Wiedergewählt wird wohl nur CSU-Politiker Markus Söder. mehr..."
+      "title": "Gedächtnisturnier zum OEZ-Attentat: Heute Kicken, morgen Wut",
+      "link": "https://taz.de/Gedaechtnisturnier-zum-OEZ-Attentat/!6184960/",
+      "desc": "Nach dem rechtsterroristischen Attentat von München 2016 suchen zehn Jahre später Angehörige nach Wegen zum Gedenken – zum Beispiel durch Fußball. meh"
     }
   ],
   "reddit": [
+    {
+      "title": "The bike community in my city had a parade today. It was awesome (even though the bee costume was boiling me alive)!",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1tzgjqg/the_bike_community_in_my_city_had_a_parade_today/",
+      "thumb": "https://preview.redd.it/63qlkyf2zv5h1.jpg?width=140&amp;height=78&amp;auto=webp&amp;s=86a921859ddebe8f277d035a5864855a3043db1e",
+      "desc": ""
+    },
     {
       "title": "Unpopular opinion; Meghna bikes don’t seem worth it and we supporting bike “fast fashion”",
       "link": "https://www.reddit.com/r/xbiking/comments/1tzd1xn/unpopular_opinion_meghna_bikes_dont_seem_worth_it/",
@@ -67,9 +73,9 @@
       "desc": ""
     },
     {
-      "title": "Ritchey Garden City",
-      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1tz7txp/ritchey_garden_city/",
-      "thumb": "https://preview.redd.it/ft5lub1myt5h1.jpg?width=140&amp;height=140&amp;auto=webp&amp;s=d6443a02baeca4ea7c4af9d7443dec54a6476a67",
+      "title": "Weis Hammer Track Ti",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tzesv8/weis_hammer_track_ti/",
+      "thumb": "https://preview.redd.it/vzuyuc2cnv5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=032dcd07c3a191d38914261e0637f0dd120f0a9b",
       "desc": ""
     },
     {
@@ -77,19 +83,13 @@
       "link": "https://www.reddit.com/r/ChineseCarbon/comments/1tz9j1d/my_journey_from_road_cycling_beginner_at_the/",
       "thumb": "",
       "desc": ""
-    },
-    {
-      "title": "My first fixie",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1tz81gi/my_first_fixie/",
-      "thumb": "https://preview.redd.it/e9szd4r93u5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8239474161daf2eddb6d1190abaee174b2557463",
-      "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Sun, 07 Jun 2026 17:05:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0607/AU-20260607-1705-0200.mp3",
-    "duration": "00:04:49"
+    "pub_date": "Sun, 07 Jun 2026 21:33:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0607/AU-20260607-2133-2800.mp3",
+    "duration": "00:03:24"
   },
   "bt_themen": [
     {
