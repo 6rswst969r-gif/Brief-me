@@ -1,6 +1,16 @@
 {
   "tagesschau": [
     {
+      "title": "US-Armee meldet Angriffe auf Iran nach Vorwurf des Helikopter-Abschusses",
+      "link": "https://www.tagesschau.de/ausland/asien/usa-iran-angriff-100.html",
+      "desc": "US-Präsident Trump wirft Iran vor, einen Hubschrauber abgeschossen zu haben und hat Vergeltung angekündigt. Die folgte laut US-Armee jetzt: Demnach gr"
+    },
+    {
+      "title": "NASA und ESA: Artemis-3-Mission ohne deutschen Astronauten geplant",
+      "link": "https://www.tagesschau.de/ausland/amerika/artemis-3-mission-100.html",
+      "desc": "Mit Artemis 3 will die NASA künftige Mondlandungen vorbereiten. Zunächst hieß es, ein deutscher Astronaut könnte dabei sein. Aber nun soll der Italien"
+    },
+    {
       "title": "EU-Kommission: WhatsApp muss andere KI-Anbieter zulassen",
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/whatsapp-ki-europaeische-union-100.html",
       "desc": "Binnen fünf Werktagen muss der US-Technologiekonzern Meta anderen KI-Anbietern freien Zugang zu seinem Messengerdienst WhatsApp bieten. Das hat die EU"
@@ -14,16 +24,6 @@
       "title": "Trump und Netanjahu: Nur ein \"Familienkrach\" - oder doch mehr?",
       "link": "https://www.tagesschau.de/ausland/asien/netanjahu-trump-hisbollah-iran-100.html",
       "desc": "Jahrelang präsentierten sich US-Präsident Trump und Israels Premier Netanjahu als enge Partner. Doch inzwischen gibt es fundamentale Differenzen über "
-    },
-    {
-      "title": "Politisch motivierte Straftaten: Mehr Polarisierung, mehr Gewalt",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/straftaten-kriminalitaet-politisch-statistik-102.html",
-      "desc": "85.837 Straftaten mit politischem Hintergrund hat die Polizei im vergangenen Jahr gezählt - ein neuer Höchststand. BKA-Chef Münch nennt die zunehmende"
-    },
-    {
-      "title": "Landkreise und Sondervermögen: Eine willkommene Finanzspritze",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/landkreistag-sondervermoegen-tuebingen-100.html",
-      "desc": "In den Kommunen fehlt an allen Ecken und Enden das Geld für Sanierungen. Nun sollen 100 Milliarden Euro aus dem Sondervermögen helfen. Der Landkreis T"
     }
   ],
   "taz": [
@@ -55,15 +55,15 @@
   ],
   "reddit": [
     {
-      "title": "Cannondale m500 My Personal Bike.",
-      "link": "https://www.reddit.com/r/xbiking/comments/1u108ek/cannondale_m500_my_personal_bike/",
-      "thumb": "https://preview.redd.it/z4u5jufz886h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=d3f64e215e976c6a5466534f990ac1e9129094be",
+      "title": "fuck depression - I’m outside!",
+      "link": "https://www.reddit.com/r/xbiking/comments/1u1bup6/fuck_depression_im_outside/",
+      "thumb": "https://preview.redd.it/cy47aumhla6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=9fa2578f8bd0a5e8fb94040111a705210463584c",
       "desc": ""
     },
     {
-      "title": "Anyone else went from biking to driving and back?",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1u0uz3a/anyone_else_went_from_biking_to_driving_and_back/",
-      "thumb": "https://preview.redd.it/t9oavgrkq66h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d062b7adda197b7070a27412a9b726d8cf162ea",
+      "title": "Protected bike lanes, not painted lanes, lift NYC bikeshare ridership, analysis shows",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1u1hpd7/protected_bike_lanes_not_painted_lanes_lift_nyc/",
+      "thumb": "https://external-preview.redd.it/QgxnhO4BWykTLB15GHJ0TJswt-dVd5w_OoYgORK4BdA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fdfd08f942b119b39ece814da51f997407de4e7e",
       "desc": ""
     },
     {
@@ -73,23 +73,23 @@
       "desc": ""
     },
     {
-      "title": "My ultimate rat bike",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u10eno/my_ultimate_rat_bike/",
-      "thumb": "https://preview.redd.it/1qrjubt4986h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=623ba3f7c0f771e73235d3fb2b1cbed52ab81125",
+      "title": "Finished my dream build! Total cost 280€, so stoked",
+      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1u1ameb/finished_my_dream_build_total_cost_280_so_stoked/",
+      "thumb": "https://preview.redd.it/l9u0flp1ea6h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=809960cd968517bef044f15deae0f1f9580c2852",
       "desc": ""
     },
     {
-      "title": "Got an Old Peugeot, Advice for Tweaking",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u172vt/got_an_old_peugeot_advice_for_tweaking/",
-      "thumb": "https://preview.redd.it/rodj55qkr96h1.png?width=140&amp;height=98&amp;auto=webp&amp;s=9441a28596376249c6488041a5343f56a0a5411e",
+      "title": "My ultimate rat bike",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u10eno/my_ultimate_rat_bike/",
+      "thumb": "https://preview.redd.it/1qrjubt4986h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=623ba3f7c0f771e73235d3fb2b1cbed52ab81125",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Tue, 09 Jun 2026 19:34:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0609/AU-20260609-1934-5800.mp3",
-    "duration": "00:03:21"
+    "pub_date": "Wed, 10 Jun 2026 01:33:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0610/AU-20260610-0133-2900.mp3",
+    "duration": "00:03:31"
   },
   "bt_themen": [
     {
