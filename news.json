@@ -1,71 +1,59 @@
 {
   "tagesschau": [
     {
-      "title": "SPD-Fraktion erarbeitet neues Wirtschaftskonzept",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/spd-wirtschaftspapier-100.html",
-      "desc": "Wie kommt Deutschland aus der Wirtschaftskrise? Dazu hat die SPD-Fraktion nun ein neues \"Impulspapier\" erarbeitet. Darin fordern die Sozialdemokraten "
+      "title": "EU-Kommission: WhatsApp muss andere KI-Anbieter zulassen",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/whatsapp-ki-europaeische-union-100.html",
+      "desc": "Binnen fünf Werktagen muss der US-Technologiekonzern Meta anderen KI-Anbietern freien Zugang zu seinem Messengerdienst WhatsApp bieten. Das hat die EU"
     },
     {
-      "title": "Ebola in der DR Kongo: Zahl der Todesfälle auf 101 gestiegen",
-      "link": "https://www.tagesschau.de/ausland/afrika/ebola-kongo-tote-104.html",
-      "desc": "Vor knapp einem Monat wurde der aktuelle Ebola-Ausbruch im Ostkongo festgestellt. Inzwischen ist die Zahl der Todesfälle auf 101 gestiegen. Nur ein ge"
+      "title": "Diätenerhöhung für Bundestagsabgeordnete soll in diesem Jahr entfallen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/diaeten-abgeordnete-100.html",
+      "desc": "Die nächste Erhöhung der Bezüge der Bundestagsabgeordneten steht eigentlich im Juli an. In diesem Jahr wird sie wohl ausfallen. Denn die Fraktionen vo"
     },
     {
-      "title": "Politisch motivierte Straftaten erreichen Höchststand",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/straftaten-kriminalitaet-politisch-statistik-100.html",
-      "desc": "Die Anzahl politisch motivierter Straftaten hat im vergangenen Jahr einen neuen Höchststand erreicht. Den größten Anstieg gab es laut Innenminister Do"
+      "title": "Trump und Netanjahu: Nur ein \"Familienkrach\" - oder doch mehr?",
+      "link": "https://www.tagesschau.de/ausland/asien/netanjahu-trump-hisbollah-iran-100.html",
+      "desc": "Jahrelang präsentierten sich US-Präsident Trump und Israels Premier Netanjahu als enge Partner. Doch inzwischen gibt es fundamentale Differenzen über "
     },
     {
-      "title": "Schweres Erdbeben auf Philippinen: Opferzahl steigt auf 37",
-      "link": "https://www.tagesschau.de/ausland/asien/philippinen-erdbeben-opferzahl-steigt-100.html",
-      "desc": "Auf den Philippinen suchen Einsatzkräfte nach einem verheerenden Erdbeben weiter nach Überlebenden. Die Zahl der Toten dürfte jedoch noch steigen. Meh"
+      "title": "Politisch motivierte Straftaten: Mehr Polarisierung, mehr Gewalt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/straftaten-kriminalitaet-politisch-statistik-102.html",
+      "desc": "85.837 Straftaten mit politischem Hintergrund hat die Polizei im vergangenen Jahr gezählt - ein neuer Höchststand. BKA-Chef Münch nennt die zunehmende"
     },
     {
-      "title": "Marktbericht: Kaum Impulse von frischen Konjunkturdaten",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-openai-naher-osten-100.html",
-      "desc": "Frische Konjunkturdaten zu Deutschlands Exporten und zur Industrieproduktion locken die Investoren nicht aus der Deckung. Zu unsicher bleibt die Situa"
+      "title": "Landkreise und Sondervermögen: Eine willkommene Finanzspritze",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landkreistag-sondervermoegen-tuebingen-100.html",
+      "desc": "In den Kommunen fehlt an allen Ecken und Enden das Geld für Sanierungen. Nun sollen 100 Milliarden Euro aus dem Sondervermögen helfen. Der Landkreis T"
     }
   ],
   "taz": [
     {
-      "title": "Rentenreform: Für Erfolge sind Strack-Zimmermann und Wadephul noch zu jung",
-      "link": "https://taz.de/Rentenreform/!6178483/",
-      "desc": "Alle seriösen Ausbeutungsexperten sind sich einig: Die Rente ab 70 reicht nicht aus für das Wachstum. Wir brauchen stattdessen die Arbeit ab 70. mehr."
+      "title": "Semsrott über Zivilgesellschaft: „Wir müssen in die produktiven Konflikte gehen“",
+      "link": "https://taz.de/Semsrott-ueber-Zivilgesellschaft/!6184043/",
+      "desc": "Wie wieder in die Offensive kommen angesichts der autoritären Wende? Arne Semsrott hat in seinem Buch „Gegenmacht“ Lifehacks für das schöne Leben aufg"
     },
     {
-      "title": "Mutmaßliche Polizeigewalt in Berlin: „Ich war mir nicht sicher, ob sie mich umbringen“",
-      "link": "https://taz.de/Mutmassliche-Polizeigewalt-in-Berlin/!6185823/",
-      "desc": "Die Polizei verletzt in Berlin-Friedrichshain mehrere Personen nach einem Straßenfest. Die Betroffenen erheben schwere Vorwürfe, die Polizei hat eine "
+      "title": "Allianz im Norden Europas: Selenskyj zu Besuch bei Freunden im Krieg",
+      "link": "https://taz.de/Allianz-im-Norden-Europas/!6185923/",
+      "desc": "Die Ukraine ist längst kein Bittsteller mehr in Europa. Für die baltischen und nordischen Staaten ist klar: Kyjiw muss Teil der EU und der Nato werden"
     },
     {
-      "title": "Weniger Geld in Massenunterkünften: Bundesregierung ignoriert Urteil zu Asyl-Leistungen",
-      "link": "https://taz.de/Weniger-Geld-in-Massenunterkuenften/!6185684/",
-      "desc": "Dass Asyl­be­wer­be­r:in­nen in Sammelunterkünften weniger als das Existenzminimum bekommen, ist verfassungswidrig. Die Bundesregierung juckt das nich"
+      "title": "Betriebliche Altersvorsorge: Sozialpolitische Good Vibes",
+      "link": "https://taz.de/Betriebsrente-Klingt-wie-ein-beruhigendes-Signal-aber-es-kommt-auf-die-Details-an/!6181145/",
+      "desc": "Eine Betriebsrente klingt angesichts der zahlreichen Sozialkürzungen wie ein beruhigendes Signal. Aber es kommt wie so oft auf die Details an. mehr..."
     },
     {
-      "title": "Greenpeace-Expertin über Ukraine: „AKWs haben sich als sehr verwundbar erwiesen“",
-      "link": "https://taz.de/Greenpeace-Expertin-ueber-Ukraine/!6183965/",
-      "desc": "Greenpeace-Expertin Kolodiazhna hält neue Atomkraftwerke in der Ukraine für kaum realistisch. Erneuerbare Energien hingegen seien im Krieg widerstands"
+      "title": "Ungleichheit in Unternehmen: Wer verdient ein Jahresgehalt mit nur 2,5 Tagen Arbeit?",
+      "link": "https://taz.de/Ungleichheit-in-Unternehmen/!6185481/",
+      "desc": "Die 100 größten Unternehmen Europas verschärfen die Ungleichheit massiv, zeigt eine Oxfam-Studie. Wie die Politik die Konzerne im Zaum halten könnte. "
     },
     {
-      "title": "Erfurt im „Glücksatlas“ ganz oben: Glück ist dort, wo die Mieten niedrig sind",
-      "link": "https://taz.de/Erfurt-im-Gluecksatlas-ganz-oben/!6185835/",
-      "desc": "Erfurt ist die glücklichste der 40 Großstädte in Deutschland, sagen Forscher. Auch in Oberhausen und Duisburg fühlen sich die Menschen wohler als in B"
+      "title": "Übergriffe am Filmset: Film brennt gut",
+      "link": "https://taz.de/Uebergriffe-am-Filmset-Szenen-herauszuschneiden-ist-keine-politisch-korrekte-Zensur/!6185644/",
+      "desc": "Für realistische Reaktionen der Schauspielerinnen nutzten manche Regisseure und Co-Stars Gewalt. Die Szenen blieben drin. Liebe Kritik daran reicht ni"
     }
   ],
   "reddit": [
-    {
-      "title": "Anyone else went from biking to driving and back?",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1u0uz3a/anyone_else_went_from_biking_to_driving_and_back/",
-      "thumb": "https://preview.redd.it/t9oavgrkq66h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d062b7adda197b7070a27412a9b726d8cf162ea",
-      "desc": ""
-    },
-    {
-      "title": "A group of us did old fall river road on Sunday!",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1u0s9i6/a_group_of_us_did_old_fall_river_road_on_sunday/",
-      "thumb": "https://preview.redd.it/ca6z99qc366h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=fe77f4d995fce200aaf2be500a911428b1715dee",
-      "desc": ""
-    },
     {
       "title": "Cannondale m500 My Personal Bike.",
       "link": "https://www.reddit.com/r/xbiking/comments/1u108ek/cannondale_m500_my_personal_bike/",
@@ -73,23 +61,35 @@
       "desc": ""
     },
     {
-      "title": "Sweet Jane",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u0tgc8/sweet_jane/",
-      "thumb": "https://preview.redd.it/dtfsm3c4d66h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=b1454e12bdb7a3e7174184897a135e2214c94e95",
+      "title": "Anyone else went from biking to driving and back?",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1u0uz3a/anyone_else_went_from_biking_to_driving_and_back/",
+      "thumb": "https://preview.redd.it/t9oavgrkq66h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d062b7adda197b7070a27412a9b726d8cf162ea",
       "desc": ""
     },
     {
-      "title": "Cinelli Super Corsa",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u0z20e/cinelli_super_corsa/",
-      "thumb": "https://preview.redd.it/ksztbj17w76h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=6e6237d8887202cd032a18d199f6ead7db50442b",
+      "title": "It Felt Like Cycling Through the Windows XP Bliss Wallpaper.",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1u1bgm1/it_felt_like_cycling_through_the_windows_xp_bliss/",
+      "thumb": "https://preview.redd.it/9pbe0fcwea6h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ad3de471a95c6054d0da8c78668f207d0c83a4fa",
+      "desc": ""
+    },
+    {
+      "title": "My ultimate rat bike",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u10eno/my_ultimate_rat_bike/",
+      "thumb": "https://preview.redd.it/1qrjubt4986h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=623ba3f7c0f771e73235d3fb2b1cbed52ab81125",
+      "desc": ""
+    },
+    {
+      "title": "Got an Old Peugeot, Advice for Tweaking",
+      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u172vt/got_an_old_peugeot_advice_for_tweaking/",
+      "thumb": "https://preview.redd.it/rodj55qkr96h1.png?width=140&amp;height=98&amp;auto=webp&amp;s=9441a28596376249c6488041a5343f56a0a5411e",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Tue, 09 Jun 2026 12:36:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0609/AU-20260609-1236-1900.mp3",
-    "duration": "00:05:41"
+    "pub_date": "Tue, 09 Jun 2026 19:34:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0609/AU-20260609-1934-5800.mp3",
+    "duration": "00:03:21"
   },
   "bt_themen": [
     {
@@ -115,7 +115,7 @@
     {
       "title": "Junge Erwachsene schlüpfen in die Rolle von fiktiven Abgeordneten",
       "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-jup-1182626",
-      "desc": "Mehr als 250 junge Erwachsene aus dem gesamten Bundesgebiet stellen in dem großangelegten Planspiel \"Jugend und Parlament\" parlamentarische Verfahren "
+      "desc": "Mehr als 250 junge Erwachsene aus dem gesamten Bundesgebiet stellten in dem großangelegten Planspiel \"Jugend und Parlament\" parlamentarische Verfahren"
     }
   ],
   "bt_presse": [
@@ -147,29 +147,29 @@
   ],
   "bt_hib": [
     {
-      "title": "Forschungs- und Technologiestand beim autonomen Fahren",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183758",
-      "desc": "Verkehr/KleineAnfrage Den Forschungs-, Technologie- und Transferstand beim autonomen Fahren in Deutschland thematisiert die AfD-Fraktion in einer Klei"
+      "title": "Nutzung von Agrarflächen zur Energiegewinnung",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183912",
+      "desc": "Wirtschaft und Energie/Antwort In Deutschland werden auf zwei Millionen Hektar landwirtschaftlicher Fläche Pflanzen für die Erzeugung von Bioenergie a"
     },
     {
-      "title": "Auswirkungen des Iran-Krieges auf Lebensmittelpreise",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183756",
-      "desc": "Landwirtschaft, Ernährung und Heimat/KleineAnfrage Die Fraktion Die Linke befürchtet, dass der Krieg der USA und Israels gegen den Iran die Lebensmitt"
+      "title": "Ausschreibungen im Bundeswirtschaftsministerium",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183910",
+      "desc": "Wirtschaft und Energie/Antwort Die Auslagerung von strategischer Top-Management-Beratung im Bundeswirtschaftsministerium ist aktuellen Herausforderung"
     },
     {
-      "title": "Instandgesetzte Autobahnbrücken in Berlin und Brandenburg",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183754",
-      "desc": "Verkehr/Antwort Im Durchschnitt wurden in den letzten fünf Jahren in Berlin und Brandenburg 6,8 Teilbauwerke von Autobahnbrücken jährlich modernisiert"
+      "title": "Fragen zu Krankheitsstand und Personalentwicklung beim BKM",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183918",
+      "desc": "Kultur und Medien/KleineAnfrage Die AfD-Fraktion verlangt in einer Kleinen Anfrage Auskunft über den Krankheitsstand und die Personalentwicklung in de"
     },
     {
-      "title": "Regierung kündigt bundesweites einheitliches Baumkataster an",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183752",
-      "desc": "Verkehr/Antwort Die Bundesanstalt für Straßen- und Verkehrswesen (BASt) ist beauftragt, auf Grundlage der Baumkataster der Länder ein bundesweites ein"
+      "title": "Finanztransfers mit Bezug zu Syrien",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183908",
+      "desc": "Auswärtiges/Antwort Zur Unterstützung Syriens beim Wiederaufbau und der Kontrolle verwendeter Gelder nimmt die Bundesregierung in der Antwort auf eine"
     },
     {
-      "title": "Moderner Fünfkampf am Olympiastützpunkt Brandenburg",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183750",
-      "desc": "Sport und Ehrenamt/Antrag Die AfD-Fraktion macht sich für den Modernen Fünfkampf am Olympiastützpunkt Brandenburg stark und hat dazu einen Antrag vorg"
+      "title": "Acht Rohstoffkompetenzzentren der Außenhandelskammern",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1183916",
+      "desc": "Wirtschaft und Energie/Antwort Rohstoffkompetenzzentren sollen die deutsche Wirtschaft bei der Beschaffung kritischer Rohstoffe unterstützen, schreibt"
     }
   ]
 }
