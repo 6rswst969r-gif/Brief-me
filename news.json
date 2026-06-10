@@ -1,59 +1,65 @@
 {
   "tagesschau": [
     {
-      "title": "Ausschreitungen in Belfast: Politiker warnen vor Hass und Spaltung",
-      "link": "https://www.tagesschau.de/ausland/ausschreitungen-belfast-100.html",
-      "desc": "Brennende Autos und Mülleimer: Nach einem Messerangriff in Belfast gab es heftige Ausschreitungen gegen Einwanderung. Anwohner sind erschüttert. Polit"
+      "title": "Baerbock warnt vor Folgen von Finanzkürzungen bei UN für Afrika",
+      "link": "https://www.tagesschau.de/ausland/finanzen-un-100.html",
+      "desc": "Die Vereinten Nationen stehen finanziell massiv unter Druck - das ist in Afrika schon jetzt sichtbar. Die Präsidentin der UN-Generalversammlung, Baerb"
     },
     {
-      "title": "Iran-Liveblog: ++ ARD-Korrespondentin: \"Gedrosselter Krieg\" ++",
-      "link": "https://www.tagesschau.de/newsticker/liveblog-iran-usa-100.html",
-      "desc": "Wie die ARD-Korrespondentin Willinger berichtet, gibt es nach den aktuellen Angriffen in diesem \"gedrosselten Krieg\" noch keine Berichte über Opfer. I"
+      "title": "US-Präsident Trump droht mit \"harten\" Angriffen auf Iran",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-iran-204.html",
+      "desc": "Offiziell herrscht zwischen Iran und den USA eine Waffenruhe. Doch die gegenseitigen Angriffe nehmen wieder zu. Jetzt droht US-Präsident Trump einmal "
     },
     {
-      "title": "Fast drei Viertel der Neubauten 2025 mit Wärmepumpen-Heizung",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/waermepumpen-neubauten-100.html",
-      "desc": "Ein immer größerer Teil der neuen Wohngebäude in Deutschland wird mit Wärmepumpen beheizt - vor allem Ein- und Zweifamilienhäuser. Binnen zehn Jahren "
+      "title": "Tankrabatt wird nicht verlängert",
+      "link": "https://www.tagesschau.de/wirtschaft/tankrabatt-ende-102.html",
+      "desc": "Lange war über eine mögliche Verlängerung diskutiert worden - nun ist klar: Der Tankrabatt endet. Wie geplant läuft die Maßnahme Ende Juni aus. Man se"
     },
     {
-      "title": "Warum Apple die Einführung von Siri AI in der EU verschiebt",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/apple-siri-ai-eu-digitalregeln-100.html",
-      "desc": "Der KI-Assistent Siri AI auf iPhones sorgt für Streit zwischen Apple und der EU-Kommission. Während die Kommission von nicht erfüllten Anforderungen s"
+      "title": "DIW befürchtet Rezession in Deutschland",
+      "link": "https://www.tagesschau.de/wirtschaft/konjunktur/diw-wirtschaftsprognose-100.html",
+      "desc": "Die Ökonomen des DIW haben ihre Konjukturprognose nach unten korrigiert: Im Frühjahr und Sommer rechnen sie nun mit einer Rezession in Deutschland. Wi"
     },
     {
-      "title": "Einzelhandel hofft auf WM-Euphorie gegen die Konsumflaute",
-      "link": "https://www.tagesschau.de/wirtschaft/einzelhandel-fussball-wm-100.html",
-      "desc": "Das Konsumklima in Deutschland ist so schlecht wie seit Jahren nicht mehr. Handel und Gastronomie hoffen auf einen \"WM-Effekt\". Doch selbst beim \"Somm"
+      "title": "Marktbericht: DAX gibt weiter nach",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-ki-iran-100.html",
+      "desc": "Am Persischen Golf wird wieder geschossen und die KI-Rally stockt. Der DAX schließt daher deutlich im Minus. Die US-Verbraucherpreise steigen derweil "
     }
   ],
   "taz": [
     {
-      "title": "Biolandwirtschaft in Frankreich: Eine harte Nuss",
-      "link": "https://taz.de/Biolandwirtschaft-in-Frankreich/!6183373/",
-      "desc": "Hugo und Julie Pelloux wollen im Südwesten Frankreichs Haselnüsse anbauen – aber ohne Pestizide. Niemand glaubt, dass sie das schaffen. mehr..."
+      "title": "Dobrindts Asylpolitik: Um jeden Preis",
+      "link": "https://taz.de/Dobrindts-Asylpolitik/!6186217/",
+      "desc": "Eigentlich sollten die deutschen Grenzkontrollen mit Inkrafttreten der Geas-Reform enden. Die Union will aber weiter nach rechten Wählern fischen. meh"
     },
     {
-      "title": "Prekäre Arbeitsbedingungen an Unis: Jetzt verärgert Bär auch noch die For­sche­nden",
-      "link": "https://taz.de/Prekaere-Arbeitsbedingungen-an-Unis/!6185974/",
-      "desc": "Erst die Bafög-Absage, nun ein Reförmchen gegen prekäre Arbeitsverhältnisse an Unis. Und wieder steht die Wissenschaftsministerin in der Kritik. mehr."
+      "title": "Sächsische Ministerin zu Beleidigungen: „Wir brauchen kein Sonderrecht für Politiker“",
+      "link": "https://taz.de/Saechsische-Ministerin-zu-Beleidigungen/!6186173/",
+      "desc": "Sachsens Justizministerin Constanze Geiert (CDU) will den Paragrafen zur Politikerbeleidigung abschaffen. Es entstehe der Eindruck, es gebe ein Zwei-K"
     },
     {
-      "title": "Nordirland: Rassistische Krawalle nach Messerangriff in Belfast",
-      "link": "https://taz.de/Nordirland/!6186102/",
-      "desc": "Am Dienstag ging ein Video von einem brutalen Messerangriff eines Asylbewerbers viral. Nun setzten Rechtsextreme Autos und Gebäude in Brand. mehr..."
+      "title": "KI-Reden von Mario Voigt: Erbärmliche Denkfaulheit",
+      "link": "https://taz.de/KI-Reden-von-Mario-Voigt/!6186148/",
+      "desc": "Thüringens CDU-Ministerpräsident Mario Voigt lässt sich seine Reden wohl mit KI schreiben. Das ist peinlich und ein gefundenes Fressen für die extreme"
     },
     {
-      "title": "Klimawandel in Deutschland: Organisationen fordern besseren Hitzeschutz",
-      "link": "https://taz.de/Klimawandel-in-Deutschland/!6186253/",
-      "desc": "Ein Bündnis aus mehr 150 Organisationen verlangt systematisch mehr Hitzeschutz. Ein mehrtägiger Hitzedom könne zu Tausenden Toten in Deutschland führe"
+      "title": "Schülerunruhen in Kenia: Die Oberschulen brennen",
+      "link": "https://taz.de/Schuelerunruhen-in-Kenia/!6186187/",
+      "desc": "Eine Welle teils gewaltsamer Proteste hat Internate in Kenia ergriffen. Nachdem ein Feuer 16 Schülerinnen tötet, reagiert die Regierung mit Härte. meh"
     },
     {
-      "title": "Nach Einreiseverbot zur Fußball-WM: Schiedsrichter in Mogadischu begeistert empfangen",
-      "link": "https://taz.de/Nach-Einreiseverbot-zur-Fussball-WM/!6186249/",
-      "desc": "Der abgewiesene WM-Schiri Omar Artan wird nach seiner Rückkehr in Somalia gefeiert. Die US-Behörden unterstellten ihm Nähe zur Terrormiliz Al-Shabaab."
+      "title": "Tiktok-Videos über erfolglose Jobsuche: #Arbeitslos",
+      "link": "https://taz.de/Tiktok-Videos-ueber-erfolglose-Jobsuche-Was-laeuft-schief-auf-dem-Arbeitsmarkt/!6185964/",
+      "desc": "30 Jahre alt. Masterabschluss. Grundsicherung. Auf Tiktok dokumentieren junge Menschen ihre erfolglose Jobsuche. Und fragen sich, was schiefläuft. meh"
     }
   ],
   "reddit": [
+    {
+      "title": "New bike commuting fear unlocked",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1u22v08/new_bike_commuting_fear_unlocked/",
+      "thumb": "https://preview.redd.it/yu4zynwlng6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=376201151a2c5602c9bb497d481a026c2175fe19",
+      "desc": ""
+    },
     {
       "title": "Gravel bike in road mode",
       "link": "https://www.reddit.com/r/gravelcycling/comments/1u1ybtq/gravel_bike_in_road_mode/",
@@ -61,35 +67,29 @@
       "desc": ""
     },
     {
-      "title": "Crossed the Albulapass on my fixed gear",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u1xesn/crossed_the_albulapass_on_my_fixed_gear/",
-      "thumb": "https://preview.redd.it/uun9v5p6ef6h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=e93bda125f65c2ad9b796826d8c4c44c59b2d751",
+      "title": "My all black every day city ride",
+      "link": "https://www.reddit.com/r/xbiking/comments/1u21zg1/my_all_black_every_day_city_ride/",
+      "thumb": "https://preview.redd.it/2yqlsnbogg6h1.jpg?width=140&amp;height=93&amp;auto=webp&amp;s=c76d75ae4a54286df77bb499a457237900427d77",
       "desc": ""
     },
     {
-      "title": "New bike day. Does it qualify as xbiking because it has 2x9 XTR derailleurs, Dura ace and newbaums?",
-      "link": "https://www.reddit.com/r/xbiking/comments/1u1rmmp/new_bike_day_does_it_qualify_as_xbiking_because/",
-      "thumb": "https://preview.redd.it/b5qfrdq3sd6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=459736d63333a0f8a3f8ab40d67a53a3719ff2f7",
+      "title": "From the archives them LA days",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u26iwm/from_the_archives_them_la_days/",
+      "thumb": "https://preview.redd.it/6sit28x9bh6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f490a57b910616cbde54ed19feb05d8fdf6c941d",
       "desc": ""
     },
     {
-      "title": "Protected bike lanes, not painted lanes, lift NYC bikeshare ridership, analysis shows",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1u1hpd7/protected_bike_lanes_not_painted_lanes_lift_nyc/",
-      "thumb": "https://external-preview.redd.it/QgxnhO4BWykTLB15GHJ0TJswt-dVd5w_OoYgORK4BdA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fdfd08f942b119b39ece814da51f997407de4e7e",
-      "desc": ""
-    },
-    {
-      "title": "Motobecane 1972 / voher nachher",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u204yx/motobecane_1972_voher_nachher/",
-      "thumb": "https://preview.redd.it/9adfy1xd3g6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=e5517f4d8ef355afbef0e881acf4120c5547dd81",
+      "title": "Viner on the street in New York City",
+      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u2dli8/viner_on_the_street_in_new_york_city/",
+      "thumb": "https://preview.redd.it/pn0dtsttji6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=49601f7b8fa5cc5ea28cefb1aa8ff84d5db7ef60",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Wed, 10 Jun 2026 14:35:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0610/AU-20260610-1435-0700.mp3",
-    "duration": "00:05:30"
+    "pub_date": "Wed, 10 Jun 2026 23:03:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0610/AU-20260610-2303-2800.mp3",
+    "duration": "00:03:21"
   },
   "bt_themen": [
     {
@@ -98,24 +98,24 @@
       "desc": "Die Deutsch-Französische Parlamentarische Versammlung tritt am Freitag, 12. Juni 2026, zu einer einstündigen Sondersitzung zusammen. Geplant ist eine "
     },
     {
-      "title": "Fachgespräch zu beruflicher Bildung und Qualifizierung im Wandel",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-pa-bildung-1182198",
-      "desc": "Der Ausschuss für Bildung, Familie, Senioren, Frauen und Jugend hat sich am Mittwoch, 10. Juni 2026, in einer öffentlichen Anhörung dem Thema „Heute u"
+      "title": "Regierungserklärung des Bundeskanzlers zum Europäischen Rat",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-regierungserklaerung-1181878",
+      "desc": "Bundeskanzler Friedrich Merz (CDU) gibt am Donnerstag, 11. Juni 2026, eine 20-minütige Regierungserklärung zum Europäischen Rat am 18. und 19. Juni ab"
     },
     {
-      "title": "Anhörung zur Förderung der Reparatur von Waren",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-pa-recht-1177846",
-      "desc": "Der Ausschuss für Recht und Verbraucherschutz hat sich am Mittwoch, 10. Juni 2026, in einer öffentlichen Anhörung mit dem Gesetzentwurf der Bundesregi"
+      "title": "Anträge zur Familien- und Bildungspolitik",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-familien-kinder-1181880",
+      "desc": "Die Familien- und Bildungspolitik steht am Donnerstag, 11. Juni 2026, im Mittelpunkt einer Bundestagsdebatte. Grundlage dafür sind die Anträge der Fra"
     },
     {
-      "title": "12.399 Petitionen erreichten den Petitionsausschuss im Jahr 2025",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-petitionen-bericht-1183722",
-      "desc": "Im Jahr 2025 sind 12.399 Petitionen beim Petitionsausschuss des Deutschen Bundestages eingereicht worden. Das geht aus dem Tätigkeitsbericht des Aussc"
+      "title": "Regierung will „Heizungsgesetz“ der Ampel-Koalition ändern",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gebaeudeeneergiegesetz-1181884",
+      "desc": "Die Bundesregierung will das von der Vorgängerregierung erlassene „Heizungsgesetz“ ändern. Der dazu vorgelegte Gesetzentwurf „zur Änderung des Gebäude"
     },
     {
-      "title": "Christian Görke: Für Reformen bis Sommer fehlt mir die Fantasie",
-      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-interview-goerke-1183718",
-      "desc": "Der Vorsitzende des Finanzausschusses, Christian Görke (Die Linke), zeigt sich skeptisch darüber, ob die großen Reformpläne der Koalition aus CDU/CSU "
+      "title": "Gesetzentwürfe zur Entlastung von Energiekosten",
+      "link": "https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-energie-stromsteuer-1183576",
+      "desc": "Der Bundestag berät am Donnerstag, 11. Juni 2026, in erster Lesung über drei Gesetzentwürfe, die die AfD-Fraktion vorgelegt hat. Die Entwürfe zur fläc"
     }
   ],
   "bt_presse": [
@@ -147,29 +147,29 @@
   ],
   "bt_hib": [
     {
-      "title": "Forschungsministerium arbeitet weiter an Bafög-Reform",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184040",
-      "desc": "Forschung, Technologie, Raumfahrt und Technikfolgenabschätzung/Ausschuss Die Arbeit an der im Koalitionsvertrag vereinbarten Bafög-Reform geht weiter."
+      "title": "Grüne fordern Stärkung der humanitären Hilfe",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184128",
+      "desc": "Menschenrechte und humanitäre Hilfe/Antrag Die Grünen dringen in einem Antrag, der am Donnerstag im Bundestag beraten wird, auf eine Stärkung der huma"
     },
     {
-      "title": "Grüne fordern besseren Schutz vor Diskriminierung",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184046",
-      "desc": "Bildung, Familie, Senioren, Frauen und Jugend/Antrag Die Fraktion Bündnis 90/Die Grünen fordert eine Reform des Allgemeinen Gleichbehandlungsgesetzes "
+      "title": "AfD fordert nationalen Aufbruch an die digitale Weltspitze",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184126",
+      "desc": "Digitales und Staatsmodernisierung/Antrag Die AfD-Fraktion fordert die Bundesregierung in einem Antrag auf, die Voraussetzung für einen nationalen Auf"
     },
     {
-      "title": "Grüne fordern deutlich mehr Investitionen in Bildung",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184044",
-      "desc": "Bildung, Familie, Senioren, Frauen und Jugend/Antrag Die Fraktion Bündnis 90/Die Grünen fordert in einem Antrag gleiche Bildungschancen für alle und d"
+      "title": "Experten befürworten effektivere Nutzung von Registerdaten",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184124",
+      "desc": "Gesundheit/Anhörung Der Medizinregistergesetzentwurf der Bundesregierung wird von Experten grundsätzlich als wichtige Weichenstellung für eine bessere"
     },
     {
-      "title": "AfD fordert Entlassung von Bärbel Bas",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184042",
-      "desc": "Arbeit und Soziales/Antrag Die AfD-Fraktion fordert in einem Antrag die sofortige Entlassung von Bundesarbeitsministerin Bärbel Bas (SPD)."
+      "title": "Transferzahlungen an Haushalte in Mosambik",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184134",
+      "desc": "Wirtschaftliche Zusammenarbeit und Entwicklung/Antwort Transferzahlungen an vulnerable Haushalte im Mosambik haben laut Bundesregierung zu einem besse"
     },
     {
-      "title": "Gesetzentwurf gegen Missbrauch der Vaterschaftsanerkennung",
-      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184034",
-      "desc": "Inneres/Ausschuss Der Innenausschuss hat den Gesetzentwurf der Bundesregierung \"zur besseren Verhinderung missbräuchlicher Anerkennungen der Vaterscha"
+      "title": "Angaben zu Neubauprojekten der Bundesregierung",
+      "link": "https://www.bundestag.de/presse/hib/kurzmeldungen-1184132",
+      "desc": "Finanzen/Antwort Die Bundesregierung listet in ihrer Antwort auf eine Kleine Anfrage der AfD-Fraktion laufende und geplante Neubauprojekte auf."
     }
   ]
 }
