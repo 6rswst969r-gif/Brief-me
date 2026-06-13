@@ -1,6 +1,21 @@
 {
   "tagesschau": [
     {
+      "title": "EU-Einigung: Fluggastrechte werden erweitert",
+      "link": "https://www.tagesschau.de/wirtschaft/eu-fluggastrechte-einigung-100.html",
+      "desc": "Nach jahrelangen Verhandlungen haben sich Vertreter der EU-Mitgliedsstaaten und des Europäischen Parlaments auf eine Reform der Fluggastrechte geeinig"
+    },
+    {
+      "title": "Börsengang von SpaceX: Riskante Wette auf Raketen, Satelliten und Visionen",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-boersengang-nasdaq-elon-musk-100.html",
+      "desc": "Es ist der größte Börsengang der Geschichte: Das Raumfahrtunternehmen SpaceX ist erfolgreich an der Nasdaq gestartet. Doch trotz einer Bewertung von 1"
+    },
+    {
+      "title": "SpaceX-Aktie nach Börsenstart auf Höhenflug",
+      "link": "https://www.tagesschau.de/wirtschaft/spacex-musk-boersengang-100.html",
+      "desc": "Elon Musks Weltraumfirma SpaceX ist bei ihrem Rekord-Börsengang mit einem Plus in den Handel gestartet. Der erste Kurs wurde bei 150 Dollar festgestel"
+    },
+    {
       "title": "Ökonom über Reformpaket: \"Das ist vielleicht die größte Hürde für die Regierung\"",
       "link": "https://www.tagesschau.de/inland/fratzscher-reformpaket-bundesregierung-100.html",
       "desc": "Schwarz-Rot steht wegen seiner Reformpläne unter Druck. Dabei müsse die Politik auf die Wirklichkeit reagieren, sagt Ökonom Marcel Fratzscher. Für ihn"
@@ -9,21 +24,6 @@
       "title": "Bildungsminister wollen kritischen Umgang mit Sozialen Medien",
       "link": "https://www.tagesschau.de/inland/gesellschaft/kmk-beschluss-social-media-100.html",
       "desc": "Erstmals haben sich die Bildungsminister auf Leitlinien verständigt, um die Kompetenz junger Menschen im Umgang mit Sozialen Medien zu stärken. Das Th"
-    },
-    {
-      "title": "Marktbericht: DAX legt zu Wochenschluss kräftig zu",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-spacex-100.html",
-      "desc": "Die Hoffnung auf Frieden zwischen den USA und Iran sorgt für gute Stimmung an den Finanzmärkten. Aber Skepsis bleibt. Beim Rekord-Börsengang in den US"
-    },
-    {
-      "title": "Gewaltschutzgesetz im Bundesrat: Elektronische Fußfessel soll Frauen schützen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/haeussliche-gewalt-fussfesseln-femizide-strafrechtsreform-100.html",
-      "desc": "Der Bundesrat beschließt strengere Maßnahmen gegen häusliche Gewalt, darunter elektronische Fußfesseln und Anti-Gewalt-Kurse für Täter. Zudem fordern "
-    },
-    {
-      "title": "Erstes WM-Spiel in den USA: Zweifel an der großen Fußball-Party",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-stimmung-wm-100.html",
-      "desc": "Jede WM soll ein großes Fußballfest sein. Doch ob sich in den USA Euphorie ausbreiten wird, ist fraglich. Hohe Ticketpreise und scharfe Einreisebestim"
     }
   ],
   "taz": [
@@ -55,41 +55,41 @@
   ],
   "reddit": [
     {
+      "title": "My bike officially 'paid for itself' today (vs driving)",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1u47p5j/my_bike_officially_paid_for_itself_today_vs/",
+      "thumb": "",
+      "desc": ""
+    },
+    {
+      "title": "Riverside single track counts a Gravel right?",
+      "link": "https://www.reddit.com/r/gravelcycling/comments/1u45k19/riverside_single_track_counts_a_gravel_right/",
+      "thumb": "https://preview.redd.it/j4mpi3q1ow6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=79360c872702edc0341570dfa933ed5ab1dfe630",
+      "desc": ""
+    },
+    {
       "title": "Which one of y’all is this?",
       "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u3xzdo/which_one_of_yall_is_this/",
       "thumb": "https://preview.redd.it/q391b230bv6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=818c2f265eee168e4f9344b7bc4f203efdaa43be",
       "desc": ""
     },
     {
-      "title": "Argon 18 Dark Matter",
-      "link": "https://www.reddit.com/r/gravelcycling/comments/1u3xiam/argon_18_dark_matter/",
-      "thumb": "https://preview.redd.it/rldtxf3y7v6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=98e8c5dd2ab3fd0f8f81002fb9c08f5b4e5bacf1",
+      "title": "My GT In NYC",
+      "link": "https://www.reddit.com/r/xbiking/comments/1u478t5/my_gt_in_nyc/",
+      "thumb": "https://preview.redd.it/9gdu2xauzw6h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=6fb80c8f9b683e2f162ffbc621756bb4b08ea46d",
       "desc": ""
     },
     {
-      "title": "Crack is being smoked in Denver",
-      "link": "https://www.reddit.com/r/xbiking/comments/1u3yna3/crack_is_being_smoked_in_denver/",
-      "thumb": "https://preview.redd.it/c0k8vtn7fv6h1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=9bf74c937abeb653f8ad588e528c54b5e443d652",
-      "desc": ""
-    },
-    {
-      "title": "Thinking of doing a century",
-      "link": "https://www.reddit.com/r/singlespeedcycling/comments/1u3y89g/thinking_of_doing_a_century/",
-      "thumb": "https://preview.redd.it/qtkmmdxkcv6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a7ab197ecf5eab088f1be6f38e0ba06efa73b2e7",
-      "desc": ""
-    },
-    {
-      "title": "Medusa update",
-      "link": "https://www.reddit.com/r/Vintage_bicycles/comments/1u3zweq/medusa_update/",
-      "thumb": "",
+      "title": "Maverick Jedan Phantom Green",
+      "link": "https://www.reddit.com/r/tracklocross/comments/1u460dr/maverick_jedan_phantom_green/",
+      "thumb": "https://preview.redd.it/d6pceke8rw6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=abee876ef307955c1bf3c0e46cf93b04b2428eba",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Fri, 12 Jun 2026 19:35:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0612/AU-20260612-1935-4300.mp3",
-    "duration": "00:03:23"
+    "pub_date": "Sat, 13 Jun 2026 01:34:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0613/AU-20260613-0134-0500.mp3",
+    "duration": "00:03:25"
   },
   "bt_themen": [
     {
