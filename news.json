@@ -1,59 +1,65 @@
 {
   "tagesschau": [
     {
-      "title": "Führende CDU-Politiker warnen vor Zusammenarbeit mit der AfD",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/cdu-afd-brandmauer-100.html",
-      "desc": "Vor den Landtagswahlen im Osten stellen führende CDU-Politiker klar: Eine Zusammenarbeit mit der AfD kommt für sie nicht in Frage. Sie fürchten massiv"
+      "title": "Nach Krawallen in Belfast: Tausende Menschen setzen Zeichen gegen Hass",
+      "link": "https://www.tagesschau.de/ausland/europa/proteste-belfast-rassismus-100.html",
+      "desc": "Tausende Menschen sind in Belfast gegen Rassismus und für Solidarität mit Menschen mit Migrationshintergrund auf die Straße gegangen. Hintergrund sind"
     },
     {
-      "title": "Frauen in der Bundeswehr: \"Man ist Soldat, egal welches Geschlecht\"",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/frauen-bundeswehr-104.html",
-      "desc": "Militärmusik und Sanitätsdienst - bis vor 25 Jahren war das die Realität für Frauen in der Bundeswehr. Heute stehen ihnen alle Bereiche offen. Wie läu"
+      "title": "Bundestag untersucht Vorfälle bei Parlaments-Planspiel mit Jugendlichen",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/jugend-und-parlament-eklat-100.html",
+      "desc": "Beschimpfungen, körperliche Auseinandersetzungen und ein rassistisches Zeichen: Vorfälle beim Planspiel \"Jugend und Parlament\" sorgen für Diskussionen"
     },
     {
-      "title": "Möglicher \"Super El Niño\" in den USA: Extremwetter und mehr Haie",
-      "link": "https://www.tagesschau.de/wissen/el-nino-kalifornien-100.html",
-      "desc": "Das Klimaphänomen El Niño könnte in diesem Jahr besonders stark werden. In Kalifornien bereiten die Behörden die Menschen deshalb auf Hitze, Dürren un"
+      "title": "Braunkohle-Ausstieg - werden ländliche Regionen abgehängt?",
+      "link": "https://www.tagesschau.de/wirtschaft/lausitz-braunkohle-strukturwandel-100.html",
+      "desc": "Das Ende der Braunkohle rückt näher. Spätestens 2038 soll das letzte Kraftwerk vom Netz gehen. In der Lausitz gehen die Vorbereitungen voran, es gibt "
     },
     {
-      "title": "USA töten Chef von Drogenbande aus Venezuela",
-      "link": "https://www.tagesschau.de/ausland/venezuela-kartellchef-getoetet-100.html",
-      "desc": "Drogenhandel, Schutzgelderpressung und Menschenhandel: Die Gruppe \"Tren de Aragua\" aus Venezuela wird für viele kriminelle Taten verantwortlich gemach"
+      "title": "IW-Studie: Verrentung der Babyboomer hinterlässt große Lücke im Arbeitsmarkt",
+      "link": "https://www.tagesschau.de/inland/babyboomer-rente-arbeitsmarkt-100.html",
+      "desc": "Wenn die Babyboomer in Rente gehen, werden sie eine größere Lücke im Arbeitsmarkt hinterlassen als bisher angenommen. Davon geht eine IW-Studie aus, d"
     },
     {
-      "title": "Bundesinnenministerium: Mehr Straftaten gegen Obdachlose",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/obdachlose-straftaten-100.html",
-      "desc": "Mehr als 2.500 wohnungslose Menschen wurden im vergangenen Jahr Opfer einer Straftat. Die Zahl ist deutlich gestiegen. Doch die Aufklärungsquote ist n"
+      "title": "Geburtstagsparade \"Trooping the Colour\" für König Charles III.",
+      "link": "https://www.tagesschau.de/ausland/europa/trooping-the-colour-charles-102.html",
+      "desc": "Hunderte Soldaten zu Fuß und zu Pferd haben König Charles III. und seine Familie auf der traditionellen Geburtstagsparade in London begleitet. Tausend"
     }
   ],
   "taz": [
     {
-      "title": "Rassistische Übergriffe in Nordirland: Was die Gewalt in Belfast erst möglich macht",
-      "link": "https://taz.de/Rassistische-Uebergriffe-in-Nordirland/!6181261/",
-      "desc": "Wer die Pogrome in Nordirland verstehen will, muss sich die dortige Kolonialgeschichte und Armut anschauen. In der deutschen Presse findet man dazu we"
+      "title": "SPD in Mecklenburg-Vorpommern: Schwesig oder Schrecken",
+      "link": "https://taz.de/SPD-in-Mecklenburg-Vorpommern/!6186915/",
+      "desc": "Die Sozialdemokraten wählen Ministerpräsidentin Schwesig zur Spitzenkandidatin für die Landtagswahl. Auf Prominenz aus der Bundes-SPD verzichtet man g"
     },
     {
-      "title": "Vermittler gibt sich zuversichtlich: Kommt es zum Deal zwischen Iran und der USA?",
-      "link": "https://taz.de/Vermittler-gibt-sich-zuversichtlich/!6186911/",
-      "desc": "Teherans Atomprogramm bleibt ein Knackpunkt. Auch die Lage in der Straße von Hormus ist weiter angespannt: Das US-Militär meldet neue Angriffe. mehr.."
+      "title": "US-Politologin über Flüchtlingspolitik: „Politik ist voller Zynismus, da schadet etwas Romantik nicht“",
+      "link": "https://taz.de/US-Politologin-ueber-Fluechtlingspolitik/!6181243/",
+      "desc": "Es ist nicht alles verloren in Sachen Flüchtlingspolitik, sagt die Politologin Seyla Benhabib. Ein Gespräch über die Zivilgesellschaft, Doppelmoral un"
     },
     {
-      "title": "Bewegung im Sexualstrafrecht: Noch kein Votum für „Ja heißt Ja“",
-      "link": "https://taz.de/Bewegung-im-Sexualstrafrecht/!6186913/",
-      "desc": "Die Justizministerkonferenz lehnte am Freitag mit knapper Mehrheit eine Verschärfung des Sexualstrafrechts ab. Allerdings soll „Ja heißt Ja“ bald zumi"
+      "title": "Parlamentarische Sommerpause: Ohne Fleiß kein Preis",
+      "link": "https://taz.de/Parlamentarische-Sommerpause/!6181285/",
+      "desc": "Es geht nicht voran mit den Reformen. Deshalb fordert der Verband der Familienunternehmen, das Parlament solle durcharbeiten. Richtig so, oder? mehr.."
     },
     {
-      "title": "Christliche Influencer: Beistand vom Herrn und Nähe zur AfD",
-      "link": "https://taz.de/Christliche-Influencer-haben-AfD-Kontakte/!6186916/",
-      "desc": "So mancher Christfluencer mischt religiöse Symbolik teils mit Verschwörungstheorien – und sucht gezielt Kontakt zur AfD. Was der Verfassungsschutz daz"
+      "title": "Ausschreitungen in Belfast: Mit freundlicher Unterstützung von Elon Musk",
+      "link": "https://taz.de/Ausschreitungen-in-Belfast/!6186924/",
+      "desc": "Laut Forschern einer Internet-Überwachungsorganisation habe der Tech-Milliardär die ausländerfeindlichen Proteste in Nordirland maßgeblich angeheizt. "
     },
     {
-      "title": "Wochentaz-Podcast: Im Europa der Grenzen",
-      "link": "https://taz.de/Wochentaz-Podcast/!6186573/",
-      "desc": "Die Asylpolitik der EU wird härter, was heißt das für Schutzsuchende? Und: Warum mehr Singles Offline-Dating Events besuchen. mehr..."
+      "title": "Berechnung des IW: Keiner da",
+      "link": "https://taz.de/Berechnung-des-IW/!6186926/",
+      "desc": "In der deutschen Wirtschaft werden zukünftig 1,3 Millionen mehr Arbeitskräfte fehlen als zunächst angenommenn. Grund dafür ist etwa die gesunkene Zuwa"
     }
   ],
   "reddit": [
+    {
+      "title": "Zohran Mamdani goes on a Bike Ride, courtesy of the NY Post.",
+      "link": "https://www.reddit.com/r/bikecommuting/comments/1u4rud7/zohran_mamdani_goes_on_a_bike_ride_courtesy_of/",
+      "thumb": "https://preview.redd.it/w3r6p4p4427h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4471b49f67c7caf579eeea460d661eaefbf34618",
+      "desc": ""
+    },
     {
       "title": "Made some piggy valve caps for my univega build",
       "link": "https://www.reddit.com/r/xbiking/comments/1u4klkj/made_some_piggy_valve_caps_for_my_univega_build/",
@@ -67,29 +73,23 @@
       "desc": ""
     },
     {
-      "title": "My bike officially 'paid for itself' today (vs driving)",
-      "link": "https://www.reddit.com/r/bikecommuting/comments/1u47p5j/my_bike_officially_paid_for_itself_today_vs/",
-      "thumb": "",
+      "title": "A-FRAME TRACK Ti",
+      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u4tlba/aframe_track_ti/",
+      "thumb": "https://preview.redd.it/6doguumdh27h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=b9450628e7c77fc379a3e452db927fc20a23b3b1",
       "desc": ""
     },
     {
-      "title": "Which one of y’all is this?",
-      "link": "https://www.reddit.com/r/FixedGearBicycle/comments/1u3xzdo/which_one_of_yall_is_this/",
-      "thumb": "https://preview.redd.it/q391b230bv6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=818c2f265eee168e4f9344b7bc4f203efdaa43be",
-      "desc": ""
-    },
-    {
-      "title": "Maverick Jedan Phantom Green",
-      "link": "https://www.reddit.com/r/tracklocross/comments/1u460dr/maverick_jedan_phantom_green/",
-      "thumb": "https://preview.redd.it/d6pceke8rw6h1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=abee876ef307955c1bf3c0e46cf93b04b2428eba",
+      "title": "Blb Topino",
+      "link": "https://www.reddit.com/r/tracklocross/comments/1u4s2ba/blb_topino/",
+      "thumb": "https://preview.redd.it/al789v21627h1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=62173a1b789c0e4c8e39ef97bed2fbb28a919fdd",
       "desc": ""
     }
   ],
   "ndr_audio": {
     "title": "NDR Info Nachrichten",
-    "pub_date": "Sat, 13 Jun 2026 12:04:00 +0200",
-    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0613/AU-20260613-1204-5500.mp3",
-    "duration": "00:04:15"
+    "pub_date": "Sat, 13 Jun 2026 17:34:00 +0200",
+    "audio_url": "https://ndr-podcast.ard-mcdn.de/progressive/2026/0613/AU-20260613-1734-3800.mp3",
+    "duration": "00:04:08"
   },
   "bt_themen": [
     {
